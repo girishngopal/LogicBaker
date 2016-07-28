@@ -1,4 +1,4 @@
-# LogicBaker
+﻿# LogicBaker
 Continuous Integration implementation project
 
 ##Solution Overview
@@ -12,3 +12,4 @@ Below are the high level system framworks that has to be developed for the proje
 • Deployment Framework
 
 
+.create calculator app
