@@ -1,0 +1,349 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage{indentfirst}
+\usepackage{times}
+\setlength\parindent{1cm}
+\renewcommand{\baselinestretch}{1.50}\normalsize
+\usepackage{anysize}
+\marginsize{1.25in}{.75in}{1in}{1in}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage[fleqn]{amsmath}
+\usepackage{amsfonts}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{truncate}
+\usepackage{nomencl} 
+\usepackage{acronym}
+\usepackage{array}
+\usepackage{caption}\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage[overload]{textcase}
+\usepackage{listings}
+\renewcommand{\nomname}{List of Abbreviations}
+\usepackage{makeidx}
+\makeindex
+\makenomenclature
+\newcommand{\quotes}[1]{``#1''}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries\centering}
+{\chaptertitlename\ \thechapter}{15pt}{\LARGE}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+\printnomenclature[5em]
+\pagestyle{fancy}
+%\headheight 1pt
+	\renewcommand{\footrulewidth}{1.2pt}
+\renewcommand{\headrulewidth}{1.2pt}
+\rhead{\scriptsize {\leftmark}}
+
+\lhead{\small{College of Engineering, Cherthala \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;}}
+\rfoot{\thepage}
+\cfoot{\empty}
+\lfoot{\small{Department of Computer Science \& Engineering}}
+\renewcommand{\figurename}{Fig.}
+\begin{document}
+\renewcommand\bibname{References}
+\begin{titlepage}
+\begin{center}
+\LARGE{\textbf{Software Requirements Specification}}\\
+\Large{\textbf{for}}\\
+
+\begin{singlespace}
+\LARGE{\textbf{Continues Integration Pipeline Implementation for Tech11Software}}\\
+\end{singlespace}
+\Large{{Prepared by  }}\\
+\Large{\textit{\textbf{Aswin G SUGUNAN}     (\textbf{29})}}\\
+\Large{\textit{\textbf{Jefin Jacob}    (\textbf{3})}}\\
+\Large{\textit{\textbf{Nitin Suresh}   (\textbf{5})}}\\
+\Large{\textit{\textbf{Vishnu Bose}   (\textbf{39})}}\\
+
+\begin{singlespace}
+\begin{flushleft}
+%\small{\textbf{GROUP NUMBER: 2     \hspace{2.5in}      BATCH: S7 CSE B}}\\
+
+\vspace{0.1in}
+\small\textbf{{GUIDE :Mrs. Greeshma M G}}\\
+\vspace{0.1in}
+\small{\textbf{Remarks of  Guide :}}\\
+\vspace{0.6in}
+\small{\textbf{Remarks of Project Coordinators:}}\\
+
+\end{flushleft}
+\end{singlespace}
+
+
+\vspace{0.1in}
+
+\begin{figure}[h]
+\begin{center}
+\epsfig{width=1 in, file=logo.jpg}
+\end{center}
+\end{figure}
+\begin{singlespace}
+\small{\textbf{October 2015\\Department of Computer Science and Engineering\\College of Engineering, Pallippuram P O, Cherthala, Alappuzha-688541, \\Phone: 0478 2553416, Fax: 0478 2552714\\http://www.cectl.ac.in}}
+\end{singlespace}
+\end{center}
+\end{titlepage}
+
+
+
+\pagenumbering{roman}
+\tableofcontents
+\renewcommand*\thesection{\thechapter.\arabic{section}}
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{fancy}
+\headheight 26pt
+\renewcommand{\footrulewidth}{1.2pt}
+\renewcommand{\headrulewidth}{1.2pt}
+\rhead{\scriptsize {\leftmark}}
+%\chead{Middle top}
+\lhead{\small{College of Engineering, Cherthala \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;}}
+\rfoot{\thepage}
+\cfoot{\empty}
+\lfoot{\small{Department of Computer Science \& Engineering}}
+   
+
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+Software development, as we know it today, is a demanding area of business
+with its fast-changing customer requirements, pressures of an ever shorter timeto-
+market, and unpredictability of market [1]. 
+
+
+\section{Purpose}
+Online Voting are simple, attractive and ease to use. It reduces manual efforts and bulk of information can be handled easily.Online Voting System is a voting system by which any Voter can use his/her voting rights from anywhere in the region.
+\newpage
+\section{Document Conventions}
+As this document is to be viewed by different class of people, to avoid ambiguity and to keep a standard, it has been documented in ieee format. This document have been organized into different sections and each section have been thoroughly analyzed and is presented here. 
+\section{Intended Audience and Reading Suggestions}
+\par
+This SRS is intended for the usage by various level of people, such as from a novice, who is skilled with only basic understanding of a computer to high level programmers. This document is created for the use of various people like developers, project managers, testers, users, documentation writers etc. This document gives a detail on what our proposed system is what does it do, how it is implemented, for what it can be used, advantages over the existing systems. This document also specifies the functional and non functional requirements required by the user.
+\par As we already said, this document is created with the intention of understanding this project by people from different levels of qualification and expertise and of different category. For users they need to understand only the services provided to them, so in the srs , they only need to go through introduction, product functions, user documentation, user interfaces and other non functional requirements. Designers need to go only through the interface requirements, product functions. Thus each category of people needs to proceed only through those section they require. This is achieved through well organizing of this document. 
+\section{Product Scope }
+The scope of the system is that it will use the ID and password created by user to register him/her in the voting site, through this all the details of voter are saved in database. And it will act as the main security to the votes system.
+\section{References }
+
+\par [1]http://ieeexplore.ieee.org/xpl/articleDetails.jsp$?$reload=true \&arnumber=6756265 \\
+\par [2]https://www.electionsonline.com/online-voting-system/ \\
+\par [3]http://www.scribd.com/doc/131737472/Online-Voting-System-SRS\#scribd \\
+\par [4]http://www.slideshare.net/snauriyal1994/online-voting-system-project
+
+\chapter{OVERALL DESCRIPTION}
+\section{Product Perspective}
+The software product is a standalone system.Before the election day the system will be used for general purposes such as viewing candidates profiles and past years election results. The system will be made up of two parts, one running visible directly to the administrator on the server machine and the other visible to the end users, in this case the voters, through web pages. The two users of the system, namely the voters and the Election Authority(EA) interact with the system in diﬀerent ways. The election authority conﬁgures the whole system according to it’s needs on the server where the system is running. The voters cast their votes using the web interface provided. These votes are accepted by the system on the server.
+\section{Product Functions}
+\par
+On the EA side, the system can be used to create/update/delete the election details. The EA should be able to specify the diﬀerent attributes it wants for posts/candidates of a particular election instance and voters. The system can function in two modes, namely Normal Interative Mode and Election mode. The system will be in Election Mode, for the purpose of vote polling on the Election Day. Normal Interactive Mode is for accepting registrations,campaigns and the system is available in this mode all te time except Election day.
+\section{User Classes and Characteristics}
+The users can be divided into two main classes: \\
+ The EA :It’s primary objective is to conduct elections. The EA has to be a neutral party and should not have any gain/loss from the election results. The EA invites potential candidates to ﬁle their nomination for certain posts depending on certain constraints. As explained earlier, the EA decides the classes of voters eligible to vote for a certain post. They should have adequate experience of using a computer to be able to conﬁgure the election properly.\\ 
+ The Voters : The voters should have a basic knowledge of how to use a web browser and navigate through web pages. The voters should be aware that they have to keep their user-id and password conﬁdential.
+ \section{Operating Environment}
+ The server should have Java installed on the machine, along with Java’s cryptographic packages. The election server runs on a http server, that is ”jsp” enabled. The browsers through which the voters access the server should have minimal support for cookies and encrypted transactions.
+ \section{Design and Implementation Constraints}
+ Even though the system enables voters to poll their vote from any terminal connected to the Internet, the voters should initially contact the election administrator’s oﬃce to authenticate themselves and establish their user-ids. This constraint is imposed to ensure that only the genuine person is allowed to vote in the elections. Also, it is assumed that only the EA has access to the server that hosts the election.
+
+\section{User Documentation}
+ \begin{itemize}
+ 
+ \item The system users will be provided with a user manual such that they can be familiarized with the product beforehand.
+ \end{itemize}
+ \section{Assumptions and Dependencies }
+  
+ \textbf{User side assumptions and dependencies}
+ \begin{itemize}
+\item PC (Personal Computer) or workstation with GUI.
+\item A web browser with support for cookies
+\item Working Internet connection.
+ \end{itemize}
+ \hspace{.4 in} \textbf{Server side assumptions and dependencies}
+ \begin{itemize}
+\item A web server with GUI, Java and an http server installed .
+
+ \end{itemize}
+ \chapter{EXTERNAL INTERFACE REQUIREMENTS}
+ \section{User Interfaces}
+ \textbf{Main Screen:}\\
+ It will have a login screen. The page will have each category listed clearly, with the selected candidate listed underneath its respective heading. At the very bottom of the page the user should see the "Go Back" and "Submit" buttons. 
+ \begin{itemize}
+ \item  Welcome screen 
+ \item  Creating the Voters Database
+
+\item  Modify the voters databases
+
+\item  Delete the Voters database
+\item  Creating the Election Instance
+\item  The Voting on the Voters end
+
+
+
+ \end{itemize}
+ \section{Hardware Interfaces}
+
+ As this application can be accessed via internet, only web server is required as a hardware interface to be able to run it. It is assumed that web server is in a secure environment with necessary firewall and network setting done. 
+
+\section{Software Interfaces}
+The poll server runs on http server that is enabled to handle server pages. It uses a relational database to keep track of the polls, which it connects through standard database connectivity interfaces. In order to run the setup software, the environment needs to have a JVM running on it.\\
+Operating System	\hspace{.5 in}		: Windows XP\\
+Programming Language	\hspace{.1 in}	: JAVA/J2EE.\\
+Java Version			\hspace{.9 in}: JDK 1.6 \& above.\\
+
+
+\chapter{SYSTEM FEATURES}
+\section{Branded Voting Website}
+\par
+This system provides with an exclusive voting website for the election. The voting website is branded with bank logo and colors, is easy to use, works with all browsers, and looks professional. Authentication Methods are User name and passwords and a confirmation code. 
+\section{Voter-Verified Audit Trail}
+\par
+Once the electronic ballot has been cast a printable receipt is provided to assure voters that their votes have been recorded as intended. Voter Verified Audit Trail an independent verification system for voting systems designed to allow voters to verify that their vote was correctly, to detect possible election fraud or malfunction, and to provide a means to audit the stored electronic results.
+\section{Functional Requirements}
+The following are the functional requirements of E-Co-Operative\\
+\textbf{REQ-1: Member Registration}\\
+           \hspace{1.9 in} In order to use the system the voters must register to system. This explains the registration process. \\
+           \newpage
+           Normal flow of events: 
+           \begin{enumerate}
+           \item  Member enters the system homepage. 
+           \item He clicks the "register now" button.
+           \item The system prompts the application form. 
+           \item He fills in the necessary information related with him in the application form. 
+           \item He sends the request for registration by using "send" button. 
+           \end{enumerate}
+    \textbf{REQ-2: Approve Member }\\  
+                    This describe how EA will approve the application form of voter and generate the new account to that voter Precondition.\\
+                    Normal flow of events: 
+                    \begin{enumerate}
+                    \item EA selects the online voter application form from list. 
+                    \item  EA checks the information of the applicant a
+                  \item   If the the given information is correct 
+                  \begin{enumerate}
+                  \item EA approves the form by pressing "Approve" buton.
+                  \item EA generates the new online account to this new voter 
+                  \item EA prepares the username  and password send to member via message.
+                  \end{enumerate}
+                  \item if the given information is not correct  EA will inform voter about misinformation via message    
+                    \end{enumerate}
+\textbf{ REQ-3:Update Voters}\\                    
+             This describe how EA updates online voters \\
+    Normal flow of events: 
+    \begin{enumerate}
+    \item  The system checks online voters with respect to upcoming elections voters list.
+    \item If the voter exists in the list, the system updates the voter with respect to official the voter information.
+    \item If the voter does not exist in the list, the system deletes that voter from database.                  
+    \end{enumerate}    
+\textbf{REQ-4:Login/Logout} \\
+This describes how the members log into the system \\
+ Normal flow of events:
+ \begin{enumerate}
+ \item The user enters his login id and password
+ \begin{enumerate}
+ \item If the login and password is valid, a session is opened. 
+ \item  The OTP password as  security. 
+ \item The specific page of every user is loaded
+  \item If the login or password is not valid, the login screen is redisplayed with an error message.
+ \end{enumerate}
+ \item The user click on the logout button.
+ \begin{enumerate}
+ \item The session is terminated.
+ \item  The login screen is displayed.
+\end{enumerate}   
+\end{enumerate} 
+\textbf{REQ-5: Voting }
+    \begin{enumerate}
+    \item Display Ballot Paper containing candidates names.
+    \item Click favorable candidates to register vote.
+    \end{enumerate}
+\newpage
+\textbf{REQ-6: View Election Results }\\
+This describes the process of how the voters view the election results by using the system.\\
+Normal flow of events: 
+\begin{enumerate}
+\item He clicks on the election results link.
+\item He presses click on button "show results".
+\item The system displays the required information according to the selected choices. 
+\end{enumerate}
+\par \textbf{REQ-7: Message Generation }\\
+This describes the process of how the messages are send to the members.
+\begin{enumerate}
+\item If the membership is verified by admin, then send username and password to the corresponding members mobile number.
+\item Send OTP password as  security to the corresponding members mobile number.
+\end{enumerate} 
+
+
+\chapter{OTHER NONFUNCTIONAL REQUIREMENTS} 
+\section{ Performance Requirements}
+\begin{itemize}
+
+
+\item System login/logout shall take less than 10 seconds.
+\item Searches shall return results within 10 seconds.
+\item System shall support simultaneous users.
+\item System shall give the user a user friendly interface.
+\end{itemize}
+\section{ Safety Requirements}
+\begin{itemize} 
+\item System use shall not cause any harm to human users. 
+\end{itemize}   
+\section {Security Requirements}
+\begin{itemize}
+\item	System will use secured database.
+\item	System utilizes OTP system for security.
+\end{itemize}
+\newpage
+\section {Software Quality Attributes	}
+\begin{itemize}
+\item	Maintainability.
+\item Any updates or defect fixes shall be able to be made on server-side.
+\item Computers only without any patches required by the user.
+\end{itemize}
+\section {Business Rules}
+\begin{itemize}
+\item	Users should be able to see the list of candidate list and details.
+\item	Only the administrator is capable of deleting the accounts of the users.
+\item	Users should be able to access their accounts anytime.
+\end{itemize}
+
+\chapter{Other Requirements}
+To implement this system, we require a storage area in server side which requires investment. This requires the need of a high speed network as to support simultaneous users. As everything is done online, it gives security and removes the chances for corruption from outside. The system can be accessed from mobile systems also, giving the users the facility to register their vote from anywhere they require.
+
+\vspace{.4 in }
+
+\newpage
+
+\chapter{Glossary}
+
+%\uppercase{\textbf{Appendix A: Glossary}}
+
+%\addcontentsline{toc}{chapter}{\hspace{0.1in} Appendix A: Glossary}
+
+\vspace{.1 in }
+\begin{flushleft}
+EA \hspace{1.6 in}:\hspace{.1 in} Election Authority\\ 
+\end{flushleft}
+ \begin{flushleft}
+ OTP \hspace{1.5 in}:\hspace{.1 in} One Time Password\\
+ \end{flushleft}
+\begin{flushleft}
+OVS \hspace{1.5 in}:\hspace{.1 in} Online Voting System\\
+\end{flushleft}
+\begin{flushleft}
+SRS\hspace{1.6 in}:\hspace{.1 in}Software Requirements Specification\\
+\end{flushleft}
+
+ 
+
+ \vspace{.1 in }
+\hspace{.3 in} 
+
+
+\end{document}
+ 
