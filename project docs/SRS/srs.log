@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  21 SEP 2016 13:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  21 SEP 2016 16:54
 entering extended mode
 **srs.tex
-(C:\Users\Vishnu\Downloads\SRS\SRS\srs.tex
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\SRS\srs.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -358,7 +358,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthfirst=\dimen140
 )
 No file srs.nls.
-(C:\Users\Vishnu\Downloads\SRS\SRS\srs.aux)
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\SRS\srs.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
@@ -417,8 +417,9 @@ Package pdftex.def Info: logo.jpg used on input line 85.
 (pdftex.def)             Requested size: 72.26999pt x 68.204pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vishnu/Downloads
-/SRS/SRS/logo.jpg>] (C:\Users\Vishnu\Downloads\SRS\SRS\srs.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vishnu/Desktop/L
+ogicBaker/project docs/SRS/logo.jpg>]
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\SRS\srs.toc"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -444,120 +445,62 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-[3]
+] [2]
 Chapter 2.
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no Å in font ptmr7t!
-[4
+<stages.jpg, id=22, 362.10281pt x 271.76532pt>
+File: stages.jpg Graphic file (type jpg)
+ <use stages.jpg>
+Package pdftex.def Info: stages.jpg used on input line 166.
+(pdftex.def)             Requested size: 289.07999pt x 216.96469pt.
+ [3
 
 ]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no Ô in font ptmr7t!
-Missing character: There is no ¨ in font ptmr7t!
-Missing character: There is no É in font ptmr7t!
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 158.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 180.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [5] [6]
+) [4 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/SRS/stages.jpg>] [5]
 Chapter 3.
+[6
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-
- []
-
-[7
-
-] [8]
+] [7]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--212
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
-[9
+[8
 
-] [10] [11] [12]
+] [9] [10] [11]
 Chapter 5.
-[13
+[12
 
-] [14]
+] [13]
 Chapter 6.
-[15
+[14
 
-]
-Chapter 7.
-[16
-
-] (C:\Users\Vishnu\Downloads\SRS\SRS\srs.aux) ) 
+] ("C:\Users\Vishnu\Desktop\LogicBaker\project docs\SRS\srs.aux") ) 
 Here is how much of TeX's memory you used:
- 5853 strings out of 493921
- 84951 string characters out of 3147279
+ 5858 strings out of 493921
+ 85182 string characters out of 3147279
  146015 words of memory out of 3000000
- 9040 multiletter control sequences out of 15000+200000
+ 9044 multiletter control sequences out of 15000+200000
  27396 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,11n,43p,749b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on srs.pdf (19 pages, 207670 bytes).
+ 36i,10n,43p,650b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program 
+Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on srs.pdf (17 pages, 243333 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
