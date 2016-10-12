@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  6 OCT 2016 18:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  12 OCT 2016 11:08
 entering extended mode
 **design.tex
-("E:\project\ebini\our design\design.tex"
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\our design\design.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -358,7 +358,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthfirst=\dimen140
 )
 No file design.nls.
-("E:\project\ebini\our design\design.aux")
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\our design\design.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
@@ -417,9 +417,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/project/ebini/our desi
-gn/logo.jpg>]
-("E:\project\ebini\our design\design.toc"
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Vishnu/Desktop/L
+ogicBaker/project docs/our design/logo.jpg>]
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\our design\design.toc"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -436,36 +436,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ])
 \tf@toc=\write6
  [1]
-("E:\project\ebini\our design\design.lof")
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\our design\design.lof")
 \tf@lof=\write7
- [2
+
+[2
 
 ]
 Chapter 1.
 [1
 
-] [2]
-Chapter 2.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 193.
+]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 140.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3
+) [2]
+Chapter 2.
+[3
 
 ] [4] [5]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
@@ -474,9 +476,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 ] [7] <gant.jpg, id=41, 702.625pt x 702.625pt>
 File: gant.jpg Graphic file (type jpg)
  <use gant.jpg>
-Package pdftex.def Info: gant.jpg used on input line 278.
+Package pdftex.def Info: gant.jpg used on input line 283.
 (pdftex.def)             Requested size: 433.62pt x 433.62886pt.
- [8 <E:/project/ebini/our design/gant.jpg>]
+ [8 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/gant.jpg>]
 Chapter 4.
 [9
 
@@ -490,35 +492,35 @@ Missing character: There is no ™ in font ptmr7t!
  [10] <dfd0.jpg, id=52, 984.67876pt x 465.23813pt>
 File: dfd0.jpg Graphic file (type jpg)
  <use dfd0.jpg>
-Package pdftex.def Info: dfd0.jpg used on input line 317.
+Package pdftex.def Info: dfd0.jpg used on input line 322.
 (pdftex.def)             Requested size: 578.15999pt x 273.1748pt.
 
-Overfull \hbox (125.19211pt too wide) in paragraph at lines 316--318
+Overfull \hbox (125.19211pt too wide) in paragraph at lines 321--323
  [] 
  []
 
-[11 <E:/project/ebini/our design/dfd0.jpg>]
+[11 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd0.jpg>]
 <dfd1_1.jpg, id=56, 929.72343pt x 465.23813pt>
 File: dfd1_1.jpg Graphic file (type jpg)
  <use dfd1_1.jpg>
-Package pdftex.def Info: dfd1_1.jpg used on input line 328.
+Package pdftex.def Info: dfd1_1.jpg used on input line 333.
 (pdftex.def)             Requested size: 578.15999pt x 289.31783pt.
 
-Overfull \hbox (125.19211pt too wide) in paragraph at lines 327--329
+Overfull \hbox (125.19211pt too wide) in paragraph at lines 332--334
  [] 
  []
 
-[12 <E:/project/ebini/our design/dfd1_1.jpg>]
+[12 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd1_1.jpg>]
 <dfd2_1_1.jpg, id=60, 675.27281pt x 465.23813pt>
 File: dfd2_1_1.jpg Graphic file (type jpg)
  <use dfd2_1_1.jpg>
-Package pdftex.def Info: dfd2_1_1.jpg used on input line 348.
+Package pdftex.def Info: dfd2_1_1.jpg used on input line 353.
 (pdftex.def)             Requested size: 433.62pt x 298.75233pt.
 
 <dfd2_1_2.jpg, id=61, 675.27281pt x 511.9125pt>
 File: dfd2_1_2.jpg Graphic file (type jpg)
  <use dfd2_1_2.jpg>
-Package pdftex.def Info: dfd2_1_2.jpg used on input line 355.
+Package pdftex.def Info: dfd2_1_2.jpg used on input line 360.
 (pdftex.def)             Requested size: 361.34999pt x 273.93687pt.
 
 
@@ -527,7 +529,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <dfd2_1_3.jpg, id=62, 675.27281pt x 465.23813pt>
 File: dfd2_1_3.jpg Graphic file (type jpg)
  <use dfd2_1_3.jpg>
-Package pdftex.def Info: dfd2_1_3.jpg used on input line 362.
+Package pdftex.def Info: dfd2_1_3.jpg used on input line 367.
 (pdftex.def)             Requested size: 361.34999pt x 248.96028pt.
 
 
@@ -536,15 +538,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <dfd2_1_4.jpg, id=63, 675.27281pt x 465.23813pt>
 File: dfd2_1_4.jpg Graphic file (type jpg)
  <use dfd2_1_4.jpg>
-Package pdftex.def Info: dfd2_1_4.jpg used on input line 369.
+Package pdftex.def Info: dfd2_1_4.jpg used on input line 374.
 (pdftex.def)             Requested size: 361.34999pt x 248.96028pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <E:/project/ebini/our design/dfd2_1_1.jpg>] [14 <E:/project/ebini/our desig
-n/dfd2_1_2.jpg> <E:/project/ebini/our design/dfd2_1_3.jpg>] [15 <E:/project/ebi
-ni/our design/dfd2_1_4.jpg>]
+[13 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd2_1_1.jpg>]
+[14 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd2_1_2.jpg> <
+C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd2_1_3.jpg>]
+[15 <C:/Users/Vishnu/Desktop/LogicBaker/project docs/our design/dfd2_1_4.jpg>]
 Chapter 5.
 [16
 
@@ -554,21 +557,22 @@ Chapter 6.
 
 ] [18
 
-] ("E:\project\ebini\our design\design.aux") ) 
+]
+("C:\Users\Vishnu\Desktop\LogicBaker\project docs\our design\design.aux") ) 
 Here is how much of TeX's memory you used:
  5912 strings out of 493921
- 85680 string characters out of 3147279
+ 86021 string characters out of 3147279
  146015 words of memory out of 3000000
  9089 multiletter control sequences out of 15000+200000
  27454 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,10n,43p,521b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/font
-s/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
-utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on design.pdf (22 pages, 871483 bytes).
+{C:/
+Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on design.pdf (22 pages, 871851 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
