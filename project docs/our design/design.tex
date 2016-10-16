@@ -186,55 +186,49 @@ process is rarely smooth and seamless, instead resulting in hours or perhaps day
 code so that it can finally integrate. Continuous Integration (CI) aims to avoid this completely
 by enabling and encouraging team members to integrate frequently (e.g., hourly, or at least
 daily).
-\subsection{Current system}
-\par
+%\subsection{Current system}
+%\par
+
 \subsection{Proposed System}
 \par 
 The Proposed system is to help software developers to ensure new features are made
 available as soon as the program has been implemented and tested. This product also helps in
 reducing the time needed to develop a software and also acts a guideline for future software
 developments.
-\section{Product Function}
+\section{solution Function}
+
+\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately.[9] Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
+
 \begin{itemize}
-\item Data Acquisition
-\par This is the stage in which data are collected as part of the recognition process. The data
-may be captured scanning the image after the writing process is over.It is user's responsibility to take
-better scanned image during data acquisition process
-\item Pre Processing
-\par Pre Processing is an important step in character recognition process because of the variations
-in the writing style among different users and the existence of huge amount of noise in the images after
-scanning.
-\item Segmentation
-\par Segmentation is an operation that isolates individual characters from the handwritten text.
-It is done using projection profile analysis and connected component labeling.A popular technique used
-for line segmentation is horizontal projection profile method in which peak-valley points are identified
-and is used for line separation. The horizontal projection will have separated peaks and valleys if the lines
-are well separated. These peaks can be used to find out the boundaries between lines and so each line is
-extracted. Word segmentation is done by applying vertical projection profile method on the separated
-lines. Here the peaks and valleys are identified and words are separated by looking at the minimal in
-the vertical profile. Finally, the characters are isolated from these words using connected component
-labeling. Connected components labeling groups pixels of an image into components based on pixel
-connectivity. This technique assigns to each connected component of a binary image a distinct label.
- \item  Feature Extraction
-\par Feature extraction is the process of extracting relevant features of the characters to form
-feature vectors which are used by classifiers for the recognition process. The feature extraction methods
-for handwritten character recognition can be classified into three: Statistical, Structural and Hybrid
-techniques. Statistical approaches use quantitative methods for extracting the features. Geometrical
-moments, projection histograms, direction histograms, crossing points etc. are used as features here.
-Structural approaches use qualitative measurements for feature extraction. These features are based
-on topological and geometrical properties of the character, like strokes, loops, end points, intersection
-points, etc. Hybrid approaches combines the features of these two techniques.
-\item Classification
-\par Classification is the final phase of character recognition, which is done by assigning labels
-to character images based on the features extracted. Bayesian classifier, Binary tree classifier, Nearest
-Neighbor classifier, Neural networks, MQDF and Support Vector Machines are some of the classifiers
-that are used for this purpose.In this project we are using Neural networks for doing the classification
-process.
-\item Post Processing
-\par Post-processing involves steps to be taken after classification process is completed. It may
-include steps like representing the output in Unicode format, error correction and the disambiguation
-of confusing character pairs. Linguistic rules can also be applied to further improve recognition rates.
-These linguistic rules are specific to a language.
+\item Version Control
+
+\par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised.[9] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
+\item Artifact Manager
+\par 
+While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
+\item Continuous Integration Handler
+\par While there are many tools, I will focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
+\begin{itemize}
+\item It integrates with popular build tools (ant, maven, make) so that it can run the appropriate build scripts to compile, test and package within an environment that closely matches what will be the production environment
+\item It integrates with version control tools, including Subversion, so that different projects can be set up depending on projection location within the trunk.
+\item It can be configured to trigger builds automatically by time and/or changeset. (i.e., if a new changeset is detected in the Subversion repository for the project, a new build is triggered.)
+\item It reports on build status. If the build is broken, it can be configured to alert individuals by email.
+\end{itemize}
+
+
+Jenkins is an automation engine with an unparalleled plugin ecosystem to support all of your favorite tools in your delivery pipelines, whether your goal is continuous integration, automated testing, or continuous delivery. 
+ \item  Test Automator
+\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
+
+\begin{itemize}
+\item Graphical user interface testing. A testing framework that generates user interface events such as keystrokes and mouse clicks, and observes the changes that result in the user interface, to validate that the observable behavior of the program is correct.
+\item API driven testing. A testing framework that uses a programming interface to the application to validate the behaviour under test. Typically API driven testing bypasses application user interface altogether. It can also be testing public (usually) interfaces to classes, modules or libraries are tested with a variety of input arguments to validate that the results that are returned are correct.
+\end{itemize}
+
+
+\item Continouos Deployment
+\par Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. Continuous deployment should be the goal of most companies that are not constrained by regulatory or other requirements.
+
 \end{itemize}
 
  
@@ -250,7 +244,7 @@ This system based software can be used in any operating system such as Microsoft
 \section{User Interface}
 Interface hardware shall be encapsulated in a set of classes that isolate hardware specifications from the rest of the software. In particular, interfaces for specific hardware boards shall be implemented as derived classes of an abstract class.
 \
-\section{Hardware Requirements}
+\section{Hardware Requirements}   //jefine fill cheytho
 
   Processor\hspace{.54in}:\hspace{.54in}Min 2GHZ\\
 
@@ -265,7 +259,7 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
  %Monitor\hspace{.65in}:\hspace{.54in}15 VGA colour\\
  
  \pagebreak
-\section{Network Requirements}
+\section{Network Requirements}  // jefinee fill cheytho
 \begin{itemize}
 \item Systems need high speed internet connection.
 \end{itemize}
@@ -281,14 +275,17 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
 Gantt Chart provides an approximation about the completion of project.It gives a rough description of the completion time,testing time etc.
 \begin{figure}[h]
 \begin{center}
-\epsfig{width=6in, file=gant.jpg}
+%\epsfig{width=6in, file=gant.jpg}
+\includegraphics[scale=0.53]{LogicBakerGantt.pdf}
 \caption{Gantt Chart}
 \end{center}
 \end{figure}
 \chapter{SYSTEM DESIGN}
-\section{Modules}
+\section{Modules}  
+change cheyyanm .................................. :D jefine
+
 Based on the project aspect the project is divided into 4 modules:
-\begin{itemize}
+\begin{itemize}  
 \item Input
 \item Feature Extraction
 \item Recognition
@@ -315,23 +312,22 @@ Dataflow analysis studies the use of data in each activity. It documents these f
 \pagebreak
 
 \subsection{Level 0 DFD}
-Level 0 DFD gives a simple information about the overall structure.
-\begin{figure}[h]
+Level 0 DFD gives a simple information about the overall structure. 
+\begin{figure}[h!]
 \begin{center}
-\vspace{2 in}
+
 \hspace{1 in}
-\epsfig{width=8in, file=dfd0.jpg}
+\epsfig{width=4in, file=dfd1.png}
 \caption{Level 0 DFD}
 \end{center}
 \end{figure}
-\pagebreak
+
 \subsection{Level 1 DFD}
 The level 1 DFD gives a basic structure of the project indicating the five modules needed to execute the project.
 \begin{figure}[h]
 \begin{center}
-\vspace{2 in}
 \hspace{1 in}
-\epsfig{width=8in, file=dfd1_1.jpg}
+\epsfig{width=4in, file=dfd2.png}
 \caption{Level 1.1 DFD}
 \end{center}
 \vspace{-1.5 in}
@@ -349,32 +345,51 @@ The level 1 DFD gives a basic structure of the project indicating the five modul
 The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product.
 \begin{figure}[h]
 \begin{center}
-\vspace{2 in}
+\vspace{0.5 in}
 \hspace{.0 in}
-\epsfig{width=6in, file=dfd2_1_1.jpg}
+\epsfig{width=6in, file=dfd3.png}
 \caption{Level 2.1.1 DFD}
 \end{center}
 
 \end{figure}
-\begin{figure}[h]
-\begin{center}
-\epsfig{width=5in, file=dfd2_1_2.jpg}
-\caption{Level 2.1.2 DFD}
-\end{center}
-\end{figure}
+\pagebreak
 
+\section{Flow Diagram}
 \begin{figure}[h]
 \begin{center}
-\epsfig{width=5in, file=dfd2_1_3.jpg}
-\caption{Level 2.1.3 DFD}
-\end{center}
-\end{figure}
 
+\hspace{.0 in}
+\epsfig{width=6in, file=flow1.png}
+\caption{Flow diagram}
+\end{center}
+
+\end{figure}
+\pagebreak
+\section{C.I Pipeline Diagram}
 \begin{figure}[h]
 \begin{center}
-\epsfig{width=5in, file=dfd2_1_4.jpg}
-\caption{Level 2.1.4 DFD}
+
+\hspace{.0 in}
+\epsfig{width=6in, file=pipeline.png}
+\caption{C.I Pipeline}
 \end{center}
+
+\end{figure}
+\pagebreak
+\section{Sequence Diagram}
+\par A Sequence diagram is an interaction diagram that shows how processes operate with
+one another and in what order. It is a construct of a Message Sequence Chart. A sequence
+diagram shows object interactions arranged in time sequence. It depicts the objects and classes
+involved in the scenario and the sequence of messages exchanged between the objects needed
+to carry out the functionality of the scenario.
+\begin{figure}[h]
+\begin{center}
+
+\hspace{.0 in}
+\epsfig{width=6in, file=sequence.png}
+\caption{sequence}
+\end{center}
+
 \end{figure}
 
 \chapter{METHODOLOGIES}
