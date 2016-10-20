@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: presentation_1.aux
+The style file: IEEEtran.bst
+Database file #1: sample.bib
+I was expecting a `,' or a `}'---line 31 of file sample.bib
+ :     
+ :     month     = "July",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Name 1 in "Z. Yang, Y. Li, W. Chen, and Y. Zhang" has a comma at the end for entry hmm
+while executing---line 2419 of file IEEEtran.bst
+Name 1 in "N. Liu, B. C. Lovell, and P. J. Kootsookos" has a comma at the end for entry ANN
+while executing---line 2419 of file IEEEtran.bst
+Name 1 in "G. Bradski, and A. Kaehler" has a comma at the end for entry book
+while executing---line 2419 of file IEEEtran.bst
+
+Done.
+(There were 4 error messages)

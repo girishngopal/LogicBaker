@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{INTRODUCTION}{3}{0}{1}
+\beamer@sectionintoc {2}{PROPOSED SYSTEM}{6}{0}{2}
+\beamer@sectionintoc {3}{modules}{10}{0}{3}
+\beamer@sectionintoc {4}{modules}{13}{0}{4}
+\beamer@sectionintoc {5}{CONCLUSION}{30}{0}{5}
