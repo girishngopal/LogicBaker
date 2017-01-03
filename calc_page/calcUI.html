@@ -38,11 +38,23 @@
       <script>
    var app=angular.module("calcui",[]); // this is for testing only
        app.controller('calc1',function($scope){
-       $scope.change=function(){
+       /* $scope.change=function(){
            $scope.ans1=$scope.add1+$scope.add2
-       }
+       } */
+       $scope.change(){
+       $http({
+    	   method: 'GET',
+    	   url: 'http://35.154.108.194:8081/logicbaker/add/1/2'
+    	 }).then(function successCallback(response) {
+    	     alert(respose);
+    	     $scope.ans1=response;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
            
        })
+       }
     </script>
       
    </body>

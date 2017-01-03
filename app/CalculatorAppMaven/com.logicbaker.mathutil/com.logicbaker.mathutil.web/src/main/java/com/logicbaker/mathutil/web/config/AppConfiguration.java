@@ -16,7 +16,7 @@ public class AppConfiguration extends WebMvcConfigurerAdapter {
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/views/**").addResourceLocations("/WEB-INF/views/")
+		registry.addResourceHandler("/views/**").addResourceLocations("/views/")
 				.setCacheControl(CacheControl.maxAge(1, TimeUnit.HOURS).cachePublic());
 		registry.addResourceHandler("/webjars/**").addResourceLocations("/webjars/");
 	}
