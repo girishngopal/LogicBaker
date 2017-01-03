@@ -7,5 +7,6 @@
   <modules>
   	<module>com.logicbaker.mathutil.adder</module>
   	<module>com.logicbaker.mathutil.Calc</module>
+  	<module>com.logicbaker.mathutil.web</module>
   </modules>
 </project>
