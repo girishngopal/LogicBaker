@@ -1,7 +1,7 @@
 package com.logicbaker.mathutil.Calc;
 
 import com.logicbaker.mathutil.adder.Adder;
-import com.logicbaker.mathutil.sub.sub;
+
 public class Calculator {
 	
 	
@@ -12,7 +12,7 @@ public class Calculator {
 		
 		Adder adder = new Adder();
 		System.out.println("add="+adder.add(1, 3));
-		System.out.println("sub="+sub.sub(3, 1));
+		//System.out.println("sub="+sub.sub(3, 1));
 
 	}
 

@@ -4,10 +4,5 @@
   <artifactId>com.logicbaker.mathutil</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <modules>
-  	<module>com.logicbaker.mathutil.adder</module>
-	<module>com.logicbaker.mathutil.sub</module>
-  	<module>com.logicbaker.mathutil.Calc</module>
-  	<module>com.logicbaker.mathutil.web</module>
-  </modules>
+  <modules></modules>
 </project>
