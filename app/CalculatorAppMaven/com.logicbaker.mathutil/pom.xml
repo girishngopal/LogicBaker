@@ -11,5 +11,6 @@
     <module>com.logicbaker.mathutil.substract</module>
     <module>com.logicbaker.mathutil.multiply</module>
     <module>com.logicbaker.mathutil.divide</module>
+    <module>com.logicbaker.mathutil.web</module>
   </modules>
 </project>

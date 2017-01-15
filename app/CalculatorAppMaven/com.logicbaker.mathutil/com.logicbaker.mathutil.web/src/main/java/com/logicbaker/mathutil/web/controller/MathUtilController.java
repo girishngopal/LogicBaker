@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.logicbaker.mathutil.adder.Adder;
+import com.mycompany.com.logicbaker.mathutil.substract.Sub;
+import com.mycompany.com.logicbaker.mathutil.multiply.Mul;
+import com.mycompany.com.logicbaker.mathutil.divide.Div;
 
 @Controller
 @RequestMapping("/")
@@ -25,10 +28,16 @@ public class MathUtilController {
     	return Adder.add(number1, number2)+"";
     }
 
-  @RequestMapping(method = RequestMethod.GET,value = "/sub/{number1}/{number2}")
+    /**
+     *
+     * @param number1
+     * @param number2
+     * @return
+     */
+    @RequestMapping(method = RequestMethod.GET,value = "/sub/{number1}/{number2}")
     @ResponseBody
-    public String logicBakeAdd(@PathVariable int number1,@PathVariable int number2) {
-    	return sub.sub(number1, number2)+"";
+    public String logicBakeSub(@PathVariable int number1,@PathVariable int number2) {
+    	return Sub.sub(number1, number2)+"";
     }
  
    
