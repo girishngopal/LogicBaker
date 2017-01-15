@@ -22,9 +22,10 @@
       <br>
      
       
+      </br>
+      </br>
       
-      
-          <!-- <input type="number" placeholder="number 1" ng-model="add1" ng-change="change()">
+           <input type="number" placeholder="number 1" ng-model="add1" ng-change="change()">
        +
      <input type="number" placeholder="number 2" ng-model="add2" ng-change="change()">
               =
@@ -47,15 +48,15 @@
      <input type="number" placeholder="number 2" ng-model="div2" >
               =
        <input type="number" placeholder="result" readonly ng-model="ans4">
-          <br><br>-->
+          <br><br>
       </div>
       
       <script>
    var app=angular.module("calcui",[]); // this is for testing only
        app.controller('calc1',function($scope,$http){
-  /*      $scope.change=function(){
+       $scope.change=function(){
            $scope.ans1=$scope.add1+$scope.add2
-       } */
+       } 
        $scope.add=function(){
        $http({
     	   method: 'GET',
