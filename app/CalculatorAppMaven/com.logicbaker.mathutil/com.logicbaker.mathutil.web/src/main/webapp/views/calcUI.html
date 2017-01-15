@@ -14,16 +14,9 @@
       <button ng-click="add()">Resut</button>
       <input type="number" ng-model="addresult"/>
       <br>
-          
-          <input type="number" ng-model="subnum1"/>
-      <input type="number" ng-model="subnum2"/>
-      <button ng-click="sub()">Resut</button>
-      <input type="number" ng-model="subresult"/>
-      <br>
      
       
-      </br>
-      </br>
+      
       
            <input type="number" placeholder="number 1" ng-model="add1" ng-change="change()">
        +
@@ -54,7 +47,7 @@
       <script>
    var app=angular.module("calcui",[]); // this is for testing only
        app.controller('calc1',function($scope,$http){
-       $scope.change=function(){
+        $scope.change=function(){
            $scope.ans1=$scope.add1+$scope.add2
        } 
        $scope.add=function(){
@@ -69,25 +62,8 @@
     	     // or server returns response with an error status.
     	   });
        }
-       
-       
-       
-        $scope.sub=function(){
-       $http({
-    	   method: 'GET',
-    	   url: "http://35.154.108.194:8081/logicbaker/sub/"+$scope.subnum1+"/"+$scope.subnum2
-    	 }).then(function successCallback(response) {
-    	     //alert(respose);
-    	     $scope.subresult=response.data;
-    	   }, function errorCallback(response) {
-    	     // called asynchronously if an error occurs
-    	     // or server returns response with an error status.
-    	   });
-       }
-       
-      
-      
-      
+           
+       })
     </script>
       
    </body>
