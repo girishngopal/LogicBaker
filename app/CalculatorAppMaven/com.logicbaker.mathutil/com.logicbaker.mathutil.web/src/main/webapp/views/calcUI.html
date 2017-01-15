@@ -27,6 +27,12 @@
       <button ng-click="mul()">Resut</button>
       <input type="number" ng-model="mulresult"/> 
       <br>
+      
+      <input type="number" ng-model="divnum1"/>*
+      <input type="number" ng-model="divnum2"/>
+      <button ng-click="div()">Resut</button>
+      <input type="number" ng-model="divresult"/> 
+      <br>
      
       
       
@@ -97,6 +103,19 @@
     	 }).then(function successCallback(response) {
     	     //alert(respose);
     	     $scope.mulresult=response.data;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
+       }
+       
+       $scope.div=function(){
+       $http({
+    	   method: 'GET',
+    	   url: "http://35.154.108.194:8081/logicbaker/mul/"+$scope.divnum1+"/"+$scope.divnum2
+    	 }).then(function successCallback(response) {
+    	     //alert(respose);
+    	     $scope.divresult=response.data;
     	   }, function errorCallback(response) {
     	     // called asynchronously if an error occurs
     	     // or server returns response with an error status.
