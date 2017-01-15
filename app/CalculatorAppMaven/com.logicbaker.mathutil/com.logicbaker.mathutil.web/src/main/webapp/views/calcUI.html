@@ -24,7 +24,7 @@
       
       
       
-          <!-- <input type="number" placeholder="number 1" ng-model="add1" ng-change="change()">
+           <input type="number" placeholder="number 1" ng-model="add1" ng-change="change()">
        +
      <input type="number" placeholder="number 2" ng-model="add2" ng-change="change()">
               =
@@ -47,7 +47,7 @@
      <input type="number" placeholder="number 2" ng-model="div2" >
               =
        <input type="number" placeholder="result" readonly ng-model="ans4">
-          <br><br>-->
+          <br><br>
       </div>
       
       <script>
@@ -71,19 +71,21 @@
        
        
        
-//        $scope.sub=function(){
-//       $http({
-//    	   method: 'GET',
-//    	   url: "http://35.154.108.194:8081/logicbaker/sub/"+$scope.subnum1+"/"+$scope.subnum2
-//    	 }).then(function successCallback(response) {
-//    	     //alert(respose);
-//    	     $scope.subresult=response.data;
-//    	   }, function errorCallback(response) {
-//    	     // called asynchronously if an error occurs
-//    	     // or server returns response with an error status.
-//    	   });
-//       }
+        $scope.sub=function(){
+       $http({
+    	   method: 'GET',
+    	   url: "http://35.154.108.194:8081/logicbaker/sub/"+$scope.subnum1+"/"+$scope.subnum2
+    	 }).then(function successCallback(response) {
+    	     //alert(respose);
+    	     $scope.subresult=response.data;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
+       }
        
+      
+      
       
     </script>
       
