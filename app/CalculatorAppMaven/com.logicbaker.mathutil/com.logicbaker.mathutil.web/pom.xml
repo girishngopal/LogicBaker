@@ -48,8 +48,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.logicbaker.mathutil.sub</groupId>
-			<artifactId>com.logicbaker.mathutil.sub</artifactId>
+			<groupId>com.mycompany</groupId>
+			<artifactId>com.logicbaker.mathutil.substract</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	

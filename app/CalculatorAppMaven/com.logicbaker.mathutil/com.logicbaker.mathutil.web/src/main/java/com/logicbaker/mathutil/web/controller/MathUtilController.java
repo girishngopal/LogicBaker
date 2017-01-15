@@ -12,6 +12,10 @@ import com.mycompany.com.logicbaker.mathutil.substract.Sub;
 import com.mycompany.com.logicbaker.mathutil.multiply.Mul;
 import com.mycompany.com.logicbaker.mathutil.divide.Div;
 
+/**
+ *
+ * @author BOSS
+ */
 @Controller
 @RequestMapping("/")
 public class MathUtilController {
@@ -38,6 +42,18 @@ public class MathUtilController {
     @ResponseBody
     public String logicBakeSub(@PathVariable int number1,@PathVariable int number2) {
     	return Sub.sub(number1, number2)+"";
+    }
+    
+    @RequestMapping(method = RequestMethod.GET,value = "/div/{number1}/{number2}")
+    @ResponseBody
+    public String logicBakeDiv(@PathVariable int number1,@PathVariable int number2) {
+    	return Div.div(number1, number2)+"";
+    }
+    
+    @RequestMapping(method = RequestMethod.GET,value = "/mul/{number1}/{number2}")
+    @ResponseBody
+    public String logicBakeMul(@PathVariable int number1,@PathVariable int number2) {
+    	return Mul.mul(number1, number2)+"";
     }
  
    
