@@ -53,7 +53,7 @@
 \begin{center}
 \large{\textbf{Design Report for}}\\
 \begin{singlespace}
-\LARGE{\textbf{Continues Integration Pipeline Implementation \\ for
+\LARGE{\textbf{Continuous Integration Pipeline Implementation \\ for
 Tech11Software
 }}\\
 \end{singlespace}
@@ -85,7 +85,7 @@ Tech11Software
 \end{singlespace}
 %\vspace{.05in}
 \begin{singlespace}
-\Large{\textbf{JULY 2016\\Department of Computer Science and Engineering\\College of Engineering,Cherthala}\\Pallippuram P O,Alappuzha-688541\\Phone: 0478 2553416, Fax: 0478 2552714\\http://www.cectl.ac.in}
+\Large{\textbf{OCTOBER 2016\\Department of Computer Science and Engineering\\College of Engineering,Cherthala}\\Pallippuram P O,Alappuzha-688541\\Phone: 0478 2553416, Fax: 0478 2552714\\http://www.cectl.ac.in}
 \end{singlespace}
 \end{center}
 \end{titlepage}
@@ -195,18 +195,18 @@ The Proposed system is to help software developers to ensure new features are ma
 available as soon as the program has been implemented and tested. This product also helps in
 reducing the time needed to develop a software and also acts a guideline for future software
 developments.
-\section{solution Function}
+\section{Solution Function}
 
 \par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately.[9] Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
 
 \begin{itemize}
-\item Version Control
+\item \textbf{Version Control}
 
 \par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised.[9] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
-\item Artifact Manager
+\item \textbf{Artifact Manager}
 \par 
 While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
-\item Continuous Integration Handler
+\item \textbf{Continuous Integration Handler}
 \par While there are many tools, I will focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
 \begin{itemize}
 \item It integrates with popular build tools (ant, maven, make) so that it can run the appropriate build scripts to compile, test and package within an environment that closely matches what will be the production environment
@@ -217,7 +217,7 @@ While many developers have adopted Maven as a build tool, most have yet to under
 
 
 Jenkins is an automation engine with an unparalleled plugin ecosystem to support all of your favorite tools in your delivery pipelines, whether your goal is continuous integration, automated testing, or continuous delivery. 
- \item  Test Automator
+ \item  \textbf{Test Automator}
 \par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
 
 \begin{itemize}
@@ -226,7 +226,7 @@ Jenkins is an automation engine with an unparalleled plugin ecosystem to support
 \end{itemize}
 
 
-\item Continouos Deployment
+\item \textbf{Continouos Deployment}
 \par Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. Continuous deployment should be the goal of most companies that are not constrained by regulatory or other requirements.
 
 \end{itemize}
@@ -244,13 +244,13 @@ This system based software can be used in any operating system such as Microsoft
 \section{User Interface}
 Interface hardware shall be encapsulated in a set of classes that isolate hardware specifications from the rest of the software. In particular, interfaces for specific hardware boards shall be implemented as derived classes of an abstract class.
 \
-\section{Hardware Requirements}   //jefine fill cheytho
+\section{Hardware Requirements}   
 
-  Processor\hspace{.54in}:\hspace{.54in}Min 2GHZ\\
+  Processor\hspace{.54in}:\hspace{.54in}Min 1GHZ\\
 
- RAM\hspace{.8in}:\hspace{.54in}Min 2GB\\
+ RAM\hspace{.8in}:\hspace{.54in}Min 1GB\\
  
- Hard disk\hspace{.55in}:\hspace{.54in}Min 200GB\\
+ Hard disk\hspace{.55in}:\hspace{.54in}Min 2GB\\
  
 % Keyboard\hspace{.56in}:\hspace{.54in}Standard\\
  
@@ -259,16 +259,18 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
  %Monitor\hspace{.65in}:\hspace{.54in}15 VGA colour\\
  
  \pagebreak
-\section{Network Requirements}  // jefinee fill cheytho
+\section{Network Requirements}  
 \begin{itemize}
-\item Systems need high speed internet connection.
+\item Systems need minimum speed internet connection.
 \end{itemize}
 \section{Software Requirements}
 \begin{itemize}
-\item Java, Net Beans IDE
-%\item Parser-Json / Stanford Parser
-%\item Wordnet
-\item Internet explorer or any other supported browsers 
+\item Git
+\item Jenkins
+\item Checkstyle
+\item Findbugs
+\item Mingle
+
 \end{itemize}
 \pagebreak
 \section{Gantt Chart}
@@ -276,7 +278,7 @@ Gantt Chart provides an approximation about the completion of project.It gives a
 \begin{figure}[h]
 \begin{center}
 %\epsfig{width=6in, file=gant.jpg}
-\includegraphics[scale=0.53]{LogicBakerGantt.pdf}
+\includegraphics[scale=0.4]{LogicBakerGantt.pdf}
 \caption{Gantt Chart}
 \end{center}
 \end{figure}
