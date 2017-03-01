@@ -27,6 +27,19 @@ app.get('/sub', function(req, res){
     console.log(req.query.num1,req.query.num2,ans);
     res.send(ans+"");
         })
+app.get('/mul', function(req, res){
+    
+    var ans=parseInt(req.query.num1)*parseInt(req.query.num2);
+    console.log(req.query.num1,req.query.num2,ans);
+    res.send(ans+"");
+        })
+app.get('/div', function(req, res){
+    
+    var ans=parseInt(req.query.num1)/parseInt(req.query.num2);
+    console.log(req.query.num1,req.query.num2,ans);
+    res.send(ans+"");
+        })
+
 
 var port=process.env.PORT || 3000;
 app.listen(port, function () {
