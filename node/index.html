@@ -19,7 +19,7 @@
       <input type="number" ng-model="subnum1"/>-
       <input type="number" ng-model="subnum2"/>
       <button ng-click="sub()">Resut</button>
-      <input type="number" ng-model="subresult"/> 
+      <input type="text" ng-model="subresult"/> 
       <br>
       
         <input type="number" ng-model="mulnum1"/>*
@@ -45,6 +45,7 @@
         $scope.change=function(){
            $scope.ans1=$scope.add1+$scope.add2
        } 
+        
        $scope.add=function(){
        
        $http({
@@ -52,13 +53,29 @@
     	   url: "/add",
            params: {num1:$scope.addnum1,num2:$scope.addnum2}
     	 }).then(function successCallback(response) {
-    	     alert(response.data);
+    	    // alert(response.data);
     	     $scope.addresult=response.data;
     	   }, function errorCallback(response) {
     	     // called asynchronously if an error occurs
     	     // or server returns response with an error status.
     	   });
        }
+       
+       $scope.sub=function(){
+       
+       $http({
+    	   method: 'GET',
+    	   url: "/sub",
+           params: {num1:$scope.subnum1,num2:$scope.subnum2}
+    	 }).then(function successCallback(response) {
+    	    // alert(response.data);
+    	     $scope.subresult=response.data;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
+       }
+       
        
        
          
