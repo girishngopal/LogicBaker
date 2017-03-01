@@ -76,9 +76,35 @@
     	   });
        }
        
+        $scope.mul=function(){
        
+       $http({
+    	   method: 'GET',
+    	   url: "/mul",
+           params: {num1:$scope.mulnum1,num2:$scope.mulnum2}
+    	 }).then(function successCallback(response) {
+    	    // alert(response.data);
+    	     $scope.mulresult=response.data;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
+       }
        
-         
+          $scope.div=function(){
+       
+       $http({
+    	   method: 'GET',
+    	   url: "/div",
+           params: {num1:$scope.divnum1,num2:$scope.divnum2}
+    	 }).then(function successCallback(response) {
+    	    // alert(response.data);
+    	     $scope.divresult=response.data;
+    	   }, function errorCallback(response) {
+    	     // called asynchronously if an error occurs
+    	     // or server returns response with an error status.
+    	   });
+       }
            
        })
     </script>
