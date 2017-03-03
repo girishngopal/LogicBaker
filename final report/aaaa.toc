@@ -1,0 +1,65 @@
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
+\contentsline {section}{\numberline {1.1}PURPOSE}{1}
+\contentsline {section}{\numberline {1.2}PRODUCT SCOPE}{2}
+\contentsline {chapter}{\numberline {2}SYSTEM ANALYSIS}{3}
+\contentsline {section}{\numberline {2.1}EXISTING SYSTEMS}{3}
+\contentsline {section}{\numberline {2.2}PROPOSED SYSTEM}{3}
+\contentsline {section}{\numberline {2.3}FEASIBILITY STUDY}{4}
+\contentsline {subsection}{\numberline {2.3.1}Technical Feasibility}{4}
+\contentsline {subsection}{\numberline {2.3.2}Economic Feasibility}{4}
+\contentsline {subsection}{\numberline {2.3.3}Operational Feasibility}{5}
+\contentsline {subsection}{\numberline {2.3.4}Social Feasibility}{5}
+\contentsline {section}{\numberline {2.4}GANTT CHART}{5}
+\contentsline {section}{\numberline {2.5}COST ESTIMATION}{6}
+\contentsline {section}{\numberline {2.6}SYSTEM REQUIREMENT STUDY}{7}
+\contentsline {subsection}{\numberline {2.6.1}Hardware Requirements}{7}
+\contentsline {subsection}{\numberline {2.6.2}Software Specification}{7}
+\contentsline {subsection}{\numberline {2.6.3}Communication specifications}{8}
+\contentsline {chapter}{\numberline {3}SYSTEM DESIGN}{9}
+\contentsline {section}{\numberline {3.1}MODULES}{9}
+\contentsline {subsection}{\numberline {3.1.1}SENSING MODULE}{9}
+\contentsline {subsection}{\numberline {3.1.2}ANDROID APPLICATION}{9}
+\contentsline {subsection}{\numberline {3.1.3}SERVER SIDE}{9}
+\contentsline {section}{\numberline {3.2}DATA FLOW DIAGRAMS}{10}
+\contentsline {subsection}{\numberline {3.2.1}Purpose}{10}
+\contentsline {subsection}{\numberline {3.2.2}Description}{10}
+\contentsline {section}{\numberline {3.3}USE CASE DIAGRAMS}{13}
+\contentsline {subsection}{\numberline {3.3.1}Purpose}{13}
+\contentsline {subsection}{\numberline {3.3.2}Description}{13}
+\contentsline {section}{\numberline {3.4}SEQUENCE DIAGRAM}{14}
+\contentsline {subsection}{\numberline {3.4.1}Purpose}{14}
+\contentsline {subsection}{\numberline {3.4.2}Description}{14}
+\contentsline {section}{\numberline {3.5}ACTIVITY DIAGRAM}{15}
+\contentsline {subsection}{\numberline {3.5.1}Purpose}{15}
+\contentsline {subsection}{\numberline {3.5.2}Description}{16}
+\contentsline {section}{\numberline {3.6}HARDWARE DIAGRAM}{17}
+\contentsline {subsection}{\numberline {3.6.1}Purpose}{17}
+\contentsline {subsection}{\numberline {3.6.2}Description}{17}
+\contentsline {section}{\numberline {3.7}ER DIAGRAM}{18}
+\contentsline {subsection}{\numberline {3.7.1}Purpose}{18}
+\contentsline {subsection}{\numberline {3.7.2}Description}{18}
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{22}
+\contentsline {section}{\numberline {4.1}LANGUAGES AND PLATFORM USED}{22}
+\contentsline {subsection}{\numberline {4.1.1}Python}{23}
+\contentsline {subsection}{\numberline {4.1.2}Android}{23}
+\contentsline {subsection}{\numberline {4.1.3}Jsp}{23}
+\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{24}
+\contentsline {subsection}{\numberline {4.2.1}Android Application}{24}
+\contentsline {subsection}{\numberline {4.2.2}Web page}{26}
+\contentsline {chapter}{\numberline {5}TESTING}{28}
+\contentsline {section}{\numberline {5.1}CODE TESTING}{29}
+\contentsline {section}{\numberline {5.2}UNIT TESTING}{29}
+\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{29}
+\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{30}
+\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{30}
+\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{31}
+\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{31}
+\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{32}
+\contentsline {section}{\numberline {5.9}PASS CRITERIA}{32}
+\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{32}
+\contentsline {section}{\numberline {5.11}TEST REPORTS}{32}
+\contentsline {section}{\numberline {5.12}BLACK BOX TESTING}{33}
+\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{35}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{36}
+\contentsline {chapter}{7\hspace {0.1in} REFERENCES}{37}
+\contentsline {chapter}{\hspace {0.5cm} INDEX}{39}
