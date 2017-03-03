@@ -1,0 +1,822 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage{indentfirst}
+\usepackage{times}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+\setlength\parindent{1cm}
+\renewcommand{\baselinestretch}{1.50}\normalsize
+\usepackage{anysize}
+\marginsize{1.25in}{.75in}{1in}{1in}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage[fleqn]{amsmath}
+\usepackage{amsfonts}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{truncate}
+\usepackage{nomencl} 
+\usepackage{acronym}
+\usepackage{array}
+\usepackage{caption}\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage[overload]{textcase}
+\usepackage{listings}
+\renewcommand{\nomname}{List of Abbreviations}
+\usepackage{makeidx}
+\makeindex
+\makenomenclature
+\newcommand{\quotes}[1]{``#1''}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries\centering}
+{\chaptertitlename\ \thechapter}{15pt}{\LARGE}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+\renewcommand{\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+
+\printnomenclature[5em]
+\pagestyle{fancy}
+%\headheight 1pt
+	\renewcommand{\footrulewidth}{1.2pt}
+\renewcommand{\headrulewidth}{1.2pt}
+\rhead{\scriptsize {\leftmark}}
+
+\lhead{\small{College of Engineering, Cherthala \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;}}
+\rfoot{\thepage}
+\cfoot{\empty}
+\lfoot{\small{Department of Computer Science \& Engineering}}
+%\renewcommand{\figurename}{Fig.}
+\begin{document}
+\renewcommand\bibname{References}
+\begin{titlepage}
+\begin{center}
+\Large{\textbf{MAJOR PROJECT REPORT}}\\
+\vspace{.2 in}
+\begin{singlespace}
+\LARGE{\textbf{Continuous Integration Pipeline Implementation for Tech11Software }}\\
+\end{singlespace}
+\vspace{.2 in}
+\Large{\textit{Submitted By }}\\
+\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{JEFFIN JACOB  }\textbf{(Reg.No . 12143611)}}} \\
+\Large{\textit{\textbf{NITIN SURESH }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{VISHNU BOSE }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textit{under the guidance of}}}\\
+\Large{\textit{\textbf{Mrs. GREESHMA N GOPAL}}}\\
+\Large{\textit{(Assistant Professor)}}\\
+\Large{\textit{(Computer Science \& Engineering)}}
+\vspace{.05in}
+\begin{figure}[h]
+\begin{center}
+\epsfig{width=1 in, file=logo.jpg}
+\end{center}
+\end{figure}
+\begin{singlespace}
+\large{\textbf{MARCH 2017}}\\
+\vspace{.1in}
+\large{\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING\\COLLEGE OF ENGINEERING,CHERTHALA\\ PALLIPPURAM P O, ALAPPUZHA-688541, \\PHONE: 0478 2553416, FAX: 0478 2552714\\http://www.cectl.ac.in}}
+\end{singlespace}
+\end{center}
+\end{titlepage}
+\begin{titlepage}
+\begin{center}
+
+\large{\textbf{MAJOR PROJECT REPORT}}\\
+
+\LARGE{\textbf{Continuous Integration Pipeline Implementation for Tech11Software}}\\
+
+\Large{\textit{Submitted By }}\\
+\begin{singlespace}
+%\begin{singlespace}
+\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{JEFFIN JACOB  }\textbf{(Reg.No . 12143611)}}} \\
+\Large{\textit{\textbf{NITIN SURESH }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{VISHNU BOSE }\textbf{(Reg.No . 121436--)}}} \\
+
+\end{singlespace}
+\Large{\textit{\textit{under the guidance of}}}\\
+\Large{\textit{\textbf{Mrs. GREESHMA N GOPAL}}}\\
+\begin{singlespace}
+\small{\textit{In partial fulfilment of the requirements for the award of the degree}\\
+\small{ \textit{of}}\\
+\small{\textit{Bachelor of Technology} }\\
+\small{\textit{in}}\\
+\small{\textit{Computer Science and Engineering}}\\
+\small{\textit{of}}\\
+\small{\textit{Cochin University Of Science And Technology}}}\\
+\end{singlespace}
+\begin{singlespace}
+\begin{figure}[h]
+\begin{center}
+\epsfig{width=1 in, file=logo.jpg}
+\end{center}
+\end{figure}
+\end{singlespace}
+\begin{singlespace}
+
+\Large{{\textbf{MARCH 2017\\Department of Computer Science and Engineering\\College of Engineering, Cherthala}\\
+Pallippuram P O, Alappuzha-688541 \\Phone: 0478 2553416, Fax: 0478 2552714}}
+\end{singlespace}
+\end{center}
+\end{titlepage}
+\begin{titlepage}
+\begin{center}
+
+\large{\textbf{DEPARTMENT OF COMPUTER SCIENCE \& ENGINEERING}}\\
+\large{\textbf{COLLEGE OF ENGINEERING CHERTHALA\\ALAPPUZHA-688541}}\\
+\end{center}
+\begin{figure}[h]
+\begin{center}
+\epsfig{width=1.5in, file=logo.jpg}
+\end{center}
+\end{figure}
+\begin{center}
+\large{\textbf{C E R T I F I C A T E}}\\
+\end{center}
+\begin{spacing}{1.5}
+This is to certify that, the major project report submitted by \newline Name: \hspace{300pt} Date:\today\newline Reg.No:\newline
+On \textbf{\textit{Continuous Integration Pipeline Implementation for Tech11Software}}
+ in partial fulfillment of the requirements for the award of the degree, \textbf{B. Tech. Computer Science  \& Engineering } of \textbf{Cochin University of Science \& Technology}.
+\end{spacing}
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxxxx\= \kill
+\hspace{.15in}{\bf Guide} \>\hspace{-.7in}{\bf Co-ordinator}\hspace{1.32in}{\bf  HoD  } \\
+\end{tabbing}
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
+%\vspace{0.3in}\\
+\hspace{.15in}{\bf{Mrs. Greeshma N Gopal K}}   \>\hspace{-.7in}{\bf Mrs. Sreelakshmi Mural} \hspace{.60 in}{\bf Dr. Preetha Theresa Joy}\\
+\hspace{.15in}Assistant Professor    \>\hspace{-.7in}Assistant Professor\>\hspace{.20in}Professor\\
+\hspace{.1in} Computer Science\&Engg    \>\hspace{-.75in}    Computer Science\&Engg \>\hspace{.15in}    Computer Science\&Engg\\
+
+\end{tabbing}
+\end{titlepage}
+
+
+\renewcommand*\thesection{\thechapter.\arabic{section}}
+%\pagenumbering{arabic}
+%\addtocounter{page}{4}
+
+
+\begin{titlepage}
+\pagenumbering{arabic}
+%\addtocounter{page}{4}
+\setcounter{page}{4}
+\section*{\begin{center} \Large{ACKNOWLEDGEMENT }\end{center}}
+
+\thispagestyle{plain}
+
+
+%{$\;\;\;\:$}
+\par
+We take this opportunity to express our sincere gratitude to the people who have been
+instrumental in the successful completion of our major project.
+For every endeavour in our life, the help of the Lord has always followed. We have yet
+again experienced his loving kindness while preparing for this project.
+We would like to express our sincere thanks to the Principal, \textbf{Dr. Mini M. G}, for her
+valuable support and advice. We would also like to thank our Head Of Computer Science
+Department, \textbf{Dr.Preetha Teresa Joy} (Professor, Computer Science and Engineering Department) for her support. We express our heartfelt gratitude to
+our project coordinator, \textbf{Mrs. Sreelakshmi Murali} (Assistant Professor, Computer Science and Engineering Department) for her valuable help and support. We would also like to thank our project Guide,
+\textbf{Mrs. Greeshma N Gopal} (Assistant Professor, Department of Computer Science) for her support and
+guidance.
+We are indebted to all teaching and non-teaching staff of the Department of Computer
+Science and Engineering, friends and family for their co-operation and support, with out which
+we could never have completed the project this well. \\
+\end{titlepage}
+\newpage
+
+\section*{\begin{center}\Large ABSTRACT\end{center}}
+\thispagestyle{empty}
+\par
+\hspace{0.1in}
+{
+In the present scenario we see many cases where people met with accidence die on road
+without being unnoticed. Mainly this occurs at night. There is no system to detect accidents at
+present condition.
+In such case we introduced our proposed sytem. \textbf{SAVE ME}: Automatic accident detection and alert system will detect any accidents occuring within the vehicles. Here a collision sensor is placed in
+the vehicle that detect any severe collision. An android based application must be installed in
+user's android mobile, such that the application detects active sensor. This takes only a fraction of
+seconds. The application also sent message to a nearby control station. By this the control-station
+receives an alert message and there by can locate the position of accident location using 
+GPS in mobile phone. Then necessary actions can be taken to rescue the victim. Here hardware system to detect collision, an android based application to detect active sensor and a dedicated server to store required details are the main components.\\
+
+
+\tableofcontents
+\pagenumbering{roman}
+\listoffigures
+
+
+\def\addsymbol #1: #2#3{\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;$#1$ \> \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \parbox{5in}{#2}\\}
+
+
+\renewcommand*\thesection{\thechapter.\arabic{section}}
+\newpage
+\pagestyle{fancy}
+\headheight 26pt
+\renewcommand{\footrulewidth}{1.2pt}
+\renewcommand{\headrulewidth}{1.2pt}
+\rhead{\scriptsize {\leftmark}}
+%\chead{Middle top}
+\lhead{\small{College of Engineering, Cherthala \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;}}
+\rfoot{\thepage}
+\cfoot{\empty}
+\lfoot{\small{Department of Computer Science \& Engineering}}
+
+
+\chapter{INTRODUCTION}
+\label{intro}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%\hspace{0.1in}
+\par Now a days it is a usual scenario that people die on road due to various road accidents. And of that many of them is simply due to clear negligence or unawareness. There are also cases when nobody gets information about accidents and the victims die due to lack of first aid. \\
+\textbf{SAVE ME} is a helpful accident detection and alert system for android phone users. The proposed system helps to prevent harmful effects of accidents to a certain extend.\\
+\section{PURPOSE}
+\par In present scenario, we see many case where people die on road due to unnoticed road
+accidents. This becomes a usual case at nights. To prevent accidents is not in our hand always but, it is possible to save victims. Under such circumstance a vehicle collision detection system is helpful. Now a days as the need and use of various vehicles is in a huge amount. So will be the increase in chance for road accidents. 
+ The main purpose of the system is to make the near and dear ones of the accident victim to fasten the rescue operations. Accident  details may be sent to the near by control station of the accident location. So that authorities will also get a brief detail about the accident.  
+\section{PRODUCT SCOPE}
+\par  ”SAVE ME” includes a hardware system to hold sensor, an android based application
+that detect nearby active sensor and also a dedicated server which receive messages from
+android application. The sever sends an alert message to the nearby control station about the accident. Hence the accident spot can be located using GPS in mobile phone of the victim. The application is very much useful and cheap to install. Any android user can use ”SAVE ME”. The hardware made use is also reliable.\\
+
+\chapter{SYSTEM ANALYSIS}
+\hspace{0.2in} 
+\section{EXISTING SYSTEMS}
+	\par In the current scenario when an accident occurs and the passengers are seriously injured there is no accurate system to help accident victims. Usually anyone who sees the accidents may inform police or ambulance for rescue operations. But it may not be convenient, as always there may not be an eye witness. In such situations the condition of the victims may become worse and sometimes leads to death.
+	\par Rescue operations in the golden hours is very important to safe lives. But usually this may not happen. Especially during night times the accidents become unnoticed. These situations leads to loss of life due to late rescue operations. Currently there is no automated system to inform the rescue force like police, fire force, ambulance etc.
+
+
+\section{PROPOSED SYSTEM}
+
+\par The proposed system is intended to automate the current scenario. The automobiles are connected to a sensing module, which consist of a crack sensor, raspberry pi and arduino. The driver need to install an android application SAVE ME.
+\par Whenever the driver gets into the vehicle, the driver presses \textbf{CONNECT} button. This establishes a connection between the driver's android device and the sensing module.
+\par When an accident occurs the sensing module senses the accident and pass it to the driver's android phone,gets the location from the phone and pass an accident information to the server. The server sends the accident alert to nearest control station and to an emergency number, provided by the user at the time of registration.
+\par So the rescue operations become very fast and may save life in golden hour itself. Even if the passengers are seriously injured and there is no eye witness, the accident information is passed to the rescue force and accident victims are saved.
+
+\section{FEASIBILITY STUDY}
+\par The main objective of this study is to determine whether the proposed system is feasible
+or not. Mainly there are three types of feasibility study to which the proposed system is subjected
+as described below:
+\par Four key considerations are involved in this feasibility.
+\begin{itemize}
+\item Economic Feasibility
+\item Technical Feasibility
+\item Operational Feasibility
+\item Social Feasibility
+\end{itemize}
+\subsection{Technical Feasibility}
+\par The technology required for developing the system is identified. It has technical capability
+to initialize the system and perform data transfer. It also provides technical guarantee of assurance,
+reliability, easy access and security. Thus, since both hardware and software requirements
+are satisfied it is technically feasible.
+\subsection {Economic Feasibility}
+\par The system is developed at reasonable cost with the available hardware, software and
+manpower. It reduces cost, so it is economically feasible.
+\subsection{Operational Feasibility}
+\par The proposed project is beneficial because this application is the first of its class, so
+the users are encouraged to use it, and is expected to serve the user's needs on request. The
+user interface is designed in such a way that the users are not bound to have any doubts to use
+the interface.
+\subsection {Social Feasibility}
+\par The proposed project will be socially feasible as the contents being shared is only inside a
+friend's circle. Such that it would not be used for any offensive purposes. The social feasibility
+determines whether the project would be accepted by the people.
+\section{GANTT CHART} 
+\par Gantt chart is a graphical representation of allocation of resources to the activities. Here
+our resource is time. A Gantt chart is a type of bar chart that illustrates a project schedule.
+Gantt charts illustrate the start and finish dates of the terminal elements and summary elements
+of a project. Terminal elements and summary elements comprise the work breakdown structure
+of the project. Some Gantt charts also show the dependency (i.e., precedence network)
+relationships between activities.
+\par Gantt charts have become a common technique for representing the phases and activities
+of a project work breakdown structure (WBS), so they can be understood by a wide audience.
+Although a Gantt chart is useful and valuable for small projects that fit on a single sheet or
+screen, they can become quite unwieldy for projects with more than about 30 activities. Larger
+Gantt charts may not be suitable for most computer displays. A related criticism is that Gantt
+charts communicate relatively little information per unit area of display. That is, projects are
+often considerably more complex than can be communicated effectively with a Gantt chart.
+Although project management software can show schedule dependencies as lines between activities,
+displaying a large number of dependencies may result in a cluttered or unreadable
+chart.
+\par Because the horizontal bars of a Gantt chart have a fixed height, they can misrepresent
+the time-phased workload (resource requirements) of a project, which may cause confusion especially
+in large projects. A related criticism is that all activities of a Gantt chart show planned
+workload as constant. In practice, many activities (especially summary elements) have front loaded
+or back-loaded work plans, so a Gantt chart with percent-complete shading actually may
+lead to mis-communications on the true schedule performance status.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.6]{gantt.png}
+\caption{Gantt chart}
+\label{Gantt chart}
+\end{center}
+\end{figure}
+
+\section{COST ESTIMATION}
+\par Basic COCOMO computes software development effort (and cost) as a function of program
+size. Program size is expressed in estimated thousands of lines of code (KLOC).
+\par COCOMO applies to three classes of software projects:
+\begin{itemize}
+\item  Organic projects - “small” teams with “good” experience working with “less than rigid”
+requirements.
+\item Semi-detached - “medium” teams with mixed experience working with a mix of rigid
+and less than rigid requirements
+\item Embedded projects - developed within a set of “tight” constraints (hardware, software,
+operational ...)
+\end{itemize}
+\par The basic COCOMO equations take the form:
+\par Effort Applied = a(KLOC)\textasciicircum b [ person-months ]
+\par Development Time = c(Effort Applied)\textasciicircum d [ months ]
+\par People required = Effort Applied / Development Time [ count ]
+\par The coefficients a, b, c and d are given in the following table.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.6]{cocomo.PNG}
+\caption{COCOMO Model Coefficients}
+\label{COCOMO Model Coefficients}
+\end{center}
+\end{figure}
+\section{SYSTEM REQUIREMENT STUDY}
+\subsection{Hardware Requirements}
+\begin{itemize}
+\item RAM : 2 GB
+\item Disc space : 750 MB
+\item Processor : Intel Pentium III or above
+\item Raspberry pi P2
+\item Arduino module
+\item Collision Sensor
+\end{itemize}
+
+\subsection{Software Specification}
+\begin{itemize}
+\item OS : WINDOWS 10
+\item Platform : Android Studio, Net Beans
+\item Languages : Android, python, Jsp
+\item Front end : Android, Jsp
+\item Back end : SQLyog
+\end{itemize}
+\subsection{Communication specifications}
+\begin{itemize}
+\item Link Layer : 802.11-wifi-mobile communication
+\item Network Layer : IPV4
+\item Transport  Layer : TCP
+\item Application  Layer : HTTP
+\end{itemize}
+\chapter{SYSTEM DESIGN}
+\section{MODULES}
+\par Based upon the level of the product, project had been divided into 3 modules. 
+\par Sensing,Android application and Server module.
+
+\subsection{SENSING MODULE}
+\par The external hardware used is the Raspberry pi and it is connected to the server. In the sensing module, sensor is activated when the accident occurs. Arduino is used for converting analog sensor values to digital values.
+
+\subsection{ANDROID APPLICATION}
+\par In this module it fetches the information from the collision sensor and pass it the alert to the server.It also fetches the accurate GPS location of the accident site. A map is also displayed showing the exact accident location. The shortest path for reaching the accident location is also shown along with the map.
+\subsection{SERVER SIDE}
+\par In this module it passes the alert message to the nearest control station and to the emergency number provided by the user.
+\newpage
+
+
+
+\newpage
+\section{DATA FLOW DIAGRAMS}
+\subsection {Purpose} 
+\par The data ﬂow diagram(DFD)is used for classifying system requirements to major transformation that will be come programs in system design. This is starting point of the design phase that functionally decomposes the required specifications down to the lower level of details. It consists of a series of bubbles joint together by lines. Bubbles: Represent the data transformations. Lines: Represent the logic ﬂow of data. Data can trigger events and can be processed to useful information. Systems analysis recognizes the central goal of data in organizations. This data flow analysis tells a great deal about how organization objectives are accomplished.
+
+
+\subsection{Description}
+\begin{itemize}
+\item  Process : Describes how each input data is converted to output data.
+\item  Data Store : Describes the repositories of data in a system.
+\item   Data Flow : Describes the data ﬂowing between Processes, Data stores, Entities.
+\item   Entity : An external entity causing the origin of data.
+%\end{itemize}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=1]{dfd.png}
+\caption{Notations used in  DFD}
+\label{Notations used in  DFD}
+\end{center}
+\end{figure}
+\end{itemize}
+\newpage
+\textbf{LEVEL 0}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=.8]{level0.png}
+\caption{Level 0 DFD}
+\label{Level 0  DFD}
+\end{center}
+\end{figure}
+\\ 
+\textbf{Description}
+\par The driver install the application by providing his name and emergency number to be contacted in case of accident. The driver recieves a confirmation message. \\
+%\end{itemize}
+
+\newpage
+\textbf{LEVEL 1}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=.8]{level1.png}
+\caption{Level 1  DFD}
+\label{Level 1  DFD}
+\end{center}
+\end{figure}
+\\ 
+\textbf{Description}
+\par During app installation the user register his name and  phone number to be contacted in case of emergency. The name and the emergency number is validated. Emergency number is registered to the database. The database is updated. Response message is passed to user.
+
+
+
+\newpage
+\section{USE CASE DIAGRAMS}
+\subsection{Purpose}
+\par Use case diagram in the Uniﬁed Modeling language (UML) is a type of behavioral diagram. Its purpose is to represent the graphical overview of the functionality provided by a system in terms of actors, their goals (represented use cases), and any dependencies between those use cases. The main purpose of a use case diagram is to show what system functions are performed for which actor. Role of the actors in the system can be depicted.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=1]{usecs1.png}
+\caption{ Use case Diagram}
+\label{ Use case Diagram}
+\end{center}
+\end{figure}
+\subsection{Description}
+\par The user can register by providing his number and emergency number to be contacted. Accident alerting system alerts the emergency contact and nearest control stattion.
+
+
+
+\newpage
+\section{SEQUENCE DIAGRAM}
+\subsection{Purpose}
+\par A Sequence diagram depicts the sequence of actions that occur in a system. It portrays the different perspectives of behavior of the system and different types of inferences can be drawn from them. The invocation of method since each object, and the order in which the invocation occurs is captured in a Sequence diagram. This  makes the Sequence diagram a very useful tool to easily represent the dynamic behavior of a system.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=1.2]{seq.png}
+\caption{ Sequence Diagram }
+\label{ Sequence Diagram}
+\end{center}
+\end{figure}
+\subsection{Description}
+\par When the accident occurs the sensing module senses the pressure variations and if it is above the predefined threshold value then it sends an alert to the android application module. Android application fetches the GPS location of the accident site and sens it to the server. Server sends the accident alert message to the nearest control station and the emergency number provided by the user.
+
+
+
+\newpage
+\section{ACTIVITY DIAGRAM}
+\subsection{Purpose}
+\par Activity diagram is an important diagram in UML to describe dynamic aspects of the system. Activity diagram is basically a ﬂow chart to represent the ﬂow form one activity to another activity. The activity can be described as an operation of the system. So the control ﬂow is drawn from one operation to another. This ﬂow can be sequential, branched or concurrent. Activity diagrams deals with all type of ﬂow control by using different elements like fork, join, etc.
+
+\newpage
+\begin{figure}
+\begin{center}
+\includegraphics[scale=.5]{activitymod.png}
+\caption{  Activity Diagram }
+\label{  Activity  Diagram}
+\end{center}
+\end{figure}
+\subsection{Description}
+\par After the user registration, the details are updated in the database. While driving the user need to
+initialise the raspberry pi module and thus monitoring the sensor. If an accident occurs, then the GPS location of the site is fetched and is send to the server. Server sends the message to alert receivers. Otherwise it continues to monitor. While user is not driving, he can initialise sleep mode.
+
+\newpage
+\section{HARDWARE DIAGRAM}
+\subsection{Purpose}
+\par The purpose of this diagram is to show the "as deployed" logical view of logical application components in a distributed network computing environment. The diagram is useful for the following reasons:
+\begin{itemize}
+\item Enable understanding of which application is deployed where.
+\item Establishing authorization, security, and access to these technology components.
+\item Understand the Technology Architecture that support the applications during problem resolution and trouble shooting.
+\end{itemize}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=1]{hw.png}
+\caption{  Hardware Diagram }
+\label{  Hardware Diagram}
+\end{center}
+\end{figure}
+\subsection{Description}
+\par The collision sensor  sensor senses the pressure variations and sends it to the raspberry pi through the arduino. Collision information is passed to the drivers mobile phone.
+
+\newpage
+\section{ER DIAGRAM}
+
+\subsection{Purpose}
+\par Database is recognized as a standard and is available virtually for every computer system.
+The general theme behind every database is to integrate all the information. The database is an
+integrated collection of data and provides centralized access to the data. The user authentication
+in the project and accident details is implemented using the database.\\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.9]{erdiagram.png}
+\caption{ER Diagram }
+\label{ER Diagram}
+\end{center}
+\end{figure}
+\subsection{Description}
+\par An entity relationship diagram (ERD) shows the relationships of entity sets stored in a database. An entity in this context is a component of data. In other words, ER diagrams illustrate the logical structure of databases. Here vehicle number is the primary key. Name, phone number, emergency number are other attributes of the driver entity. Helpline number have an IS A relationship with control station and emergency number.
+%\newpage
+
+
+
+
+\chapter{IMPLEMENTATION}
+Implementation is the stage in the project where the theoretical design is turned into a working system and is giving confidence about the new system to users that it will work effectively. It involves careful planning, investigation of the current system and it constraints on implementation, design of achieve the changeover, an evolution of change over method. The product is developed in Java environment in android platform. The software used for the development are Android Studio and SQLyog for the database. The hardware platform is Raspberry pi, collision sensor and arduino. This chapter may explain our implementation details.
+
+\section{LANGUAGES AND PLATFORM USED}
+\par The product is developed in Java environment and we are using SQLyog for database. SQLyog Server automatically tunes many of the server configuration options, therefore requiring little, if any, tuning by a system administrator. Although these configuration options can be modified by the system administrator, it is generally recommended that these options be left at their default values, allowing SQLyog Server to automatically tune itself based on run-time conditions.
+
+\subsection{Python}
+\par Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java. The language provides constructs intended to enable writing clear programs on both a small and large scale. Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library. Python interpreters are available for many operating systems, allowing Python code to run on a wide variety of systems. Python is managed by the non-proﬁt Python Software Foundation.
+\subsection{Android}
+Android Studio is the official integrated development environment (IDE) for Android platform development. Android is a mobile operating system based on the Linux kernel and currently developed by Google. With a user interface based on direct manipulation. Android is designed primarily for touch screen mobile devices.\\
+\subsection{Jsp}
+\par Java Server Pages (JSP) is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. A Java Server Pages component is a type of Java servlet that is designed to fulfill the role of a user interface.
+JSP is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. Released in 1999 by Sun-Microsystems, JSP is similar to PHP and ASP, but it uses the Java programming language. JSP tags can be used for a variety of purposes, such as retrieving information from a database or registering user preferences, accessing Java Beans components, passing control between pages and sharing information between requests.\\
+\section{SCREEN SHOTS}
+\subsection{Android Application}
+\begin{itemize}
+\item \par When a user installs SAVE ME in their mobile phone, a screen for app registration may appear of the following form. 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.4]{vehicalReg.jpg}
+\caption{user registration in android application}
+\label{user registration in android application}
+\end{center}
+\end{figure}
+\newpage
+\item \par Any user using the app has to press the connect button in order to establish connection with the server. A screen of the following format may appear.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.4]{ipSeting.jpg}
+\caption{Connecting to Server}
+\label{Connecting to Server}
+\end{center}
+\end{figure}
+\end{itemize}
+\newpage 
+\subsection{Web page}
+\begin{itemize}
+
+\item \par Whenever an accident occurs the server sends an accident notification to the near-by control station of the accident location.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.4]{Notification.jpg}
+\caption{Accident notification in web page}
+\label{Accident notification in web page}
+\end{center}
+\end{figure}
+\newpage
+\item \par A map will appear with the indication of the accident area in the web page as in the following way for locating the exact location.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=.4]{maps.jpg}
+\caption{Map in web page}
+\label{Map in web page }
+\end{center}
+\end{figure}
+\end{itemize}
+\chapter{TESTING}
+\par When a system is developed, it is hoped that it performs properly. In practice, however some errors always occur. The main purpose of testing an information system is to find the error and correct them. A successful test is one that finds an error. System testing is a critical aspect of Software Quality Assurance and represents the ultimate review of specification, design and coding. Testing is the process of executing a program with the intent of finding an as yet undiscovered error. Nothing is complete without testing. Testing is vital to the success of the system.\\
+\par The main objectives of the system testing are:\\
+\begin{itemize}
+\item To ensure during operation the system will perform as per specification. 
+\item To make sure that the system meets user requirements during operation.
+\item To verify that the controls incorporated in the system function as intended.
+\end{itemize}
+\par If the testing conducted successfully, it will uncover errors in the software. As a secondary benefit, testing demonstrates that the software functions appear to be working according to specification and that performance requirements appear to have been satisfied.\\
+\par The system “Save Me” is tested in such a way that almost all errors that may occur are found and corrected. The test process carried out in this system includes the following:\\
+\section{CODE TESTING}
+\par In code testing the logic of the developed system is tested. For this every module of the program is executed to find any error. To perform specification test, the examination of the specifications stating what the program should do and how it should perform under various conditions.This testing was done side by side with coding. This examines the logic of the program. In Java special test cases are used for testing the code. Every part of the program was tested in this phase.
+
+\section{UNIT TESTING}
+\par Unit testing is undertaken after a module has been coded and reviewed. Before carrying this testing, the unit test cases have to be designed and the test environment for the unit under test has to be developed. The various test cases are driver and stub modules. The main objective is to determine the correct working of the individual modules. During the testing each module is isolated from other modules and individually unit tested. It involves a precise definition of the test cases, testing criteria, and management of test cases. The modules that are tested include \\
+Android module, Server module and Sensing module.
+
+\section{INTEGRATION TESTING}
+\par System testing does not test the software as a whole, but rather than integration of each module in the system. The primary concern is the compatibility of individual modules. One has to find areas where modules have been designed with different specifications of data lengths, type and data element name. Testing and validation are the most important steps after the implementation of the developed system. The system testing is performed to ensure that there are no errors in the implemented system. The software must be executed several times in order to find out the errors in the different modules of the system. Each of the modules were integrated together and subjected to testing. \\
+\section{VALIDATION TESTING}
+\par Validation refers to the process of using the new software for the developed system in a live environment i.e., new software inside the organization, in order to find out the errors. The validation phase reveals the failures and the bugs in the developed system. It will come to know about the practical difficulties the system faces when operated in the true environment. Validation test was performed in the Login section. By testing the code of the implemented software, the logic of the program can be examined. A specification test is performed to check whether the specifications stating the program are performing under various conditions. Apart from these tests, there are some special tests conducted which are given below:
+\begin{itemize}
+\item Peak load test This determines whether the new system will handle the volume of activities when the system is at the peak of its processing demand. The test has revealed that the new system is capable of handling the demands at the peak time.
+\item Storage testing This determines the capacity of the new system to store transaction data on a disk or on other files. The proposed software has the required storage space
+available.
+\item Performance time testing This test determines the length of the time used by the system to process transaction data.
+\end{itemize}
+\section{SYSTEM TESTING}
+\par After all units of a program have been integrated together and tested, system testing is taken up. It is same for both procedural and object oriented programming. System tests are designed to validate a fully developed system to assure that it meets its requirements. The system test cases can be classified into performance and functionality test cases. The functionality test cases are designed to check whether the software satisfies the functional requirements as documented in the SRS document. The performance tests on the other hand test the conformance of the system with non-functional requirements of the system.\\
+\section{OUTPUT TESTING}
+\par After the performance of unit testing, the next step is output testing. No system would be useful if it does not produce the required output in the specific format, thus output format on the screen is found to be correct when the format was designed in the system phase according to the user need.\\
+\par The maintenance of software is the time period in which software product performs useful works. Maintenance activities involve making enhancement to software product, adapting product to new environment and correcting problems. It includes both the improvement of the system function.
+\par It may involve the continuing involvement of a large proportion of computer department resources. The main task may be to adapt existing system in a changing environment. System should not be changed casually following informal requests. To avoid unauthorized amendments, all requests for change should be channeled to a person nominated by management. The nominated person has sufficient knowledge of the organizations computer based systems to be able to judge the relevance of each proposed change.
+\par No annual costs for support or maintenance are required. Of course, the individual system components come with limited warranty from the manufacturers, eg:, the PC, mobile phones, etc.
+\par There is no obligation to purchase or pay for any extended maintenance or support.
+\section{GOAL OF TESTING}
+\par Many users may use our project. So the project designer must test all the modules of the project. The main goal of our project is, whenever user uses our project, it should run without any error.
+\section{PASS/FAIL CRITERIA}
+The pass/fail criteria specifies a set of constraints whose satisfaction leads to approval or disapproval of the proper functioning of the system .
+\section{PASS CRITERIA}
+\par The system must meet all the functional and non-functional requirements. Pass all the test cases, get the expected response, and get acceptable performance to be tested pass.
+\begin{itemize}
+\item	User can login and submit request.
+\item	Officials can verify and process the request
+\item	Periodic update of database
+\end{itemize}
+\section{FAIL CRITERIA}
+\par If one of the following situations happens, the system is considered to fail:
+\begin{itemize}
+\item	User cannot login
+\item	Database updation failure
+\item	OTP sending failed
+\item	Human error
+\end{itemize}
+\section{TEST REPORTS}
+The detailed test reports prepared for each function. A sample test report is given below:
+\begin{table}[!htb]
+\centering
+\caption{Test Report}
+\label{Test Report}
+\begin{tabular}{|l|l|}
+\hline
+Name                                                                                & SAVE ME                                              \\ \hline
+Version                                                                             & 1.0                                                                  \\ \hline
+Author                                                                              & Anamika G V, Mekha S, Priyanka S, Safeena Ashraf.              \\ \hline
+Approved By                                                                         & Self                                                                 \\ \hline
+Date                                                                                & Monday, 6th March 2017                                            \\ \hline
+Role                                                                                & User can operate the system.                                          \\ \hline
+Prerequisite                                                                        & The user is logged into the system                                   \\ \hline
+User/Actor                                                                          & System Response                                                      \\ \hline
+Registration                                                                        & User can register and use the system.                 \\ \hline
+Run Applications                                                                    & Any accident may be detected and notification
+ may be reported. \\ \hline
+Handle User Data                                                                    &The server can handle various user data                                                                      \\ \hline
+                                                                                    
+\begin{tabular}
+[c]{@{}l@{}}The test project\\ was successfully\\ saved
+\end{tabular} 
+&                                                                      \\ \hline
+\end{tabular}
+\end{table}
+\par Test case preparation helps the user and the developer to find and fix the errors easily and in advance. Save Me is well tested with the proper test cases and thus passed a better unit test. Elaborated test cases also prepared subjected the system for thorough testing. The test cases prepared are in the above format.
+\section{BLACK BOX TESTING}
+\par Black-box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings. Test case preparation helps the user and the developer to find and fix the errors easily and in advance. 
+\par The test cases prepared are in the following format:
+\begin{table}[!htb]
+\centering
+\caption{Test Cases}
+\label{Test Cases}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Test & Usecase step & \begin{tabular}[c]{@{}l@{}}Action performed\\ /User input\end{tabular} & \begin{tabular}[c]{@{}l@{}}Expected Result\\ /system response\end{tabular} & \begin{tabular}[c]{@{}l@{}}Actual          \\    result\end{tabular} & \begin{tabular}[c]{@{}l@{}}Do expected \\and  actual \\result \\correspond\end{tabular} \\ \hline
+1   & Admin          & \begin{tabular}[c]{@{}l@{}}Create user\end{tabular}         & \begin{tabular}[c]{@{}l@{}}Successful	creation\\ of user\end{tabular}                 & As Expected                                                          & Yes                                                    \\ \hline
+2   & User                                                                       & \begin{tabular}[c]{@{}l@{}}Enter name \\phone no.\\ emergency no. \\ vehicle no.\end{tabular}   		& \begin{tabular}[c]{@{}l@{}}Display success.\\
+Next page \\ contain a \\ connect button 
+\end{tabular}              & As Expected                                                          & Yes                                                                                     \\ \hline
+3     & User         & \begin{tabular}[c]{@{}l@{}}Presses the\\ connect button\end{tabular} & \begin{tabular}[c]{@{}l@{}}Connection\\ establish \\ between user \\and raspberry pi\end{tabular}                 & As Expected                                                          & Yes                                                                                                                      \\ \hline
+4     & Sensor         & \begin{tabular}[c]{@{}l@{}}Crack in\\ sensor
+when\\ accident occurs
+\end{tabular} & \begin{tabular}[c]{@{}l@{}}arduino converts\\ analog signal\\ to digital\\ and send to pi\end{tabular}                 & As Expected                                                          & Yes                                                                                     \\ \hline
+5     & Sensor         & \begin{tabular}[c]{@{}l@{}}Pi sense\\ threshold \\and send\\ to phone\end{tabular} & \begin{tabular}[c]{@{}l@{}}Get \\notification\\ in phone\\ page\end{tabular}                 & As Expected                                                          & Yes 			\\  \hline
+6     & User         & \begin{tabular}[c]{@{}l@{}}Send \\accident\\ information\\ to control\\ station and \\emergency no. \end{tabular} & \begin{tabular}[c]{@{}l@{}}Get location\\ of accident\\ and take \\rescue \\action\end{tabular}                 & As Expected                                                          & Yes           \\ \hline
+\end{tabular}
+\end{table}
+
+\chapter{FUTURE SCOPE}
+\par In the proposed system all details about the system is designed into an application. SAVE ME: An Automatic Accident Detection And Alert System For Automobiles is used for providing help to the accident victims. There are many cases where valuable lives are lost due to the lack of help at the correct time. We are developing this application for providing help in case of accidents for the victims.It is designed as a web based application, which will work smoothly on any computer system with internet connection. The application sends the accident message to the nearest control station as well as to the emergency number provided by the application user. The application provides the exact GPS location of the accident site which makes it very helpful for the police to provide immediate help for the victim. The document automation software is also supported by a powerful database where the documents are arranged, making updates and collaboration easy and fast. The system proposed here is meant for use in any automobile with the user having android mobile phone. The basic steps in application processing is same everywhere, and hence the extended version of this system can be used in advanced areas too. 
+\chapter{CONCLUSION}
+\par SAVE ME: An Automatic Accident Detection And
+Alert System For Automobiles is used for providing help to the accident victims. There are many cases where valuable lives are lost due to the lack of help at the correct time. We are developing this app for providing help in case of accidents for the victims. The app sends the accident message to the the nearest control station as well as to the emergency number provided by the app user. The app provides the exact GPS location of the accident site which makes it very helpful for the police to provide immediate help for the victim. With the help of this app we may be able to save many lives as there is sureity of help.
+\renewcommand{\bibname}{\uppercase{REFERENCES}}
+\begin{thebibliography}{999}
+\addcontentsline{toc}{chapter}{7\hspace{0.1in} REFERENCES}
+
+
+\bibitem{r1} Bhandari Prachi, Dalvi Kasturi, Chopade Priyanka,\quotes{ Intelligent Accident-Detection And Ambulance- Rescue System} \textit{INTERNATIONAL JOURNAL OF SCIENTIFIC and TECHNOLOGY RESEARCH}, VOLUME 3, ISSUE 6, JUNE 2014
+\bibitem{r2} Collision avoidance system.Dec.2013.[Online].Available:https://en.wikipedia.org/ wiki/Collision/avoidance/system.
+\bibitem{r3} Raspberry pi,Sept.2013.[Online]. Available:https://en.wikipedia.org/wiki/Raspberry/Pi.
+
+
+
+
+\end{thebibliography}
+\chapter*{GLOSSARY}
+\textbf{ER}  : Entity Relationship
+\par \textbf{GPS} : Global Positioning System
+ \par \textbf{HTTP} : Hyper Text Transfer Protocol
+\par \textbf{IPV4} : Internet Protocol Version 4
+\par  \textbf{JSP} : Java Server Page
+\par \textbf{SQL} : Structured Query Language
+\par \textbf{UML} : Unified Modeling Language
+\par \textbf{ERD} : Entity Relationshi Diagram
+\par \textbf{JVM} : Java Virtual Machine
+\par \textbf{DFD} : Data Flow Diagram
+%\end{document}
+
+\begin{theindex}
+
+\addcontentsline{toc}{chapter}{\hspace{0.5cm} INDEX}
+\rhead{\empty}
+\lhead{\empty}
+\lfoot{\empty}
+%\hspace{.1in}
+\vspace{.2in}
+\large\textbf{A}
+\item  Android 
+\item  Android Application, 1
+\item Arduino , 7
+
+\vspace{.2in}
+\large\textbf{C}
+\item Conclusion , 14
+
+\vspace{.2in}
+\large\textbf{D}
+\item Data Flow Diagram , 8
+\item Database, 11
+\item Design, 7
+\vspace{.2in}
+\large\textbf{E}
+\item ER Diagram , 16
+\item Existing system, 
+\vspace{.2in}
+
+\large\textbf{F}
+\item Functional Requirements , 16
+\vspace{.2in}
+
+\large\textbf{G}
+\item Gantt chart , 16
+\item Goal of testing, 
+\vspace{.2in}
+
+\large\textbf{H}
+\item Hardware Requirements , 8
+
+\vspace{.2in}
+\large\textbf{I}
+\item Introduction , 1
+\item Integration Testing
+
+\vspace{.2in}
+\large\textbf{J}
+\item Java
+\item  JSP
+\vspace{.2in}
+\large\textbf{M}
+\item Modules , 4
+
+\vspace{.2in}
+\large\textbf{N}
+\item Non Functional Requirements , 5
+
+\vspace{.2in}
+\large\textbf{O}
+\item Operational Feasibility,8 
+\item Output Testing
+
+\vspace{.2in}
+\large\textbf{P}
+\item Python
+
+\vspace{.2in}
+\large\textbf{R}
+\item References
+
+\vspace{.2in}
+\large\textbf{S}
+\item Screen shots
+\item Sequence Diagram
+\item Software Requirements,12
+\item System testing,67 
+
+\vspace{.2in}
+\large\textbf{T}
+\item Technical Feasibility,8
+\item Test reports
+
+\vspace{.2in}
+\large\textbf{U}
+\item UML diagrams, 23 ,16
+\item Use case diagram
+\item  Unit Testing
+
+\vspace{.2in}
+\large\textbf{V}
+\item Validation Testing
+
+%\hspace{.6in}\large W
+
+%\small
+
+%\item wireless sensor, 1
+
+%\item working period, 4\\
+
+
+\end{theindex}
+
+\end{document}
+
+%\end{document}
