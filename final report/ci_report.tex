@@ -247,48 +247,72 @@ final solution and set up the CI infrastructures,educate the developers on CI cu
 implemented and tested. This product also helps in reducing the time needed to develop a software and also acts a guideline for future software developments
 \\
 
-\chapter{SYSTEM ANALYSIS}
-\hspace{0.2in} 
-\section{EXISTING SYSTEMS}
-	\par In the current scenario when an accident occurs and the passengers are seriously injured there is no accurate system to help accident victims. Usually anyone who sees the accidents may inform police or ambulance for rescue operations. But it may not be convenient, as always there may not be an eye witness. In such situations the condition of the victims may become worse and sometimes leads to death.
-	\par Rescue operations in the golden hours is very important to safe lives. But usually this may not happen. Especially during night times the accidents become unnoticed. These situations leads to loss of life due to late rescue operations. Currently there is no automated system to inform the rescue force like police, fire force, ambulance etc.
+\chapter{OVERALL DESCRIPTION}
+\section{Product Perspective}
+\par
+Continuous Integration is based on continuous performance of acts of integration of
+source code, testing, building and deployment in response to each change to the source code of
+the project submitted by the developer and for the use of tools for support of the development
+and testing by compliance with the established procedure automatically. The proposed system
+directs the user (developers) for time and cost effective production and solves majority of the
+Integration hell problem. \par
+Integration Hell refers to the point in production when members on a delivery team integrate
+their individual code. In traditional software development environments, this integration
+process is rarely smooth and seamless, instead resulting in hours or perhaps days of fixing the
+code so that it can finally integrate. Continuous Integration (CI) aims to avoid this completely
+by enabling and encouraging team members to integrate frequently (e.g., hourly, or at least
+daily).
+%\subsection{Current system}
+%\par
 
+\subsection{Proposed System}
+\par 
+The Proposed system is to help software developers to ensure new features are made
+available as soon as the program has been implemented and tested. This product also helps in
+reducing the time needed to develop a software and also acts a guideline for future software
+developments.
+\section{Solution Function}
 
-\section{PROPOSED SYSTEM}
+\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately.[9] Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
 
-\par The proposed system is intended to automate the current scenario. The automobiles are connected to a sensing module, which consist of a crack sensor, raspberry pi and arduino. The driver need to install an android application SAVE ME.
-\par Whenever the driver gets into the vehicle, the driver presses \textbf{CONNECT} button. This establishes a connection between the driver's android device and the sensing module.
-\par When an accident occurs the sensing module senses the accident and pass it to the driver's android phone,gets the location from the phone and pass an accident information to the server. The server sends the accident alert to nearest control station and to an emergency number, provided by the user at the time of registration.
-\par So the rescue operations become very fast and may save life in golden hour itself. Even if the passengers are seriously injured and there is no eye witness, the accident information is passed to the rescue force and accident victims are saved.
-
-\section{FEASIBILITY STUDY}
-\par The main objective of this study is to determine whether the proposed system is feasible
-or not. Mainly there are three types of feasibility study to which the proposed system is subjected
-as described below:
-\par Four key considerations are involved in this feasibility.
 \begin{itemize}
-\item Economic Feasibility
-\item Technical Feasibility
-\item Operational Feasibility
-\item Social Feasibility
+\item \textbf{Version Control}
+
+\par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised.[9] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
+\item \textbf{Artifact Manager}
+\par 
+While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
+\item \textbf{Continuous Integration Handler}
+\par While there are many tools, I will focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
+\begin{itemize}
+\item It integrates with popular build tools (ant, maven, make) so that it can run the appropriate build scripts to compile, test and package within an environment that closely matches what will be the production environment
+\item It integrates with version control tools, including Subversion, so that different projects can be set up depending on projection location within the trunk.
+\item It can be configured to trigger builds automatically by time and/or changeset. (i.e., if a new changeset is detected in the Subversion repository for the project, a new build is triggered.)
+\item It reports on build status. If the build is broken, it can be configured to alert individuals by email.
 \end{itemize}
-\subsection{Technical Feasibility}
-\par The technology required for developing the system is identified. It has technical capability
-to initialize the system and perform data transfer. It also provides technical guarantee of assurance,
-reliability, easy access and security. Thus, since both hardware and software requirements
-are satisfied it is technically feasible.
-\subsection {Economic Feasibility}
-\par The system is developed at reasonable cost with the available hardware, software and
-manpower. It reduces cost, so it is economically feasible.
-\subsection{Operational Feasibility}
-\par The proposed project is beneficial because this application is the first of its class, so
-the users are encouraged to use it, and is expected to serve the user's needs on request. The
-user interface is designed in such a way that the users are not bound to have any doubts to use
-the interface.
-\subsection {Social Feasibility}
-\par The proposed project will be socially feasible as the contents being shared is only inside a
-friend's circle. Such that it would not be used for any offensive purposes. The social feasibility
-determines whether the project would be accepted by the people.
+
+
+Jenkins is an automation engine with an unparalleled plugin ecosystem to support all of your favorite tools in your delivery pipelines, whether your goal is continuous integration, automated testing, or continuous delivery. 
+ \item  \textbf{Test Automator}
+\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
+
+\begin{itemize}
+\item Graphical user interface testing. A testing framework that generates user interface events such as keystrokes and mouse clicks, and observes the changes that result in the user interface, to validate that the observable behavior of the program is correct.
+\item API driven testing. A testing framework that uses a programming interface to the application to validate the behaviour under test. Typically API driven testing bypasses application user interface altogether. It can also be testing public (usually) interfaces to classes, modules or libraries are tested with a variety of input arguments to validate that the results that are returned are correct.
+\end{itemize}
+
+
+\item \textbf{Continouos Deployment}
+\par Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. Continuous deployment should be the goal of most companies that are not constrained by regulatory or other requirements.
+
+\end{itemize}
+
+ 
+\section{Operating Environment}
+The system is expected to be operated in Linux as well as in windows with the support of
+respective JRE (Java Runtime Environment). This system based project is completely platform
+independent. The most important requirement is the internet connection. This tool is coded
+using JDK 1.6.
 \section{GANTT CHART} 
 \par Gantt chart is a graphical representation of allocation of resources to the activities. Here
 our resource is time. A Gantt chart is a type of bar chart that illustrates a project schedule.
@@ -312,13 +336,15 @@ in large projects. A related criticism is that all activities of a Gantt chart s
 workload as constant. In practice, many activities (especially summary elements) have front loaded
 or back-loaded work plans, so a Gantt chart with percent-complete shading actually may
 lead to mis-communications on the true schedule performance status.
+\newpage
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.6]{gantt.png}
+\includegraphics[scale=1]{gnt.png}
 \caption{Gantt chart}
 \label{Gantt chart}
 \end{center}
 \end{figure}
+\newpage
 
 \section{COST ESTIMATION}
 \par Basic COCOMO computes software development effort (and cost) as a function of program
@@ -344,31 +370,25 @@ operational ...)
 \label{COCOMO Model Coefficients}
 \end{center}
 \end{figure}
-\section{SYSTEM REQUIREMENT STUDY}
-\subsection{Hardware Requirements}
-\begin{itemize}
-\item RAM : 2 GB
-\item Disc space : 750 MB
-\item Processor : Intel Pentium III or above
-\item Raspberry pi P2
-\item Arduino module
-\item Collision Sensor
-\end{itemize}
+\par
+\section{EXTERNAL INTERFACE REQUIREMENTS}
+This system based software can be used in any operating system such as Microsoft Windows, Linux or any kind of user application interface, since it is platform independent.
 
-\subsection{Software Specification}
+\subsection{User Interface}
+Interface hardware shall be encapsulated in a set of classes that isolate hardware specifications from the rest of the software. In particular, interfaces for specific hardware boards shall be implemented as derived classes of an abstract class.
+\\
+
+\subsection{Network Requirements}  
 \begin{itemize}
-\item OS : WINDOWS 10
-\item Platform : Android Studio, Net Beans
-\item Languages : Android, python, Jsp
-\item Front end : Android, Jsp
-\item Back end : SQLyog
+\item Systems need minimum speed internet connection.
 \end{itemize}
-\subsection{Communication specifications}
+\subsection{Software Requirements}
 \begin{itemize}
-\item Link Layer : 802.11-wifi-mobile communication
-\item Network Layer : IPV4
-\item Transport  Layer : TCP
-\item Application  Layer : HTTP
+\item Git
+\item Jenkins
+\item Checkstyle
+\item Findbugs
+\item Mingle
 \end{itemize}
 \chapter{SYSTEM DESIGN}
 \section{MODULES}
