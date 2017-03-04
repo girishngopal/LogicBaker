@@ -2,10 +2,10 @@
 \contentsline {section}{\numberline {1.1}PURPOSE}{1}
 \contentsline {section}{\numberline {1.2}PRODUCT SCOPE}{2}
 \contentsline {chapter}{\numberline {2}OVERALL DESCRIPTION}{3}
-\contentsline {section}{\numberline {2.1}Product Perspective}{3}
+\contentsline {section}{\numberline {2.1}PRODUCT PERSPECTIVE}{3}
 \contentsline {subsection}{\numberline {2.1.1}Proposed System}{3}
-\contentsline {section}{\numberline {2.2}Solution Function}{4}
-\contentsline {section}{\numberline {2.3}Operating Environment}{6}
+\contentsline {section}{\numberline {2.2}SOLUTION FUNCTION}{4}
+\contentsline {section}{\numberline {2.3}OPERATING ENVIRONMENT}{6}
 \contentsline {section}{\numberline {2.4}GANTT CHART}{7}
 \contentsline {section}{\numberline {2.5}COST ESTIMATION}{9}
 \contentsline {section}{\numberline {2.6}EXTERNAL INTERFACE REQUIREMENTS}{9}
