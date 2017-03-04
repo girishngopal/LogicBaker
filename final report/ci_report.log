@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  3 MAR 2017 21:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  4 MAR 2017 10:37
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -495,12 +495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--187
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 193--204
-
- []
-
-[1]
+[4] [1]
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.toc"
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -530,24 +525,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
-
- []
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--249
 
  []
 
@@ -558,7 +536,7 @@ Chapter 2.
 [3
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 264.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 270.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -566,10 +544,10 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <gantt.png, id=48, 758.08218pt x 232.61906pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 311.
+Package pdftex.def Info: gantt.png used on input line 317.
 (pdftex.def)             Requested size: 454.85281pt x 139.57251pt.
 
-Overfull \hbox (1.88493pt too wide) in paragraph at lines 311--312
+Overfull \hbox (1.88493pt too wide) in paragraph at lines 317--318
  [] 
  []
 
@@ -608,7 +586,7 @@ Missing character: There is no ù in font ptmr7t!
  <cocomo.PNG, id=57, 367.3725pt x 127.22531pt>
 File: cocomo.PNG Graphic file (type png)
  <use cocomo.PNG>
-Package pdftex.def Info: cocomo.PNG used on input line 336.
+Package pdftex.def Info: cocomo.PNG used on input line 342.
 (pdftex.def)             Requested size: 220.42519pt x 76.33577pt.
  [7 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/cocomo.PNG>
 ] [8]
@@ -628,7 +606,7 @@ Missing character: There is no Ç in font ptmr7t!
  <dfd.png, id=68, 232.61906pt x 247.67531pt>
 File: dfd.png Graphic file (type png)
  <use dfd.png>
-Package pdftex.def Info: dfd.png used on input line 398.
+Package pdftex.def Info: dfd.png used on input line 404.
 (pdftex.def)             Requested size: 232.61848pt x 247.6747pt.
 
 
@@ -637,10 +615,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [10] <level0.png, id=73, 282.30469pt x 132.495pt>
 File: level0.png Graphic file (type png)
  <use level0.png>
-Package pdftex.def Info: level0.png used on input line 408.
+Package pdftex.def Info: level0.png used on input line 414.
 (pdftex.def)             Requested size: 225.84404pt x 105.99612pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--417
+Underfull \hbox (badness 10000) in paragraph at lines 421--423
 
  []
 
@@ -649,7 +627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--417
 <level1.png, id=79, 318.43968pt x 146.04562pt>
 File: level1.png Graphic file (type png)
  <use level1.png>
-Package pdftex.def Info: level1.png used on input line 422.
+Package pdftex.def Info: level1.png used on input line 428.
 (pdftex.def)             Requested size: 254.75209pt x 116.83664pt.
  [12 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/level1.png
 >]
@@ -660,10 +638,10 @@ Missing character: There is no Å in font ptmr7t!
 <usecs1.png, id=84, 461.47406pt x 253.69781pt>
 File: usecs1.png Graphic file (type png)
  <use usecs1.png>
-Package pdftex.def Info: usecs1.png used on input line 439.
+Package pdftex.def Info: usecs1.png used on input line 445.
 (pdftex.def)             Requested size: 461.47292pt x 253.69719pt.
 
-Overfull \hbox (8.50504pt too wide) in paragraph at lines 439--440
+Overfull \hbox (8.50504pt too wide) in paragraph at lines 445--446
  [] 
  []
 
@@ -671,15 +649,15 @@ Overfull \hbox (8.50504pt too wide) in paragraph at lines 439--440
 ] <seq.png, id=89, 1023.825pt x 526.96875pt>
 File: seq.png Graphic file (type png)
  <use seq.png>
-Package pdftex.def Info: seq.png used on input line 455.
+Package pdftex.def Info: seq.png used on input line 461.
 (pdftex.def)             Requested size: 1228.58386pt x 632.35933pt.
 
-Overfull \hbox (775.61598pt too wide) in paragraph at lines 455--456
+Overfull \hbox (775.61598pt too wide) in paragraph at lines 461--462
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 37.35245pt on input line 459.
+LaTeX Warning: Float too large for page by 37.35245pt on input line 465.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -704,27 +682,27 @@ Missing character: There is no Ç in font ptmr7t!
 File: activitymod.png Graphic file (type png)
 
 <use activitymod.png>
-Package pdftex.def Info: activitymod.png used on input line 473.
+Package pdftex.def Info: activitymod.png used on input line 479.
 (pdftex.def)             Requested size: 259.71968pt x 335.75356pt.
  [16] <hw.png, id=101, 133.24782pt x 233.37187pt>
 File: hw.png Graphic file (type png)
 
 <use hw.png>
-Package pdftex.def Info: hw.png used on input line 493.
+Package pdftex.def Info: hw.png used on input line 499.
 (pdftex.def)             Requested size: 133.24748pt x 233.37129pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 505--509
+Underfull \hbox (badness 10000) in paragraph at lines 511--515
 
  []
 
 <erdiagram.png, id=105, 377.15906pt x 324.46219pt>
 File: erdiagram.png Graphic file (type png)
  <use erdiagram.png>
-Package pdftex.def Info: erdiagram.png used on input line 512.
+Package pdftex.def Info: erdiagram.png used on input line 518.
 (pdftex.def)             Requested size: 339.44002pt x 292.01326pt.
 
 
@@ -742,22 +720,22 @@ Missing character: There is no Å in font ptmr7t!
 [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
 
  []
 
 [23] <vehicalReg.jpg, id=129, 1204.5pt x 677.53125pt>
 File: vehicalReg.jpg Graphic file (type jpg)
  <use vehicalReg.jpg>
-Package pdftex.def Info: vehicalReg.jpg used on input line 543.
+Package pdftex.def Info: vehicalReg.jpg used on input line 549.
 (pdftex.def)             Requested size: 481.79147pt x 271.00769pt.
 
-Overfull \hbox (28.8236pt too wide) in paragraph at lines 543--544
+Overfull \hbox (28.8236pt too wide) in paragraph at lines 549--550
  [] 
  []
 
@@ -765,10 +743,10 @@ Overfull \hbox (28.8236pt too wide) in paragraph at lines 543--544
 jpg>] <ipSeting.jpg, id=133, 1204.5pt x 677.53125pt>
 File: ipSeting.jpg Graphic file (type jpg)
  <use ipSeting.jpg>
-Package pdftex.def Info: ipSeting.jpg used on input line 552.
+Package pdftex.def Info: ipSeting.jpg used on input line 558.
 (pdftex.def)             Requested size: 481.79147pt x 271.00769pt.
 
-Overfull \hbox (28.8236pt too wide) in paragraph at lines 552--553
+Overfull \hbox (28.8236pt too wide) in paragraph at lines 558--559
  [] 
  []
 
@@ -776,10 +754,10 @@ Overfull \hbox (28.8236pt too wide) in paragraph at lines 552--553
 g>] <Notification.jpg, id=137, 1204.5pt x 677.53125pt>
 File: Notification.jpg Graphic file (type jpg)
  <use Notification.jpg>
-Package pdftex.def Info: Notification.jpg used on input line 565.
+Package pdftex.def Info: Notification.jpg used on input line 571.
 (pdftex.def)             Requested size: 481.79147pt x 271.00769pt.
 
-Overfull \hbox (28.8236pt too wide) in paragraph at lines 565--566
+Overfull \hbox (28.8236pt too wide) in paragraph at lines 571--572
  [] 
  []
 
@@ -787,27 +765,27 @@ Overfull \hbox (28.8236pt too wide) in paragraph at lines 565--566
 n.jpg>] <maps.jpg, id=141, 1204.5pt x 677.53125pt>
 File: maps.jpg Graphic file (type jpg)
  <use maps.jpg>
-Package pdftex.def Info: maps.jpg used on input line 575.
+Package pdftex.def Info: maps.jpg used on input line 581.
 (pdftex.def)             Requested size: 481.79147pt x 271.00769pt.
 
-Overfull \hbox (28.8236pt too wide) in paragraph at lines 575--576
+Overfull \hbox (28.8236pt too wide) in paragraph at lines 581--582
  [] 
  []
 
 [27 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/maps.jpg>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 589--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
@@ -818,29 +796,29 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--591
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
  []
 
 [28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--612
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
 [30] [31] [32]
-Overfull \hbox (3.03217pt too wide) in paragraph at lines 670--684
+Overfull \hbox (3.03217pt too wide) in paragraph at lines 676--690
  [][] 
  []
 
@@ -880,7 +858,7 @@ Here is how much of TeX's memory you used:
 iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on ci_report.pdf (49 pages, 1199079 bytes).
+Output written on ci_report.pdf (49 pages, 1198662 bytes).
 PDF statistics:
  204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
