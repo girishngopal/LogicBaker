@@ -16,6 +16,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{beamer}
+\setbeamertemplate{background}
+{\includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}}
 
 \mode<presentation> {
 
@@ -23,13 +25,13 @@
 % which change the colors and layouts of slides. Below this is a list
 % of all the themes, uncomment each in turn to see what they look like.
 
-%\usetheme{default}
+\usetheme{default}
 %\usetheme{AnnArbor}
 %\usetheme{Antibes}
 %\usetheme{Bergen}
 %\usetheme{Berkeley}
 %\usetheme{Berlin}
-\usetheme{Boadilla}
+%\usetheme{Boadilla}
 %usetheme{CambridgeUS}
 %\usetheme{Copenhagen}
 %\usetheme{Darmstadt}
@@ -55,7 +57,7 @@
 % for any slide theme. Uncomment each of these in turn to see how it
 % changes the colors of your current slide theme.
 
-%\usecolortheme{albatross}
+\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -213,7 +215,18 @@
 \end{itemize}
 \end{frame}  
 
-\begin{frame}{Continues Integration Server}
+\begin{frame}{Evolution of software delivery}
+	\begin{itemize}
+		\item Waterfall 
+		\item Agile
+		\item Continuous Delivery
+		\begin{itemize}
+			\item Another subset of agile which in which the team keeps its software ready for release at all times during development. It is different from “traditional” agile in that it does not involve stopping and making a special effort to create a releasable build.
+		\end{itemize}
+		\end{itemize}
+\end{frame}
+
+\begin{frame}{Continues Integration}
 
  \textbf {Automates the process of building,testing,reporting.}
 \begin{figure}
@@ -307,6 +320,15 @@ be buildable from a fresh checkout and not require additional dependencies.
 \end{itemize}
 \end{frame}
 
+
+\begin{frame}{Version Control}
+	\begin{itemize}
+		\item Here we use Git-Hub for version controlling.
+		\vspace{0.5 cm}
+		\item GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+	\end{itemize}
+\includegraphics[scale=0.2]{github.png}
+\end{frame}
 
 \section{modules}
 \begin{frame}{Modules}
@@ -506,6 +528,37 @@ independent. The most important requirement is the internet connection.
 \caption{Sequence Diagram}
 \end{center}
 \end{figure}
+\end{frame}
+
+\section{Implementation}
+
+\begin{frame}{Implementation}
+
+\begin{itemize}
+	\item For demonstration to the Tech 11 Software Team, We decided to implement a Calculator application (using Java, javaScript, NodeJs, Angular...)
+	\item We divide the work
+	\\
+	\begin{itemize}
+		\item Addition Module - Vishnu Bose
+		\item Subtraction Module - Nitin Suresh
+		\item Multiplication Module - Aswin G Sugu
+		 \item Division Module - Jeffin Jacob
+		 \item Operation Module - All
+	\end{itemize}
+\end{itemize}	
+\end{frame}
+
+
+
+\begin{frame}{Implementation}
+	\textbf{For Version Control}
+	\begin{itemize}
+		\item Created a Repository naming LogicBaker in Git-Hub and cloned to individual system.
+		\item Create each members given modules in local system in Java.
+		\item After Coding the individual modules the team members commit to Git-Hub.
+		\item Irrespective on the platform which each one has build.
+	
+	\end{itemize}	
 \end{frame}
 
 \section{CONCLUSION}
