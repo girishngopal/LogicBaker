@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.19)  20 OCT 2016 08:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.5)  5 MAR 2017 15:10
 entering extended mode
 **presentation_1.tex
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.tex"
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -692,21 +692,25 @@ Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
 medefault.sty"
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerthemeCam
-bridgeUS.sty"
-Package: beamerthemeCambridgeUS 2010/06/17  (rcs-revision d02a7cf4d8ae)
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerthemeBoa
+dilla.sty"
+Package: beamerthemeBoadilla 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
+merose.sty"
+Package: beamercolorthemerose 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\inner\beamerinnerthe
 merounded.sty"
 Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
+medolphin.sty"
+Package: beamercolorthemedolphin 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerouterthe
 meinfolines.sty"
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
-mebeaver.sty"
-Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\media9\media9.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3names.sty"
@@ -1025,7 +1029,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 92.
 
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.aux")
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
@@ -1104,8 +1108,8 @@ LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
 
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.out")
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.out")
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.out")
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.out")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 97.
@@ -1176,7 +1180,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 97.
 
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.nav")
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.nav")
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 101.
@@ -1184,9 +1188,19 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.toc") [2
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.toc")
+[2
 
-] [3
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 176.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 176.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
 
 ]
 
@@ -1199,7 +1213,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 
 ] [6
 
-] <hudson1.jpg, id=102, 132.495pt x 70.3428pt>
+] <hudson1.jpg, id=91, 132.495pt x 70.3428pt>
 File: hudson1.jpg Graphic file (type jpg)
  <use hudson1.jpg>
 Package pdftex.def Info: hudson1.jpg used on input line 224.
@@ -1207,23 +1221,14 @@ Package pdftex.def Info: hudson1.jpg used on input line 224.
 
 [7
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/hudson1.jpg>] [8
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/hudson1.jpg>]
+[8
 
 ] [9
 
 ] [10
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 298.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 298.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [11
+] [11
 
 ]
 Missing character: There is no â in font cmss10!
@@ -1233,8 +1238,7 @@ Missing character: There is no ™ in font cmss10!
 
 ] [13
 
-]
-[14
+] [14
 
 ] [15
 
@@ -1253,97 +1257,92 @@ Missing character: There is no ™ in font cmss10!
 ] [22
 
 ]
-<LogicBakerGantt.pdf, id=217, 845.04686pt x 1195.01572pt>
+<LogicBakerGantt.pdf, id=190, 845.04686pt x 1195.01572pt>
 File: LogicBakerGantt.pdf Graphic file (type pdf)
 
 <use LogicBakerGantt.pdf>
 Package pdftex.def Info: LogicBakerGantt.pdf used on input line 437.
 (pdftex.def)             Requested size: 236.61151pt x 334.60213pt.
 
-Overfull \vbox (158.1426pt too high) detected at line 437
+Overfull \vbox (139.54008pt too high) detected at line 437
  []
 
 [23
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/LogicBakerGantt.pdf>]
-<dfd1.png, id=253, 603.75563pt x 176.15813pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/LogicBakerGantt.pdf>]
+ <dfd1.png, id=225, 603.75563pt x 176.15813pt>
 File: dfd1.png Graphic file (type png)
  <use dfd1.png>
 Package pdftex.def Info: dfd1.png used on input line 450.
 (pdftex.def)             Requested size: 169.05042pt x 49.32393pt.
  [24
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/dfd1.png>]
-<dfd2.png, id=263, 656.4525pt x 204.765pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd1.png>]
+<dfd2.png, id=234, 656.4525pt x 204.765pt>
 File: dfd2.png Graphic file (type png)
  <use dfd2.png>
 Package pdftex.def Info: dfd2.png used on input line 463.
 (pdftex.def)             Requested size: 183.80544pt x 57.3338pt.
  [25
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/dfd2.png>] <dfd3.png, id=273, 939.51p
-t x 614.295pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd2.png>]
+<dfd3.png, id=243, 939.51pt x 614.295pt>
 File: dfd3.png Graphic file (type png)
-
-<use dfd3.png>
+ <use dfd3.png>
 Package pdftex.def Info: dfd3.png used on input line 476.
 (pdftex.def)             Requested size: 263.061pt x 172.00142pt.
+ [26
 
-Overfull \vbox (14.14189pt too high) detected at line 476
- []
-
-[26
-
- <C:/Users/Vishnu/Desktop/MainProject ppt/dfd3.png>]
-<flow1.png, id=282, 1195.46625pt x 845.40843pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd3.png>]
+<flow1.png, id=251, 1195.46625pt x 845.40843pt>
 File: flow1.png Graphic file (type png)
  <use flow1.png>
 Package pdftex.def Info: flow1.png used on input line 487.
 (pdftex.def)             Requested size: 334.72827pt x 236.71274pt.
 
-Overfull \vbox (60.2532pt too high) detected at line 487
+Overfull \vbox (41.6507pt too high) detected at line 487
  []
 
 [27
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/flow1.png>]
-<pipeline.png, id=291, 1195.46625pt x 845.40843pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/flow1.png>]
+<pipeline.png, id=259, 1195.46625pt x 845.40843pt>
 File: pipeline.png Graphic file (type png)
  <use pipeline.png>
 Package pdftex.def Info: pipeline.png used on input line 498.
 (pdftex.def)             Requested size: 334.72827pt x 236.71274pt.
 
-Overfull \vbox (60.2532pt too high) detected at line 498
+Overfull \vbox (41.6507pt too high) detected at line 498
  []
 
 [28
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/pipeline.png>]
-<sequence.png, id=300, 352.31625pt x 252.34274pt>
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/pipeline.png>]
+<sequence.png, id=267, 352.31625pt x 252.34274pt>
 File: sequence.png Graphic file (type png)
  <use sequence.png>
 Package pdftex.def Info: sequence.png used on input line 509.
 (pdftex.def)             Requested size: 176.15768pt x 126.17105pt.
  [29
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/sequence.png>] [30
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/sequence.png>] [30
 
 ]
-<thankyou.png, id=315, 284.5029pt x 149.5989pt>
+<thankyou.png, id=280, 284.5029pt x 149.5989pt>
 File: thankyou.png Graphic file (type png)
  <use thankyou.png>
 Package pdftex.def Info: thankyou.png used on input line 539.
 (pdftex.def)             Requested size: 199.15067pt x 104.7185pt.
  [31
 
- <C:/Users/Vishnu/Desktop/MainProject ppt/thankyou.png>]
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/thankyou.png>]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
 
-("C:\Users\Vishnu\Desktop\MainProject ppt\presentation_1.aux")
+("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
@@ -1359,23 +1358,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
  ) 
 Here is how much of TeX's memory you used:
- 23172 strings out of 493921
- 449737 string characters out of 3147279
- 495465 words of memory out of 3000000
- 25901 multiletter control sequences out of 15000+200000
- 11876 words of font info for 43 fonts, out of 3000000 for 9000
+ 23165 strings out of 493921
+ 449701 string characters out of 3147292
+ 494677 words of memory out of 3000000
+ 25889 multiletter control sequences out of 15000+200000
+ 12872 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,17n,60p,404b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,60p,404b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssi9.pfb>
-Output written on presentation_1.pdf (31 pages, 814026 bytes).
+ic/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/symbols/msam7.pfb>
+Output written on presentation_1.pdf (31 pages, 809002 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
+ 331 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
