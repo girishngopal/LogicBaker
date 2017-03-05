@@ -491,6 +491,9 @@ The level 2 DFD gives a much more advanced idea about the execution. Each of the
 \pagebreak
 
 \section{Flow Diagram}
+Flow diagram is a collective term for a diagram representing a flow or set of dynamic relationships in a system. The term flow diagram is also used as a synonym for flowchart, and sometimes as a counterpart of the flowchart.
+
+Flow diagrams are used to structure and order a complex system, or to reveal the underlying structure of the elements and their interaction.
 \begin{figure}[h]
 \begin{center}
 
@@ -527,39 +530,71 @@ to carry out the functionality of the scenario.
 \end{center}
 
 \end{figure}
-
-
+\par
+The input to the pipeline is a particular revision in version control. Every change creates a build that will, rather like some mythical hero, pass through a sequence of tests of, and challenges to, its viability as a production release. This process of a sequence of test stages, each evaluating the build from a different perspective, is begun with every commit to the version control system, in the same way as the initiation of a continuous integration process.
+\par
+As the build passes each test of its fitness, confidence in it increases. Therefore, the resources that we are willing to expend on it increase, which means that the environments the build passes through become progressively more production-like. The objective is to eliminate unfit release candidates as early in the process as we can and get feedback on the root cause of failure to the team as rapidly as possible. To this end, any build that fails a stage in the process will not generally be promoted to the next.
 \chapter{IMPLEMENTATION}
-Implementation is the stage in the project where the theoretical design is turned into a working system and is giving confidence about the new system to users that it will work effectively. It involves careful planning, investigation of the current system and it constraints on implementation, design of achieve the changeover, an evolution of change over method. The product is developed in Java environment in android platform. The software used for the development are Android Studio and SQLyog for the database. The hardware platform is Raspberry pi, collision sensor and arduino. This chapter may explain our implementation details.
+Implementation is the stage in the project where the theoretical design is turned into a working system and is giving confidence about the new system to users that it will work effectively. It involves careful planning, investigation of the current system and it constraints on implementation, design of achieve the changeover, an evolution of change over method.
 
 \section{LANGUAGES AND PLATFORM USED}
-\par The product is developed in Java environment and we are using SQLyog for database. SQLyog Server automatically tunes many of the server configuration options, therefore requiring little, if any, tuning by a system administrator. Although these configuration options can be modified by the system administrator, it is generally recommended that these options be left at their default values, allowing SQLyog Server to automatically tune itself based on run-time conditions.
+\par Continuous integration (CI) is an integral part of an agile software development setup. Sprint after sprint, teams strive to "not break the build" while delivering incremental features. But when developers focus completely on adding features, code errors can sometimes creep in and render the software unusable. To stop such errors from being integrated into the software configuration management (SCM), a CI server is the gatekeeper that helps keep a tab on code quality. Even if the code is integrated to SCM, a CI server can quickly tell you what went wrong
+\par
+	The platforms and softwares that are used in the continuous integration pipeline implementation is mentioned below 
+\subsection{Amazon Web Services (AWS)}
+\par Amazon Web Services (AWS), a subsidiary of Amazon.com, offers a suite of cloud-computing services that make up an on-demand computing platform. These services operate from 16 geographical regions across the world. They include Amazon Elastic Compute Cloud, also known as "EC2", and Amazon Simple Storage Service, also known as "S3". As of 2016 AWS has more than 70 services, spanning a wide range, including compute, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools and tools for the Internet of things. Amazon markets AWS as a service to provide large computing capacity quicker and cheaper than a client company building an actual physical server farm.\\
+\subsection{Jenkins}
+\par Jenkins helps to automate the non-human part of the whole software development process, with now common things like continuous integration, but by further empowering teams to implement the technical part of a Continuous Delivery. It is a server-based system running in a servlet container such as Apache Tomcat. It supports SCM tools including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, Clearcase and RTC, and can execute Apache Ant, Apache Maven and sbt based projects as well as arbitrary shell scripts and Windows batch commands. The creator of Jenkins is Kohsuke Kawaguchi. Released under the MIT License, Jenkins is free software.
+\par
+Builds can be triggered by various means, for example by commit in a version control system, by scheduling via a cron-like mechanism and by requesting a specific build URL. It can also be triggered after the other builds in the queue have completed.
+\par
 
-\subsection{Python}
-\par Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java. The language provides constructs intended to enable writing clear programs on both a small and large scale. Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library. Python interpreters are available for many operating systems, allowing Python code to run on a wide variety of systems. Python is managed by the non-proﬁt Python Software Foundation.
-\subsection{Android}
-Android Studio is the official integrated development environment (IDE) for Android platform development. Android is a mobile operating system based on the Linux kernel and currently developed by Google. With a user interface based on direct manipulation. Android is designed primarily for touch screen mobile devices.\\
-\subsection{Jsp}
-\par Java Server Pages (JSP) is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based applications. A Java Server Pages component is a type of Java servlet that is designed to fulfill the role of a user interface.
-JSP is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. Released in 1999 by Sun-Microsystems, JSP is similar to PHP and ASP, but it uses the Java programming language. JSP tags can be used for a variety of purposes, such as retrieving information from a database or registering user preferences, accessing Java Beans components, passing control between pages and sharing information between requests.\\
+Jenkins functionality can be extended with plugins.\\
+\subsection{Apache Maven}
+Maven is a build automation tool used primarily for Java projects. The word maven means "accumulator of knowledge" in Yiddish.
+\par
+Maven addresses two aspects of building software: first, it describes how software is built, and second, it describes its dependencies. Contrary to preceding tools like Apache Ant, it uses conventions for the build procedure, and only exceptions need to be written down. An XML file describes the software project being built, its dependencies on other external modules and components, the build order, directories, and required plug-ins. It comes with pre-defined targets for performing certain well-defined tasks such as compilation of code and its packaging.
+\par
+Maven dynamically downloads Java libraries and Maven plug-ins from one or more repositories such as the Maven 2 Central Repository, and stores them in a local cache.This local cache of downloaded artifacts can also be updated with artifacts created by local projects. Public repositories can also be updated.
+\par
+Maven can also be used to build and manage projects written in C\#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where it was formerly part of the Jakarta Project.
+\subsection{FindBugs}
+\par
+FindBugs is an open source static code analyser created by Bill Pugh and David Hovemeyer which detects possible bugs in Java programs. Potential errors are classified in four ranks: (i) scariest, (ii) scary,   (iii) troubling and (iv) of concern. This is a hint to the developer about their possible impact or severity.FindBugs operates on Java bytecode, rather than source code. The software is distributed as a stand-alone GUI application
+\subsection{Jacoco}
+\par
+Jacoco is a free code coverage library for Java. 
+I use it because it is very simple to add to all types of build including ANT and Maven, and it is also very simple to add to Java containers or a standalone JVM.
+\subsection{Apache Tomcat}
+\par
+Apache Tomcat, often referred to as Tomcat Server, is an open-source Java Servlet Container developed by the Apache Software Foundation (ASF). Tomcat implements several Java EE specifications including Java Servlet, JavaServer Pages (JSP), Java EL, and WebSocket, and provides a "pure Java" HTTP web server environment in which Java code can run.
+
+Tomcat is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation, released under the Apache License 2.0 license, and is open-source software.
+\subsection{Heroku}
+\par
+Heroku is a cloud Platform-as-a-Service (PaaS) supporting several programming languages that is used as a web application deployment model. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go. For this reason, Heroku is said to be a polyglot platform as it lets the developer build, run and scale applications in a similar manner across all the languages. Heroku was acquired by Salesforce.com in 2010.
+\subsection{New Relic APM}
+\par
+Lew Cirne founded New Relic in 2008 with a revolutionary vision: To deliver application performance monitoring (APM) as a purely SaaS product. By embracing the power and accessibility of the cloud, New Relic grew rapidly and quickly became an integral tool for developers, IT ops teams, and executives around the world.
+\pagebreak
 \section{SCREEN SHOTS}
-\subsection{Android Application}
+\subsection{GitHub}
 \begin{itemize}
-\item \par When a user installs SAVE ME in their mobile phone, a screen for app registration may appear of the following form. 
+\item \par A developer can change the program files locally and commit the changes to the remote GitHub repository using this GitHub desktop application. The changes will be automatically send to the CI server.
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4]{vehicalReg.jpg}
-\caption{user registration in android application}
-\label{user registration in android application}
+\includegraphics[scale=.4]{git.png}
+\caption{GitHub GUI in windows}
+\label{GitHub GUI in windows}
 \end{center}
 \end{figure}
-\newpage
-\item \par Any user using the app has to press the connect button in order to establish connection with the server. A screen of the following format may appear.
+
+\item \par In the given figures calculator app is pushed into the GitHub
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4]{ipSeting.jpg}
-\caption{Connecting to Server}
-\label{Connecting to Server}
+\includegraphics[scale=.4]{remote.png}
+\caption{GitHub remote repository }
+\label{GitHub remote repository}
 \end{center}
 \end{figure}
 \end{itemize}
