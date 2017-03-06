@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {4.1.8}New Relic APM}{24}
 \contentsline {section}{\numberline {4.2}SCREEN SHOTS}{25}
 \contentsline {subsection}{\numberline {4.2.1}GitHub}{25}
-\contentsline {subsection}{\numberline {4.2.2}Web page}{26}
+\contentsline {subsection}{\numberline {4.2.2}Jenkins}{27}
 \contentsline {chapter}{\numberline {5}TESTING}{29}
 \contentsline {section}{\numberline {5.1}CODE TESTING}{30}
 \contentsline {section}{\numberline {5.2}UNIT TESTING}{30}

@@ -583,36 +583,35 @@ Lew Cirne founded New Relic in 2008 with a revolutionary vision: To deliver appl
 \item \par A developer can change the program files locally and commit the changes to the remote GitHub repository using this GitHub desktop application. The changes will be automatically send to the CI server.
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4]{git.png}
+\includegraphics[scale=.47]{git.png}
 \caption{GitHub GUI in windows}
 \label{GitHub GUI in windows}
 \end{center}
 \end{figure}
-
-\item \par In the given figures calculator app is pushed into the GitHub
+\pagebreak
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4]{remote.png}
+\includegraphics[scale=.47]{remote.png}
 \caption{GitHub remote repository }
 \label{GitHub remote repository}
 \end{center}
 \end{figure}
 \end{itemize}
-\newpage 
-\subsection{Web page}
+\pagebreak
+\newpage
+\subsection{Jenkins}
 \begin{itemize}
 
-\item \par Whenever an accident occurs the server sends an accident notification to the near-by control station of the accident location.
+\item \par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie,Jenkins.It is then builded and ready to deploy
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=.4]{Notification.jpg}
-\caption{Accident notification in web page}
-\label{Accident notification in web page}
+\includegraphics[scale=.47]{jnks.png}
+\caption{Jenkins dashboard building calculator app}
+\label{Jenkins dashboard building calculator app}
 \end{center}
 \end{figure}
 \newpage
-\item \par A map will appear with the indication of the accident area in the web page as in the following way for locating the exact location.
-
+\item \par We can configure the deployment with FindBugs or Jacoco as per the requirement
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.4]{maps.jpg}
