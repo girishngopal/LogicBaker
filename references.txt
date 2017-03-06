@@ -1,3 +1,5 @@
 diffrence from traditional
 
 http://kief.com/the-conflict-between-continuous-delivery-and-traditional-agile.html     
+
+https://automic.com/blog/why-you-need-an-artifact-repository-for-continuous-delivery

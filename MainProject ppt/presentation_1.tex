@@ -24,7 +24,7 @@
 % The Beamer class comes with a number of default slide themes
 % which change the colors and layouts of slides. Below this is a list
 % of all the themes, uncomment each in turn to see what they look like.
-
+\usepackage{hyperref}
 \usetheme{default}
 %\usetheme{AnnArbor}
 %\usetheme{Antibes}
@@ -355,9 +355,13 @@ be buildable from a fresh checkout and not require additional dependencies.
 
 \begin{frame}{Artifact Manager}
 \begin{itemize}
-\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versioning code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
-\vspace{0.5 cm}
-\item Jenkins stores the artifacts as plain files without versioning while artifacts in an artifact repository can be version controlled.
+%\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versioning code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
+%\vspace{0.5 cm}
+%\item Jenkins stores the artifacts as plain files without versioning while artifacts in an artifact repository can be version controlled.
+
+	\item Artifact repositories are great at managing multilevel dependencies, much better then the old text file with a list that developers update and maintain. 
+	\vspace{0.5 cm}
+\item Critical for reducing errors and ensuring the right pieces make it with each build/deployment/release, especially in large-scale business applications.
 \vspace{0.5 cm}
 \item video
 \end{itemize}
@@ -370,7 +374,7 @@ be buildable from a fresh checkout and not require additional dependencies.
 \item Artifact Manager
 \item Continuous Integration Handler
 \item Test Automator
-\item Test Automator
+
 \end{itemize}
 
 \end{frame}
@@ -543,7 +547,7 @@ independent. The most important requirement is the internet connection.
 		\item Subtraction Module - Nitin Suresh
 		\item Multiplication Module - Aswin G Sugu
 		 \item Division Module - Jeffin Jacob
-		 \item Operation Module - All
+		 \item View - All
 	\end{itemize}
 \end{itemize}	
 \end{frame}
@@ -557,9 +561,57 @@ independent. The most important requirement is the internet connection.
 		\item Create each members given modules in local system in Java.
 		\item After Coding the individual modules the team members commit to Git-Hub.
 		\item Irrespective on the platform which each one has build.
+		
+		 
 	
 	\end{itemize}	
 \end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versifying code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
+				
+		
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcomes by 
+	    Mavenising the Individual modules.
+		
+		
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcomes by 
+		\underline{Maven}ising the Individual modules.
+		
+		
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcomes by 
+		\underline{Maven}ising the Individual modules.
+		
+	%	a Yiddish word meaning accumulator of knowledge,
+		\vspace{0.5 cm}
+		
+		
+		\item Maven was originally started as an attempt to simplify the build processes in the Jakarta Turbine project. There were several projects each with their own Ant build files that were all slightly different and JARs were checked into CVS. We wanted a standard way to build the projects, a clear definition of what the project consisted of, an easy way to publish project information and a way to share JARs across several projects.
+		
+	\end{itemize}	
+\end{frame}
+
+
 
 \section{CONCLUSION}
 \begin{frame}{CONCLUSION}
