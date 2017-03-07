@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  7 MAR 2017 20:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  7 MAR 2017 20:40
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -622,12 +622,12 @@ File: cocomo.PNG Graphic file (type png)
  <use cocomo.PNG>
 Package pdftex.def Info: cocomo.PNG used on input line 369.
 (pdftex.def)             Requested size: 220.42519pt x 76.33577pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
+ [9 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/cocomo.PNG>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 380--382
 
  []
 
-[9 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/cocomo.PNG>]
 [10]
 Chapter 3.
 [11
@@ -645,7 +645,7 @@ Missing character: There is no ‚ in font ptmr7t!
  <dfd.png, id=81, 232.61906pt x 247.67531pt>
 File: dfd.png Graphic file (type png)
  <use dfd.png>
-Package pdftex.def Info: dfd.png used on input line 441.
+Package pdftex.def Info: dfd.png used on input line 442.
 (pdftex.def)             Requested size: 232.61848pt x 247.6747pt.
 
 
@@ -654,41 +654,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [14] <dfd1.png, id=85, 603.75563pt x 176.15813pt>
 File: dfd1.png Graphic file (type png)
  <use dfd1.png>
-Package pdftex.def Info: dfd1.png used on input line 457.
+Package pdftex.def Info: dfd1.png used on input line 458.
 (pdftex.def)             Requested size: 289.07999pt x 84.34526pt.
  [15 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd.png> <
 C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd1.png>]
 <dfd2.png, id=91, 656.4525pt x 204.765pt>
 File: dfd2.png Graphic file (type png)
  <use dfd2.png>
-Package pdftex.def Info: dfd2.png used on input line 468.
+Package pdftex.def Info: dfd2.png used on input line 469.
 (pdftex.def)             Requested size: 289.07999pt x 90.17184pt.
 
 <dfd3.png, id=92, 939.51pt x 614.295pt>
 File: dfd3.png Graphic file (type png)
  <use dfd3.png>
-Package pdftex.def Info: dfd3.png used on input line 487.
+Package pdftex.def Info: dfd3.png used on input line 488.
 (pdftex.def)             Requested size: 433.62pt x 283.51646pt.
  [16 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd2.png> 
 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd3.png>]
 <flow1.png, id=99, 1195.46625pt x 845.40843pt>
 File: flow1.png Graphic file (type png)
  <use flow1.png>
-Package pdftex.def Info: flow1.png used on input line 502.
+Package pdftex.def Info: flow1.png used on input line 503.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
  [17 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/flow1.png>
 ]
 <pipeline.png, id=104, 1195.46625pt x 845.40843pt>
 File: pipeline.png Graphic file (type png)
  <use pipeline.png>
-Package pdftex.def Info: pipeline.png used on input line 513.
+Package pdftex.def Info: pipeline.png used on input line 514.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
  [18 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/pipeline.p
 ng>]
 <sequence.png, id=109, 352.31625pt x 252.34274pt>
 File: sequence.png Graphic file (type png)
  <use sequence.png>
-Package pdftex.def Info: sequence.png used on input line 529.
+Package pdftex.def Info: sequence.png used on input line 530.
 (pdftex.def)             Requested size: 433.62pt x 310.5761pt.
  [19 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/sequence.p
 ng>]
@@ -697,32 +697,32 @@ Chapter 4.
 [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 [23] [24] [25] <git.png, id=133, 1028.34187pt x 548.0475pt>
 File: git.png Graphic file (type png)
  <use git.png>
-Package pdftex.def Info: git.png used on input line 603.
+Package pdftex.def Info: git.png used on input line 604.
 (pdftex.def)             Requested size: 483.32076pt x 257.58235pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 603--604
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 604--605
  [] 
  []
 
 <remote.png, id=134, 1014.03844pt x 521.69907pt>
 File: remote.png Graphic file (type png)
  <use remote.png>
-Package pdftex.def Info: remote.png used on input line 611.
+Package pdftex.def Info: remote.png used on input line 612.
 (pdftex.def)             Requested size: 476.59813pt x 245.1986pt.
 
-Overfull \hbox (23.63025pt too wide) in paragraph at lines 611--612
+Overfull \hbox (23.63025pt too wide) in paragraph at lines 612--613
  [] 
  []
 
@@ -731,10 +731,10 @@ Overfull \hbox (23.63025pt too wide) in paragraph at lines 611--612
 ] <aws.png, id=143, 1028.34187pt x 554.07pt>
 File: aws.png Graphic file (type png)
  <use aws.png>
-Package pdftex.def Info: aws.png used on input line 625.
+Package pdftex.def Info: aws.png used on input line 626.
 (pdftex.def)             Requested size: 483.32076pt x 260.41293pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 625--626
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 626--627
  [] 
  []
 
@@ -742,10 +742,10 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 625--626
 <jnks.png, id=148, 1026.83624pt x 526.21594pt>
 File: jnks.png Graphic file (type png)
  <use jnks.png>
-Package pdftex.def Info: jnks.png used on input line 639.
+Package pdftex.def Info: jnks.png used on input line 640.
 (pdftex.def)             Requested size: 482.6131pt x 247.32152pt.
 
-Overfull \hbox (29.64522pt too wide) in paragraph at lines 639--640
+Overfull \hbox (29.64522pt too wide) in paragraph at lines 640--641
  [] 
  []
 
@@ -753,10 +753,10 @@ Overfull \hbox (29.64522pt too wide) in paragraph at lines 639--640
 <app.png, id=153, 1027.58907pt x 526.96875pt>
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 650.
+Package pdftex.def Info: app.png used on input line 651.
 (pdftex.def)             Requested size: 482.96693pt x 247.67534pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 650--651
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 651--652
  [] 
  []
 
@@ -764,10 +764,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 650--651
 <hrk.png, id=158, 1027.58907pt x 527.72156pt>
 File: hrk.png Graphic file (type png)
  <use hrk.png>
-Package pdftex.def Info: hrk.png used on input line 662.
+Package pdftex.def Info: hrk.png used on input line 663.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 662--663
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 663--664
  [] 
  []
 
@@ -775,10 +775,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 662--663
 <app1.png, id=163, 1027.58907pt x 527.72156pt>
 File: app1.png Graphic file (type png)
  <use app1.png>
-Package pdftex.def Info: app1.png used on input line 674.
+Package pdftex.def Info: app1.png used on input line 675.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 674--675
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 675--676
  [] 
  []
 
@@ -786,10 +786,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 674--675
 <newrelic.png, id=168, 1028.34187pt x 555.57562pt>
 File: newrelic.png Graphic file (type png)
  <use newrelic.png>
-Package pdftex.def Info: newrelic.png used on input line 686.
+Package pdftex.def Info: newrelic.png used on input line 687.
 (pdftex.def)             Requested size: 483.32076pt x 261.12057pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 686--687
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 687--688
  [] 
  []
 
@@ -797,17 +797,17 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 686--687
 g>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
 
  []
 
@@ -818,29 +818,29 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 703--704
 
  []
 
 [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 722--723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--724
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
 
  []
 
 [36] [37]
-Overfull \hbox (79.69589pt too wide) in paragraph at lines 753--771
+Overfull \hbox (79.69589pt too wide) in paragraph at lines 754--772
  [][] 
  []
 
@@ -859,7 +859,7 @@ Chapter 7.
 [41
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 814.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 815.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -900,7 +900,7 @@ Here is how much of TeX's memory you used:
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ci_report.pdf (55 pages, 1137734 bytes).
+Output written on ci_report.pdf (55 pages, 1137740 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

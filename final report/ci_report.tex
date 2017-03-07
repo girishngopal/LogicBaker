@@ -178,7 +178,7 @@ For every endeavour in our life, the help of the Lord has always followed. We ha
 again experienced his loving kindness while preparing for this project.
 We would like to express our sincere thanks to the Principal, \textbf{Dr. Mini M. G}, for her
 valuable support and advice. We would also like to thank our Head Of Computer Science
-Department, \textbf{Dr.Preetha Teresa Joy} (Professor, Computer Science and Engineering Department) for her support. We express our heartfelt gratitude to
+Department, \textbf{Dr. Preetha Teresa Joy} (Professor, Computer Science and Engineering Department) for her support. We express our heartfelt gratitude to
 our project coordinator, \textbf{Mr. Muhammed Ilyas H} (Assistant Professor, Computer Science and Engineering Department) for his valuable help and support. We would also like to thank our project Guide,
 \textbf{Mrs. Greeshma N Gopal} (Assistant Professor, Department of Computer Science) for her support and
 guidance.
@@ -236,12 +236,12 @@ ow from development to deployment and
 then further to use.
 \section{PURPOSE}
 \par The objective of the project is to put in place a Continues Integration framework for product
-development activities of Tech11 Software.This would enable the Tech11 team to rapidly bring a
+development activities of Tech11 Software. This would enable the Tech11 team to rapidly bring a
 product change or feature to production gaining market advantage.
 \par
 This activities of this project will involve accessing different CI integration approaches and
-solutions available,identify the feasibility of those solution by doing POCs and demos,fine tune the
-final solution and set up the CI infrastructures,educate the developers on CI culture.
+solutions available, identify the feasibility of those solution by doing POCs and demos, fine tune the
+final solution and set up the CI infrastructures, educate the developers on CI culture.
 
 \section{PRODUCT SCOPE}
 \par  The scope of the system is to help software developers to ensure new features are made available as soon as the program has been
@@ -274,7 +274,7 @@ reducing the time needed to develop a software and also acts a guideline for fut
 developments.
 \section{SOLUTION FUNCTION}
 
-\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately.[9] Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
+\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately. Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
 
 \begin{itemize}
 \item \textbf{Version Control}
@@ -371,6 +371,7 @@ operational ...)
 \label{COCOMO Model Coefficients}
 \end{center}
 \end{figure}
+\pagebreak
 \par
 \section{EXTERNAL INTERFACE REQUIREMENTS}
 This system based software can be used in any operating system such as Microsoft Windows, Linux or any kind of user application interface, since it is platform independent.
@@ -395,7 +396,7 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
 \section{MODULES}
 \subsection{Version Control}
 
-\par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised.[9] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
+\par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised. Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
 \subsection{Artifact Manager}
 \par 
 While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
