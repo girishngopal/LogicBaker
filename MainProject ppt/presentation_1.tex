@@ -16,21 +16,23 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{beamer}
+\setbeamertemplate{background}
+{\includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}}
 
 \mode<presentation> {
 
 % The Beamer class comes with a number of default slide themes
 % which change the colors and layouts of slides. Below this is a list
 % of all the themes, uncomment each in turn to see what they look like.
-
-%\usetheme{default}
+\usepackage{hyperref}
+\usetheme{default}
 %\usetheme{AnnArbor}
 %\usetheme{Antibes}
 %\usetheme{Bergen}
 %\usetheme{Berkeley}
 %\usetheme{Berlin}
 %\usetheme{Boadilla}
-\usetheme{CambridgeUS}
+%usetheme{CambridgeUS}
 %\usetheme{Copenhagen}
 %\usetheme{Darmstadt}
 %\usetheme{Dresden}
@@ -55,7 +57,7 @@
 % for any slide theme. Uncomment each of these in turn to see how it
 % changes the colors of your current slide theme.
 
-%\usecolortheme{albatross}
+\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -213,7 +215,18 @@
 \end{itemize}
 \end{frame}  
 
-\begin{frame}{Continues Integration Server}
+\begin{frame}{Evolution of software delivery}
+	\begin{itemize}
+		\item Waterfall 
+		\item Agile
+		\item Continuous Delivery
+		\begin{itemize}
+			\item Another subset of agile which in which the team keeps its software ready for release at all times during development. It is different from “traditional” agile in that it does not involve stopping and making a special effort to create a releasable build.
+		\end{itemize}
+		\end{itemize}
+\end{frame}
+
+\begin{frame}{Continues Integration}
 
  \textbf {Automates the process of building,testing,reporting.}
 \begin{figure}
@@ -274,7 +287,7 @@
 \end{itemize}
 \end{frame} 
 
-\section{modules}
+\section{MODULES}
 \begin{frame}{Modules}
 \begin{itemize}
 \item Version Control
@@ -308,7 +321,14 @@ be buildable from a fresh checkout and not require additional dependencies.
 \end{frame}
 
 
-\section{modules}
+\begin{frame}{Version Control}
+	\begin{itemize}
+		\item Here we use Git-Hub for version controlling.
+		\vspace{0.5 cm}
+		\item GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.
+	\end{itemize}
+\includegraphics[scale=0.2]{github.png}
+\end{frame}
 \begin{frame}{Modules}
 \begin{itemize}
 \item Version Control
@@ -333,9 +353,13 @@ be buildable from a fresh checkout and not require additional dependencies.
 
 \begin{frame}{Artifact Manager}
 \begin{itemize}
-\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versioning code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
-\vspace{0.5 cm}
-\item Jenkins stores the artifacts as plain files without versioning while artifacts in an artifact repository can be version controlled.
+%\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versioning code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
+%\vspace{0.5 cm}
+%\item Jenkins stores the artifacts as plain files without versioning while artifacts in an artifact repository can be version controlled.
+
+	\item Artifact repositories are great at managing multilevel dependencies, much better then the old text file with a list that developers update and maintain. 
+	\vspace{0.5 cm}
+\item Critical for reducing errors and ensuring the right pieces make it with each build/deployment/release, especially in large-scale business applications.
 \vspace{0.5 cm}
 \item video
 \end{itemize}
@@ -348,7 +372,7 @@ be buildable from a fresh checkout and not require additional dependencies.
 \item Artifact Manager
 \item Continuous Integration Handler
 \item Test Automator
-\item Test Automator
+
 \end{itemize}
 
 \end{frame}
@@ -491,7 +515,7 @@ independent. The most important requirement is the internet connection.
 \begin{figure}[h]
 \begin{center}
 %\epsfig{width=6in, file=gant.jpg}
-\includegraphics[scale=0.28]{pipeline.png}
+\includegraphics[scale=0.25]{pipeline.png}
 \caption{CI Pipeline}
 \end{center}
 \end{figure}
@@ -507,6 +531,74 @@ independent. The most important requirement is the internet connection.
 \end{center}
 \end{figure}
 \end{frame}
+
+\section{IMPLEMENTATION}
+
+\begin{frame}{Implementation}
+
+\begin{itemize}
+	\item For demonstration to the Tech 11 Software Team, We decided to implement a Calculator application (using Java, javaScript, NodeJs, Angular...)
+	\item We divide the work
+	\\
+	\begin{itemize}
+		\item Addition Module - Vishnu Bose
+		\item Subtraction Module - Nitin Suresh
+		\item Multiplication Module - Aswin G Sugu
+		 \item Division Module - Jeffin Jacob
+		 \item View - All
+	\end{itemize}
+\end{itemize}	
+\end{frame}
+
+
+
+\begin{frame}{Implementation}
+	\textbf{For Version Control}
+	\begin{itemize}
+		\item Created a Repository named LogicBaker in Git-Hub and cloned to individual systems.
+		\item Create module given to each members in java
+		\item After Coding the individual modules the team members commit to Git-Hub, irrespective on the platform which each one has build.
+		
+		 
+	
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item An artifact repository is akin to what Subversion is to source code, i.e. it is a way of versifying code binary artifacts. In the Java world these artifacts could be jars, wars, ears, fully fledged applications, libraries or a collections of libraries that are packaged.
+				
+		
+	\end{itemize}	
+\end{frame}
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcomed by 
+	    Mavenising the Individual modules.
+		
+		
+	\end{itemize}	
+\end{frame}
+
+
+
+\begin{frame}{Implementation}
+	\textbf{Artifact Repository}
+	\begin{itemize}
+		
+	%	a Yiddish word meaning accumulator of knowledge,
+		
+		
+		
+		\item Maven was originally started as an attempt to simplify the build processes in the Jakarta Turbine project. There were several projects each with their own Ant build files that were all slightly different and JARs were checked into CVS. We wanted a standard way to build the projects, a clear definition of what the project consisted of, an easy way to publish project information and a way to share JARs across several projects.
+		
+	\end{itemize}	
+\end{frame}
+
+
 
 \section{CONCLUSION}
 \begin{frame}{CONCLUSION}
@@ -530,13 +622,7 @@ independent. The most important requirement is the internet connection.
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[scale=0.7]{thankyou.png}
-\end{center}
-\end{figure}
-\end{frame}
+
 
 
 
