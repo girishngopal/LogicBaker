@@ -1,9 +1,6 @@
 package com.mycompany.com.logicbaker.mathutil.multiply;
 
-/**
- * Hello world!
- *
- */
+//mavenized
 public class Mul 
 {
     public static int mul(int number1,int number2){
