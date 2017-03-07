@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  6 MAR 2017 07:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  7 MAR 2017 10:49
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -417,6 +417,9 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 )
 No file ci_report.nls.
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.aux"
+
+LaTeX Warning: Label `Calculator app in Heroku' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
@@ -700,41 +703,86 @@ Overfull \hbox (23.63025pt too wide) in paragraph at lines 594--595
 
 [25 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/git.png>]
 [26 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/remote.png>
-] <jnks.png, id=140, 1026.83624pt x 526.21594pt>
+] <aws.png, id=140, 1028.34187pt x 554.07pt>
+File: aws.png Graphic file (type png)
+ <use aws.png>
+Package pdftex.def Info: aws.png used on input line 608.
+(pdftex.def)             Requested size: 483.32076pt x 260.41293pt.
+
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 608--609
+ [] 
+ []
+
+[27 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/aws.png>]
+<jnks.png, id=144, 1026.83624pt x 526.21594pt>
 File: jnks.png Graphic file (type png)
  <use jnks.png>
-Package pdftex.def Info: jnks.png used on input line 608.
+Package pdftex.def Info: jnks.png used on input line 622.
 (pdftex.def)             Requested size: 482.6131pt x 247.32152pt.
 
-Overfull \hbox (29.64522pt too wide) in paragraph at lines 608--609
+Overfull \hbox (29.64522pt too wide) in paragraph at lines 622--623
  [] 
  []
 
-[27 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/jnks.png>]
-<maps.jpg, id=145, 1204.5pt x 677.53125pt>
-File: maps.jpg Graphic file (type jpg)
- <use maps.jpg>
-Package pdftex.def Info: maps.jpg used on input line 617.
-(pdftex.def)             Requested size: 481.79147pt x 271.00769pt.
+[28 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/jnks.png>]
+<app.png, id=150, 1027.58907pt x 526.96875pt>
+File: app.png Graphic file (type png)
+ <use app.png>
+Package pdftex.def Info: app.png used on input line 633.
+(pdftex.def)             Requested size: 482.96693pt x 247.67534pt.
 
-Overfull \hbox (28.8236pt too wide) in paragraph at lines 617--618
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 633--634
  [] 
  []
 
-[28 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/maps.jpg>]
+[29 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/app.png>]
+<hrk.png, id=155, 1027.58907pt x 527.72156pt>
+File: hrk.png Graphic file (type png)
+ <use hrk.png>
+Package pdftex.def Info: hrk.png used on input line 645.
+(pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
+
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 645--646
+ [] 
+ []
+
+[30 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/hrk.png>]
+<app1.png, id=160, 1027.58907pt x 527.72156pt>
+File: app1.png Graphic file (type png)
+ <use app1.png>
+Package pdftex.def Info: app1.png used on input line 657.
+(pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
+
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 657--658
+ [] 
+ []
+
+[31 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/app1.png>]
+<newrelic.png, id=165, 1028.34187pt x 555.57562pt>
+File: newrelic.png Graphic file (type png)
+ <use newrelic.png>
+Package pdftex.def Info: newrelic.png used on input line 669.
+(pdftex.def)             Requested size: 483.32076pt x 261.12057pt.
+
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 669--670
+ [] 
+ []
+
+[32 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/newrelic.pn
+g>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
@@ -745,71 +793,75 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 
  []
 
-[29
+[33
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
-[31] [32] [33]
-Overfull \hbox (3.03217pt too wide) in paragraph at lines 712--726
+[35] [36] [37]
+Overfull \hbox (3.03217pt too wide) in paragraph at lines 765--779
  [][] 
  []
 
-[34] [35]
+[38] [39]
 Chapter 6.
-[36
+[40
 
 ]
 Chapter 7.
-[37
+[41
 
-] [38
+] [42
 
-] [39
+] [43
 
-] [40
+] [44
 
-] [41
+] [45
 
 ]
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.aux"
-) )
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 194 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6934 strings out of 493921
- 99498 string characters out of 3147262
- 174345 words of memory out of 3000000
- 10072 multiletter control sequences out of 15000+200000
+ 6960 strings out of 493921
+ 99889 string characters out of 3147262
+ 173417 words of memory out of 3000000
+ 10094 multiletter control sequences out of 15000+200000
  31845 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,14n,43p,1236b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,14n,43p,1236b,573s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on ci_report.pdf (50 pages, 1235091 bytes).
+Output written on ci_report.pdf (54 pages, 1121154 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
