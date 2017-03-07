@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.5)  6 MAR 2017 20:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.5)  6 MAR 2017 20:31
 entering extended mode
 **presentation_1.tex
 ("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.tex"
@@ -1165,11 +1165,11 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 99.
 
 ("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.nav")
-<background.jpg, id=37, 1445.4pt x 903.375pt>
+<background.jpg, id=37, 1027.84pt x 546.04pt>
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 103.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
@@ -1184,7 +1184,7 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 108.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [2
 
 ]
@@ -1202,7 +1202,7 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 178.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [3
 
 ]
@@ -1213,21 +1213,21 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 183.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [4
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 196.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [5
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 216.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [6
 
 ]
@@ -1241,7 +1241,7 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 227.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [7
 
 ] <hudson1.jpg, id=93, 132.495pt x 70.3428pt>
@@ -1258,21 +1258,21 @@ Overfull \hbox (23.94678pt too wide) in paragraph at lines 237--237
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 237.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [8
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/hudson1.jpg>]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 258.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [9
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 288.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [10
 
 ]
@@ -1280,14 +1280,14 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 300.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [11
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 311.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [12
 
 ]
@@ -1297,7 +1297,7 @@ Missing character: There is no ™ in font cmss10!
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 321.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 [13
 
@@ -1310,21 +1310,21 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 331.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [14
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/github.png>]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 343.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [15
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 354.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [16
 
 ]
@@ -1332,21 +1332,21 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 368.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [17
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 380.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [18
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 391.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 [19
 
@@ -1354,21 +1354,21 @@ Package pdftex.def Info: background.jpg used on input line 391.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 406.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [20
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 419.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [21
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 430.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 [22
 
@@ -1376,14 +1376,14 @@ Package pdftex.def Info: background.jpg used on input line 430.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 445.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [23
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 453.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [24
 
 ]
@@ -1400,7 +1400,7 @@ Overfull \vbox (130.87346pt too high) detected at line 463
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 463.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [25
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/LogicBakerGantt.pdf>]
@@ -1413,7 +1413,7 @@ Package pdftex.def Info: dfd1.png used on input line 476.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 476.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [26
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd1.png>] <dfd2.png,
@@ -1426,7 +1426,7 @@ Package pdftex.def Info: dfd2.png used on input line 489.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 489.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [27
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd2.png>] <dfd3.png,
@@ -1439,7 +1439,7 @@ Package pdftex.def Info: dfd3.png used on input line 502.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 502.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [28
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd3.png>] <flow1.png
@@ -1461,7 +1461,7 @@ Overfull \vbox (46.58408pt too high) detected at line 513
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 513.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [29
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/flow1.png>] <pipeline
@@ -1483,7 +1483,7 @@ Overfull \vbox (46.58408pt too high) detected at line 524
 File: background.jpg Graphic file (type jpg)
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 524.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [30
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/pipeline.png>] <seque
@@ -1496,14 +1496,14 @@ Package pdftex.def Info: sequence.png used on input line 535.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 535.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [31
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/sequence.png>]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 553.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [32
 
 ]
@@ -1511,21 +1511,21 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 568.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [33
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 577.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [34
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 587.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 [35
 
@@ -1533,21 +1533,21 @@ Package pdftex.def Info: background.jpg used on input line 587.
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 597.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [36
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 612.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [37
 
 ]
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 636.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
 
 [38
 
@@ -1560,7 +1560,7 @@ File: background.jpg Graphic file (type jpg)
 
 <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 644.
-(pdftex.def)             Requested size: 364.19421pt x 273.15117pt.
+(pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [39
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/thankyou.png>]
@@ -1602,7 +1602,7 @@ e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /symbols/msam7.pfb>
-Output written on presentation_1.pdf (39 pages, 905901 bytes).
+Output written on presentation_1.pdf (39 pages, 855806 bytes).
 PDF statistics:
  354 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
