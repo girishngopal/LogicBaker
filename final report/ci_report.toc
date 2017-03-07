@@ -25,42 +25,43 @@
 \contentsline {subsection}{\numberline {3.2.3}Level 0 DFD}{15}
 \contentsline {subsection}{\numberline {3.2.4}Level 1 DFD}{15}
 \contentsline {subsection}{\numberline {3.2.5}Level 2 DFD}{16}
-\contentsline {section}{\numberline {3.3}Flow Diagram}{17}
-\contentsline {section}{\numberline {3.4}C.I Pipeline Diagram}{18}
-\contentsline {section}{\numberline {3.5}Sequence Diagram}{19}
+\contentsline {section}{\numberline {3.3}FLOW DIAGRAM}{17}
+\contentsline {section}{\numberline {3.4}C.I PIPELINE DIAGRAM}{18}
+\contentsline {section}{\numberline {3.5}SEQUENCE DIAGRAM}{19}
 \contentsline {chapter}{\numberline {4}IMPLEMENTATION}{21}
 \contentsline {section}{\numberline {4.1}LANGUAGES AND PLATFORM USED}{21}
-\contentsline {subsection}{\numberline {4.1.1}Amazon Web Services (AWS)}{21}
-\contentsline {subsection}{\numberline {4.1.2}Jenkins}{22}
-\contentsline {subsection}{\numberline {4.1.3}Apache Maven}{22}
-\contentsline {subsection}{\numberline {4.1.4}FindBugs}{23}
-\contentsline {subsection}{\numberline {4.1.5}Jacoco}{23}
-\contentsline {subsection}{\numberline {4.1.6}Apache Tomcat}{23}
-\contentsline {subsection}{\numberline {4.1.7}Heroku}{24}
-\contentsline {subsection}{\numberline {4.1.8}New Relic APM}{24}
-\contentsline {subsection}{\numberline {4.1.9}Node.js}{25}
-\contentsline {subsection}{\numberline {4.1.10}AngularJS}{26}
-\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{27}
-\contentsline {subsection}{\numberline {4.2.1}GitHub}{27}
-\contentsline {subsection}{\numberline {4.2.2}Amazon Web Services (AWS)}{29}
-\contentsline {subsection}{\numberline {4.2.3}Jenkins}{30}
-\contentsline {subsection}{\numberline {4.2.4}Calculator app in Jenkins}{31}
-\contentsline {subsection}{\numberline {4.2.5}Heroku}{32}
-\contentsline {subsection}{\numberline {4.2.6}Calculator app in Heroku}{33}
-\contentsline {subsection}{\numberline {4.2.7}New Relic Monitoring}{34}
-\contentsline {chapter}{\numberline {5}TESTING}{35}
-\contentsline {section}{\numberline {5.1}CODE TESTING}{36}
-\contentsline {section}{\numberline {5.2}UNIT TESTING}{36}
-\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{36}
-\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{37}
-\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{37}
-\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{38}
-\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{38}
-\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{39}
-\contentsline {section}{\numberline {5.9}PASS CRITERIA}{39}
-\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{39}
-\contentsline {section}{\numberline {5.11}TEST REPORTS}{39}
-\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{41}
-\contentsline {chapter}{\numberline {7}CONCLUSION}{42}
-\contentsline {chapter}{\hspace {1.0cm} REFERENCES}{43}
+\contentsline {subsection}{\numberline {4.1.1}GitHub}{21}
+\contentsline {subsection}{\numberline {4.1.2}Amazon Web Services (AWS)}{22}
+\contentsline {subsection}{\numberline {4.1.3}Jenkins}{22}
+\contentsline {subsection}{\numberline {4.1.4}Apache Maven}{23}
+\contentsline {subsection}{\numberline {4.1.5}FindBugs}{23}
+\contentsline {subsection}{\numberline {4.1.6}Jacoco}{24}
+\contentsline {subsection}{\numberline {4.1.7}Apache Tomcat}{24}
+\contentsline {subsection}{\numberline {4.1.8}Heroku}{24}
+\contentsline {subsection}{\numberline {4.1.9}New Relic APM}{24}
+\contentsline {subsection}{\numberline {4.1.10}Node.js}{25}
+\contentsline {subsection}{\numberline {4.1.11}AngularJS}{25}
+\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{26}
+\contentsline {subsection}{\numberline {4.2.1}GitHub}{26}
+\contentsline {subsection}{\numberline {4.2.2}Amazon Web Services (AWS)}{28}
+\contentsline {subsection}{\numberline {4.2.3}Jenkins}{29}
+\contentsline {subsection}{\numberline {4.2.4}Calculator app in Jenkins}{30}
+\contentsline {subsection}{\numberline {4.2.5}Heroku}{31}
+\contentsline {subsection}{\numberline {4.2.6}Calculator app in Heroku}{32}
+\contentsline {subsection}{\numberline {4.2.7}New Relic Monitoring}{33}
+\contentsline {chapter}{\numberline {5}TESTING}{34}
+\contentsline {section}{\numberline {5.1}CODE TESTING}{35}
+\contentsline {section}{\numberline {5.2}UNIT TESTING}{35}
+\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{35}
+\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{36}
+\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{36}
+\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{37}
+\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{37}
+\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{38}
+\contentsline {section}{\numberline {5.9}PASS CRITERIA}{38}
+\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{38}
+\contentsline {section}{\numberline {5.11}TEST REPORTS}{38}
+\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{40}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{41}
+\contentsline {chapter}{\hspace {0.5cm} REFERENCES}{42}
 \contentsline {chapter}{\hspace {0.5cm} INDEX}{45}

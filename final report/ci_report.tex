@@ -491,7 +491,7 @@ The level 2 DFD gives a much more advanced idea about the execution. Each of the
 \end{figure}
 \pagebreak
 
-\section{Flow Diagram}
+\section{FLOW DIAGRAM}
 Flow diagram is a collective term for a diagram representing a flow or set of dynamic relationships in a system. The term flow diagram is also used as a synonym for flowchart, and sometimes as a counterpart of the flowchart.
 
 Flow diagrams are used to structure and order a complex system, or to reveal the underlying structure of the elements and their interaction.
@@ -505,7 +505,7 @@ Flow diagrams are used to structure and order a complex system, or to reveal the
 
 \end{figure}
 \pagebreak
-\section{C.I Pipeline Diagram}
+\section{C.I PIPELINE DIAGRAM}
 \begin{figure}[h]
 \begin{center}
 
@@ -516,7 +516,7 @@ Flow diagrams are used to structure and order a complex system, or to reveal the
 
 \end{figure}
 \pagebreak
-\section{Sequence Diagram}
+\section{SEQUENCE DIAGRAM}
 \par A Sequence diagram is an interaction diagram that shows how processes operate with
 one another and in what order. It is a construct of a Message Sequence Chart. A sequence
 diagram shows object interactions arranged in time sequence. It depicts the objects and classes
@@ -542,6 +542,10 @@ Implementation is the stage in the project where the theoretical design is turne
 \par Continuous integration (CI) is an integral part of an agile software development setup. Sprint after sprint, teams strive to "not break the build" while delivering incremental features. But when developers focus completely on adding features, code errors can sometimes creep in and render the software unusable. To stop such errors from being integrated into the software configuration management (SCM), a CI server is the gatekeeper that helps keep a tab on code quality. Even if the code is integrated to SCM, a CI server can quickly tell you what went wrong
 \par
 	The platforms and softwares that are used in the continuous integration pipeline implementation is mentioned below 
+\subsection{GitHub}
+\par GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
+\par
+GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects. As of April 2016, GitHub reports having more than 14 million users and more than 35 million repositories, making it the largest host of source code in the world.
 \subsection{Amazon Web Services (AWS)}
 \par Amazon Web Services (AWS), a subsidiary of Amazon.com, offers a suite of cloud-computing services that make up an on-demand computing platform. These services operate from 16 geographical regions across the world. They include Amazon Elastic Compute Cloud, also known as "EC2", and Amazon Simple Storage Service, also known as "S3". As of 2016 AWS has more than 70 services, spanning a wide range, including compute, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools and tools for the Internet of things. Amazon markets AWS as a service to provide large computing capacity quicker and cheaper than a client company building an actual physical server farm.\\
 \subsection{Jenkins}
@@ -577,13 +581,13 @@ Heroku is a cloud Platform-as-a-Service (PaaS) supporting several programming la
 \subsection{New Relic APM}
 \par
 Lew Cirne founded New Relic in 2008 with a revolutionary vision: To deliver application performance monitoring (APM) as a purely SaaS product. By embracing the power and accessibility of the cloud, New Relic grew rapidly and quickly became an integral tool for developers, IT ops teams, and executives around the world.
-\pagebreak
+
 \subsection{Node.js}
 \par
 Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of server tools and applications. Although Node.js is not a JavaScript framework,many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
 
 Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications.
-\pagebreak
+
 \subsection{AngularJS}
 \par
 Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of server tools and applications. Although Node.js is not a JavaScript framework,many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
@@ -629,7 +633,7 @@ Here Jenkins is Working on Ubuntu installed in aws
 \subsection{Jenkins}
 \begin{itemize}
 
-\item \par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie,Jenkins.It is then builded and ready to deploy
+\item \par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie, Jenkins.It is then builded and ready to deploy
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{jnks.png}
@@ -680,8 +684,8 @@ Here Jenkins is Working on Ubuntu installed in aws
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{newrelic.png}
-\caption{Calculator app in Heroku}
-\label{Calculator app in Heroku}
+\caption{New Relic APM monitoring}
+\label{New Relic APM monitoring}
 \end{center}
 \end{figure}
 \end{itemize}
@@ -794,7 +798,8 @@ available,identify the feasibility of those solution by doing POCs and demos, fi
 
 \renewcommand{\bibname}{\uppercase{REFERENCES}}
 \begin{thebibliography}{999}
-\addcontentsline{toc}{chapter}{\hspace{1.0cm} REFERENCES}
+\addcontentsline{toc}{chapter}{\hspace{0.5cm} REFERENCES}
+\raggedright
 \bibitem{r1} Duvall, Paul, Steve Matyas, and Andrew
 Glover, \quotes{Continuous Integration: Improving Software Quality and Reducing Risk}, \textit{ Addison Wesley, Boston} 2007
 \bibitem{r1}Ade Miller , \quotes{ A Hundread Days Of Continuous Integration }, \textit{ Agile 2008 Conference} 2008.
@@ -806,30 +811,29 @@ Washington DC, 2007.
 \bibitem{r1}Kniberg, Henrik. , \quotes{Scrum and XP from the
 Trenches: How we do Scrum.}, \textit{  C4Media Inc.} 
 , 2007. 
-\bibitem{r1} Magennis, Troy, \quotes{Continuous Integration and Automated Builds at Enterprise Scale}, \textit{ Online posting} 2007 
+\bibitem{r1} Magennis, Troy, \quotes{Continuous Integration and Automated Builds at Enterprise Scale}, \textit{ Online posting} 2007, \hspace{2pt}  \url{ http://aspiringtechnology.com/blogs/troym/archive/2007/11/26/Does ContinuousIntegrationScale.aspx}
 \bibitem{r2}The Zend Blueprint for Continuous Delivery, Zend Technologies, \url{www.zend.com/continuousdelivery.}
 \bibitem{r3} Adopting the IBM DevOps approach for
-continuous software delivery,
-\url{http://www.ibm.com/developerworks/libr
+continuous software delivery, \hspace{2pt}
+ \url{http://www.ibm.com/developerworks/libr
 ary/d-adoption-paths/}.
 
-\bibitem{r3}Understanding DevOPs-Infrastructure as a code,
-\url{https://sdarchitect.wordpress.com/2012/12
+\bibitem{r3}Understanding DevOPs-Infrastructure as a code,\hspace{2pt}
+ \url{https://sdarchitect.wordpress.com/2012/12
 /13/infrastructure-as-code/}.
-\bibitem{r1} Magennis, Troy, \quotes{Continuous Integration and Automated Builds at Enterprise Scale}, \textit{ Online posting} 2007 
-
+\bibitem{r1} DevOps Distilled, The Three underlying principles, \url{ http://www.ibm.com/developerworks/libr ary/se-devops/part1/ }. 
+\bibitem{r2}DevOps for Dummies – by Sanjeev Sharma, \url{https://www14.software.ibm.com/webapp/ iwm/web/signup.do?source=swg-rtl-sdwp&S_PKG=ov18162}.
+\bibitem{r1}Continuous Integration, \url{http://www.ccpace.com/asset_files/Continuous_Intergration}.
 \end{thebibliography}
 \chapter*{GLOSSARY}
-\textbf{ER}  : Entity Relationship
-\par \textbf{GPS} : Global Positioning System
- \par \textbf{HTTP} : Hyper Text Transfer Protocol
-\par \textbf{IPV4} : Internet Protocol Version 4
-\par  \textbf{JSP} : Java Server Page
-\par \textbf{SQL} : Structured Query Language
-\par \textbf{UML} : Unified Modeling Language
-\par \textbf{ERD} : Entity Relationshi Diagram
+\textbf{DFD}  : Data Flow Diagram
+\par \textbf{CI} : Continuous Integration
+ \par \textbf{AWS} : Amazon Web Services
+\par \textbf{APM} : Application Performance Monitoring
+\par  \textbf{SCM} : Software configuration Management
+\par \textbf{IaaS} : Infrastructure as a Service
+\par \textbf{PaaS} : Platform as a Service
 \par \textbf{JVM} : Java Virtual Machine
-\par \textbf{DFD} : Data Flow Diagram
 %\end{document}
 
 \begin{theindex}
@@ -841,88 +845,75 @@ ary/d-adoption-paths/}.
 %\hspace{.1in}
 \vspace{.2in}
 \large\textbf{A}
-\item  Android 
-\item  Android Application, 1
-\item Arduino , 7
-
+\item  Amazon Web Services 22, 28
+\item  AngularJS , 25
+\item Apache Tomcat  , 24
+\item Artifact Manager , 11
 \vspace{.2in}
+
 \large\textbf{C}
-\item Conclusion , 14
+\item Conclusion , 41
+\item  Continuous Integration Handler , 12
+\item Continouos Deployment , 13
+\vspace{.2in}
 
-\vspace{.2in}
 \large\textbf{D}
-\item Data Flow Diagram , 8
-\item Database, 11
-\item Design, 7
-\vspace{.2in}
-\large\textbf{E}
-\item ER Diagram , 16
-\item Existing system, 
+\item Data Flow Diagram , 15
 \vspace{.2in}
 
 \large\textbf{F}
-\item Functional Requirements , 16
+\item Flow Diagram , 17
 \vspace{.2in}
 
 \large\textbf{G}
-\item Gantt chart , 16
-\item Goal of testing, 
+\item Gantt chart , 7
+\item Goal of testing, 37
 \vspace{.2in}
 
 \large\textbf{H}
-\item Hardware Requirements , 8
-
+\item Heroku , 24,31
 \vspace{.2in}
+
 \large\textbf{I}
 \item Introduction , 1
-\item Integration Testing
+\item Integration Testing , 35
 
 \vspace{.2in}
 \large\textbf{J}
-\item Java
-\item  JSP
+\item Jenkins , 22,29
+\item Jacoco , 24
 \vspace{.2in}
+
 \large\textbf{M}
-\item Modules , 4
-
+\item Modules , 11
 \vspace{.2in}
-\large\textbf{N}
-\item Non Functional Requirements , 5
 
-\vspace{.2in}
 \large\textbf{O}
-\item Operational Feasibility,8 
-\item Output Testing
-
-\vspace{.2in}
-\large\textbf{P}
-\item Python
+\item Output Testing , 37
 
 \vspace{.2in}
 \large\textbf{R}
-\item References
+\item References , 42
 
 \vspace{.2in}
 \large\textbf{S}
-\item Screen shots
-\item Sequence Diagram
-\item Software Requirements,12
-\item System testing,67 
+\item Screen shots , 26
+\item Sequence Diagram , 19
+\item Software Requirements , 10
+\item System testing , 36
 
 \vspace{.2in}
 \large\textbf{T}
-\item Technical Feasibility,8
-\item Test reports
+\item Technical Feasibilit , 8
+\item Test reports , 38
 
 \vspace{.2in}
 \large\textbf{U}
-\item UML diagrams, 23 ,16
-\item Use case diagram
-\item  Unit Testing
-
+\item  Unit Testing , 35
 \vspace{.2in}
+
 \large\textbf{V}
-\item Validation Testing
+\item Validation Testing , 36
 
 %\hspace{.6in}\large W
 
