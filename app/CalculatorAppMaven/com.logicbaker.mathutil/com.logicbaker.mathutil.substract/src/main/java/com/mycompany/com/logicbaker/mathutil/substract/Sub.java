@@ -1,9 +1,6 @@
 package com.mycompany.com.logicbaker.mathutil.substract;
 
-/**
- * Hello world!
- *
- */
+//mavenized
 public class Sub 
 {
     public static int sub(int a, int b)
