@@ -38,23 +38,29 @@
 \contentsline {subsection}{\numberline {4.1.6}Apache Tomcat}{23}
 \contentsline {subsection}{\numberline {4.1.7}Heroku}{24}
 \contentsline {subsection}{\numberline {4.1.8}New Relic APM}{24}
-\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{25}
-\contentsline {subsection}{\numberline {4.2.1}GitHub}{25}
-\contentsline {subsection}{\numberline {4.2.2}Jenkins}{27}
-\contentsline {chapter}{\numberline {5}TESTING}{29}
-\contentsline {section}{\numberline {5.1}CODE TESTING}{30}
-\contentsline {section}{\numberline {5.2}UNIT TESTING}{30}
-\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{30}
-\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{31}
-\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{31}
-\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{32}
-\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{32}
-\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{33}
-\contentsline {section}{\numberline {5.9}PASS CRITERIA}{33}
-\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{33}
-\contentsline {section}{\numberline {5.11}TEST REPORTS}{33}
-\contentsline {section}{\numberline {5.12}BLACK BOX TESTING}{34}
-\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{36}
-\contentsline {chapter}{\numberline {7}CONCLUSION}{37}
-\contentsline {chapter}{7\hspace {0.1in} REFERENCES}{38}
-\contentsline {chapter}{\hspace {0.5cm} INDEX}{40}
+\contentsline {subsection}{\numberline {4.1.9}Node.js}{25}
+\contentsline {subsection}{\numberline {4.1.10}AngularJS}{26}
+\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{27}
+\contentsline {subsection}{\numberline {4.2.1}GitHub}{27}
+\contentsline {subsection}{\numberline {4.2.2}Amazon Web Services (AWS)}{29}
+\contentsline {subsection}{\numberline {4.2.3}Jenkins}{30}
+\contentsline {subsection}{\numberline {4.2.4}Calculator app in Jenkins}{31}
+\contentsline {subsection}{\numberline {4.2.5}Heroku}{32}
+\contentsline {subsection}{\numberline {4.2.6}Calculator app in Heroku}{33}
+\contentsline {subsection}{\numberline {4.2.7}New Relic Monitoring}{34}
+\contentsline {chapter}{\numberline {5}TESTING}{35}
+\contentsline {section}{\numberline {5.1}CODE TESTING}{36}
+\contentsline {section}{\numberline {5.2}UNIT TESTING}{36}
+\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{36}
+\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{37}
+\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{37}
+\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{38}
+\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{38}
+\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{39}
+\contentsline {section}{\numberline {5.9}PASS CRITERIA}{39}
+\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{39}
+\contentsline {section}{\numberline {5.11}TEST REPORTS}{39}
+\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{41}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{42}
+\contentsline {chapter}{7\hspace {0.1in} REFERENCES}{43}
+\contentsline {chapter}{\hspace {0.5cm} INDEX}{45}

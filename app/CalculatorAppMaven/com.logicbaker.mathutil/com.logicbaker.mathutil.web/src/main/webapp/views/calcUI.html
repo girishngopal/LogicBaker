@@ -74,11 +74,9 @@
     	   method: 'GET',
     	   url: "http://35.154.108.194:8081/logicbaker/add/"+$scope.addnum1+"/"+$scope.addnum2
     	 }).then(function successCallback(response) {
-    	     //alert(respose);
+    	     
     	     $scope.addresult=response.data;
     	   }, function errorCallback(response) {
-    	     // called asynchronously if an error occurs
-    	     // or server returns response with an error status.
     	   });
        }
        

@@ -9,8 +9,6 @@ public class Calculator {
 	
 	public static void main(String args[]){
 		
-	/*	Abs abs = new Abs();
-		System.out.println(abs.value(10.001893129));*/
 		Sub s;
                 s = new Sub();
 		Adder adder = new Adder();
