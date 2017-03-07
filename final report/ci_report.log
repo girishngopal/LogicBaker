@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  7 MAR 2017 12:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  7 MAR 2017 18:51
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -142,6 +142,10 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen110
@@ -179,7 +183,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count121
 \c@MaxMatrixCols=\count122
-\dotsspace@=\muskip10
+\dotsspace@=\muskip11
 \c@parentequation=\count123
 \dspbrk@lvl=\count124
 \tag@help=\toks18
@@ -435,26 +439,29 @@ LaTeX Warning: Label `r1' multiply defined.
 
 LaTeX Warning: Label `r3' multiply defined.
 
+
+LaTeX Warning: Label `r1' multiply defined.
+
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 51.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -479,37 +486,37 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count148
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 63.
  <logo.jpg, id=1, 468.24937pt x 441.90094pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 73.
+Package pdftex.def Info: logo.jpg used on input line 74.
 (pdftex.def)             Requested size: 72.26999pt x 68.204pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jeffin Jacob/Doc
 uments/GitHub/LogicBaker/final report/logo.jpg>]
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 113.
+Package pdftex.def Info: logo.jpg used on input line 114.
 (pdftex.def)             Requested size: 72.26999pt x 68.204pt.
  [1]
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 132.
+Package pdftex.def Info: logo.jpg used on input line 133.
 (pdftex.def)             Requested size: 108.405pt x 102.30261pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 141.
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 174--187
+Underfull \hbox (badness 10000) in paragraph at lines 175--188
 
  []
 
@@ -543,7 +550,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
 
@@ -560,12 +567,12 @@ Missing character: There is no ì in font ptmr7t!
 [3
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 279.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 280.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [4]
-Overfull \hbox (7.90053pt too wide) in paragraph at lines 289--290
+Overfull \hbox (7.90053pt too wide) in paragraph at lines 290--291
 []\OT1/ptm/m/n/12 It in-te-grates with ver-sion con-trol tools, in-clud-ing Sub
 -ver-sion, so that dif-fer-ent projects
  []
@@ -573,7 +580,7 @@ Overfull \hbox (7.90053pt too wide) in paragraph at lines 289--290
 [5] [6] [7] <gnt.png, id=57, 445.665pt x 407.27156pt>
 File: gnt.png Graphic file (type png)
  <use gnt.png>
-Package pdftex.def Info: gnt.png used on input line 342.
+Package pdftex.def Info: gnt.png used on input line 343.
 (pdftex.def)             Requested size: 445.66391pt x 407.27055pt.
  [8 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/gnt.png>]
 Missing character: There is no ‚ in font ptmr7t!
@@ -610,10 +617,10 @@ Missing character: There is no ù in font ptmr7t!
 <cocomo.PNG, id=63, 367.3725pt x 127.22531pt>
 File: cocomo.PNG Graphic file (type png)
  <use cocomo.PNG>
-Package pdftex.def Info: cocomo.PNG used on input line 368.
+Package pdftex.def Info: cocomo.PNG used on input line 369.
 (pdftex.def)             Requested size: 220.42519pt x 76.33577pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
 
  []
 
@@ -635,7 +642,7 @@ Missing character: There is no Ç in font ptmr7t!
  <dfd.png, id=81, 232.61906pt x 247.67531pt>
 File: dfd.png Graphic file (type png)
  <use dfd.png>
-Package pdftex.def Info: dfd.png used on input line 440.
+Package pdftex.def Info: dfd.png used on input line 441.
 (pdftex.def)             Requested size: 232.61848pt x 247.6747pt.
 
 
@@ -644,55 +651,55 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [14] <dfd1.png, id=85, 603.75563pt x 176.15813pt>
 File: dfd1.png Graphic file (type png)
  <use dfd1.png>
-Package pdftex.def Info: dfd1.png used on input line 456.
+Package pdftex.def Info: dfd1.png used on input line 457.
 (pdftex.def)             Requested size: 289.07999pt x 84.34526pt.
  [15 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd.png> <
 C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd1.png>]
 <dfd2.png, id=91, 656.4525pt x 204.765pt>
 File: dfd2.png Graphic file (type png)
  <use dfd2.png>
-Package pdftex.def Info: dfd2.png used on input line 467.
+Package pdftex.def Info: dfd2.png used on input line 468.
 (pdftex.def)             Requested size: 289.07999pt x 90.17184pt.
 
 <dfd3.png, id=92, 939.51pt x 614.295pt>
 File: dfd3.png Graphic file (type png)
  <use dfd3.png>
-Package pdftex.def Info: dfd3.png used on input line 486.
+Package pdftex.def Info: dfd3.png used on input line 487.
 (pdftex.def)             Requested size: 433.62pt x 283.51646pt.
  [16 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd2.png> 
 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd3.png>]
 <flow1.png, id=99, 1195.46625pt x 845.40843pt>
 File: flow1.png Graphic file (type png)
  <use flow1.png>
-Package pdftex.def Info: flow1.png used on input line 501.
+Package pdftex.def Info: flow1.png used on input line 502.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
  [17 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/flow1.png>
 ]
 <pipeline.png, id=104, 1195.46625pt x 845.40843pt>
 File: pipeline.png Graphic file (type png)
  <use pipeline.png>
-Package pdftex.def Info: pipeline.png used on input line 512.
+Package pdftex.def Info: pipeline.png used on input line 513.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
  [18 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/pipeline.p
 ng>]
 <sequence.png, id=109, 352.31625pt x 252.34274pt>
 File: sequence.png Graphic file (type png)
  <use sequence.png>
-Package pdftex.def Info: sequence.png used on input line 528.
+Package pdftex.def Info: sequence.png used on input line 529.
 (pdftex.def)             Requested size: 433.62pt x 310.5761pt.
  [19 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/sequence.p
 ng>]
 [20]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--546
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
 [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
@@ -700,20 +707,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--553
 File: git.png Graphic file (type png)
 
 <use git.png>
-Package pdftex.def Info: git.png used on input line 598.
+Package pdftex.def Info: git.png used on input line 599.
 (pdftex.def)             Requested size: 483.32076pt x 257.58235pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 598--599
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 599--600
  [] 
  []
 
 <remote.png, id=137, 1014.03844pt x 521.69907pt>
 File: remote.png Graphic file (type png)
  <use remote.png>
-Package pdftex.def Info: remote.png used on input line 606.
+Package pdftex.def Info: remote.png used on input line 607.
 (pdftex.def)             Requested size: 476.59813pt x 245.1986pt.
 
-Overfull \hbox (23.63025pt too wide) in paragraph at lines 606--607
+Overfull \hbox (23.63025pt too wide) in paragraph at lines 607--608
  [] 
  []
 
@@ -722,10 +729,10 @@ Overfull \hbox (23.63025pt too wide) in paragraph at lines 606--607
 ] <aws.png, id=147, 1028.34187pt x 554.07pt>
 File: aws.png Graphic file (type png)
  <use aws.png>
-Package pdftex.def Info: aws.png used on input line 620.
+Package pdftex.def Info: aws.png used on input line 621.
 (pdftex.def)             Requested size: 483.32076pt x 260.41293pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 620--621
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 621--622
  [] 
  []
 
@@ -733,10 +740,10 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 620--621
 <jnks.png, id=151, 1026.83624pt x 526.21594pt>
 File: jnks.png Graphic file (type png)
  <use jnks.png>
-Package pdftex.def Info: jnks.png used on input line 634.
+Package pdftex.def Info: jnks.png used on input line 635.
 (pdftex.def)             Requested size: 482.6131pt x 247.32152pt.
 
-Overfull \hbox (29.64522pt too wide) in paragraph at lines 634--635
+Overfull \hbox (29.64522pt too wide) in paragraph at lines 635--636
  [] 
  []
 
@@ -744,10 +751,10 @@ Overfull \hbox (29.64522pt too wide) in paragraph at lines 634--635
 <app.png, id=156, 1027.58907pt x 526.96875pt>
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 645.
+Package pdftex.def Info: app.png used on input line 646.
 (pdftex.def)             Requested size: 482.96693pt x 247.67534pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 645--646
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 646--647
  [] 
  []
 
@@ -755,10 +762,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 645--646
 <hrk.png, id=161, 1027.58907pt x 527.72156pt>
 File: hrk.png Graphic file (type png)
  <use hrk.png>
-Package pdftex.def Info: hrk.png used on input line 657.
+Package pdftex.def Info: hrk.png used on input line 658.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 657--658
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 658--659
  [] 
  []
 
@@ -766,10 +773,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 657--658
 <app1.png, id=166, 1027.58907pt x 527.72156pt>
 File: app1.png Graphic file (type png)
  <use app1.png>
-Package pdftex.def Info: app1.png used on input line 669.
+Package pdftex.def Info: app1.png used on input line 670.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 669--670
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 670--671
  [] 
  []
 
@@ -777,10 +784,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 669--670
 <newrelic.png, id=171, 1028.34187pt x 555.57562pt>
 File: newrelic.png Graphic file (type png)
  <use newrelic.png>
-Package pdftex.def Info: newrelic.png used on input line 681.
+Package pdftex.def Info: newrelic.png used on input line 682.
 (pdftex.def)             Requested size: 483.32076pt x 261.12057pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 681--682
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 682--683
  [] 
  []
 
@@ -788,17 +795,17 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 681--682
 g>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--690
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 690--691
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
+Underfull \hbox (badness 10000) in paragraph at lines 691--692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
 
  []
 
@@ -809,29 +816,29 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 
  []
 
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 717--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--719
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
 
  []
 
 [37] [38]
-Overfull \hbox (79.69589pt too wide) in paragraph at lines 748--766
+Overfull \hbox (79.69589pt too wide) in paragraph at lines 749--767
  [][] 
  []
 
@@ -850,23 +857,14 @@ Chapter 7.
 [42
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
-[]\OT1/ptm/m/n/12 The Zend Blueprint for Con-tin-u-ous De-liv-ery, Zend Tech-no
-lo-gies,
- []
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 810.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 812--816
-[]\OT1/ptm/m/n/12 Adopting the IBM De-vOps ap-proach for con-tin-u-ous soft-war
-e de-liv-ery,
- []
-
-Missing character: There is no ‚ in font ptmri7t!
-Missing character: There is no Ä in font ptmri7t!
-Missing character: There is no ì in font ptmri7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 818--819
-[]\OT1/ptm/m/it/12 Understanding De-vOps  In-fras-truc-ture as a Code,
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 816--819
+[]\OT1/ptm/m/n/12 Understanding DevOPs-Infrastructure as a code, $\OT1/pcr/m/n/
+12 https : / / sdarchitect .$
  []
 
 [43
@@ -886,24 +884,24 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 194 ({)
+### simple group (level 1) entered at line 195 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6958 strings out of 493921
- 99885 string characters out of 3147262
- 170406 words of memory out of 3000000
- 10092 multiletter control sequences out of 15000+200000
- 31845 words of font info for 62 fonts, out of 3000000 for 9000
+ 7067 strings out of 493921
+ 101278 string characters out of 3147262
+ 171491 words of memory out of 3000000
+ 10192 multiletter control sequences out of 15000+200000
+ 32360 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,14n,43p,1208b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on ci_report.pdf (55 pages, 1123026 bytes).
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ci_report.pdf (55 pages, 1134286 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
