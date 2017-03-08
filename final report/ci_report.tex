@@ -60,7 +60,7 @@
 \end{singlespace}
 \vspace{.2 in}
 \Large{\textit{Submitted By }}\\
-\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 12143605)}}} \\
 \Large{\textit{\textbf{JEFFIN JACOB  }\textbf{(Reg.No . 12143611)}}} \\
 \Large{\textit{\textbf{NITIN SURESH }\textbf{(Reg.No . 12143616)}}} \\
 \Large{\textit{\textbf{VISHNU BOSE }\textbf{(Reg.No . 12143626)}}} \\
@@ -91,7 +91,7 @@
 \Large{\textit{Submitted By }}\\
 \begin{singlespace}
 %\begin{singlespace}
-\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 121436--)}}} \\
+\Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 12143605)}}} \\
 \Large{\textit{\textbf{JEFFIN JACOB  }\textbf{(Reg.No . 12143611)}}} \\
 \Large{\textit{\textbf{NITIN SURESH }\textbf{(Reg.No . 12143616)}}} \\
 \Large{\textit{\textbf{VISHNU BOSE }\textbf{(Reg.No . 12143626)}}} \\
@@ -193,7 +193,7 @@ we could never have completed the project this well. \\
 \par
 \hspace{0.1in}
 {
-Software development, as we know it today, is a demanding area of business with its fast-changing customer requirements, pressures of an ever shorter timeto- market, and unpredictability of market. With the shift towards modern continuous deployment pipelines, releasing new software versions early and often has become a concrete option also for an ever growing number of practitioners. \par Continuous delivery is a software development practice where new features are made available to end users as soon as they have been implemented and tested. In such a setting, a key technical piece of infrastructure is the development pipeline that consists of various tools and databases, where features ow from development to deployment and then further to use.
+Software development, as we know it today, is a demanding area of business with it's fast-changing customer requirements, pressures of an ever shorter time to-market, and unpredictability of market. With the shift towards modern continuous deployment pipelines, releasing new software versions early and often has become a concrete option also for an ever growing number of practitioners. \par Continuous delivery is a software development practice where new features are made available to end users as soon as they have been implemented and tested. In such a setting, a key technical piece of infrastructure is the development pipeline that consists of various tools and databases, where features are made available from development to deployment and then further to use.
 \tableofcontents
 \pagenumbering{roman}
 \listoffigures
@@ -221,22 +221,10 @@ Software development, as we know it today, is a demanding area of business with 
 \pagenumbering{arabic}
 \setcounter{page}{1}
 %\hspace{0.1in}
-Software development, as we know it today, is a demanding area of business
-with its fast-changing customer requirements, pressures of an ever shorter timeto-
-market, and unpredictability of market. With the shift towards modern continuous deployment
-pipelines, releasing new software versions early and often has become a concrete
-option also for an ever growing number of practitioners. 
-\par
-Continuous delivery is a software development practice where
-new features are made available to end users as soon as they have been
-implemented and tested. In such a setting, a key technical piece of infrastructure
-is the development pipeline that consists of various tools
-and databases, where features 
-ow from development to deployment and
-then further to use.
+Continuous integration is the practice where members of a development team integrate their work frequently. Usually each of them integrates at least daily, which leads to multiple integrations per day. To detect errors, each integration is verified by an automated build and test. This approach is generally found to lead to a significant reduction of integration problems, which in turn allows teams to develop cohesive software even in a limited time frame.
 \section{PURPOSE}
-\par The objective of the project is to put in place a Continues Integration framework for product
-development activities of Tech11 Software. This would enable the Tech11 team to rapidly bring a
+\par The objective of the project is to put in place a Continuous Integration framework for product
+development activities of Tech11 Softwares. This would enable the Tech11 team to rapidly bring a
 product change or feature to production gaining market advantage.
 \par
 This activities of this project will involve accessing different CI integration approaches and
@@ -246,7 +234,7 @@ final solution and set up the CI infrastructures, educate the developers on CI c
 \section{PRODUCT SCOPE}
 \par  The scope of the system is to help software developers to ensure new features are made available as soon as the program has been
 implemented and tested. This product also helps in reducing the time needed to develop a software and also acts a guideline for future software developments
-\\
+
 
 \chapter{OVERALL DESCRIPTION}
 \section{PRODUCT PERSPECTIVE}
@@ -274,17 +262,17 @@ reducing the time needed to develop a software and also acts a guideline for fut
 developments.
 \section{SOLUTION FUNCTION}
 
-\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository – should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately. Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
+\par Continuous integration – the practice of frequently integrating one's new or changed code with the existing code repository. Integration should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately. Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Many automated tools offer this scheduling automatically.
 
 \begin{itemize}
 \item \textbf{Version Control}
 
-\par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised.[9] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
+\par This practice advocates the use of a revision control system for the project's source code. All artifacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised. Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
 \item \textbf{Artifact Manager}
 \par 
-While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
+While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository. Snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
 \item \textbf{Continuous Integration Handler}
-\par While there are many tools, I will focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
+\par While there are many tools, we focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
 \begin{itemize}
 \item It integrates with popular build tools (ant, maven, make) so that it can run the appropriate build scripts to compile, test and package within an environment that closely matches what will be the production environment
 \item It integrates with version control tools, including Subversion, so that different projects can be set up depending on projection location within the trunk.
@@ -293,9 +281,8 @@ While many developers have adopted Maven as a build tool, most have yet to under
 \end{itemize}
 
 
-Jenkins is an automation engine with an unparalleled plugin ecosystem to support all of your favorite tools in your delivery pipelines, whether your goal is continuous integration, automated testing, or continuous delivery. 
  \item  \textbf{Test Automator}
-\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
+\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes. Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
 
 \begin{itemize}
 \item Graphical user interface testing. A testing framework that generates user interface events such as keystrokes and mouse clicks, and observes the changes that result in the user interface, to validate that the observable behavior of the program is correct.
@@ -390,7 +377,7 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
 \item Jenkins
 \item Checkstyle
 \item Findbugs
-\item Mingle
+\item Heroku
 \end{itemize}
 \chapter{SYSTEM DESIGN}
 \section{MODULES}
@@ -409,10 +396,9 @@ While many developers have adopted Maven as a build tool, most have yet to under
 \item It reports on build status. If the build is broken, it can be configured to alert individuals by email.
 \end{itemize}
 
-
-Jenkins is an automation engine with an unparalleled plugin ecosystem to support all of your favorite tools in your delivery pipelines, whether your goal is continuous integration, automated testing, or continuous delivery. 
+ 
 \subsection{Test Automator}
-\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.[1] Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
+\par In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes. Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing. There are many approaches to test automation, however below are the general approaches used widely:
 
 \begin{itemize}
 \item Graphical user interface testing. A testing framework that generates user interface events such as keystrokes and mouse clicks, and observes the changes that result in the user interface, to validate that the observable behavior of the program is correct.
@@ -546,7 +532,7 @@ Implementation is the stage in the project where the theoretical design is turne
 \subsection{GitHub}
 \par GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
 \par
-GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects. As of April 2016, GitHub reports having more than 14 million users and more than 35 million repositories, making it the largest host of source code in the world.
+GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects. 
 \subsection{Amazon Web Services (AWS)}
 \par Amazon Web Services (AWS), a subsidiary of Amazon.com, offers a suite of cloud-computing services that make up an on-demand computing platform. These services operate from 16 geographical regions across the world. They include Amazon Elastic Compute Cloud, also known as "EC2", and Amazon Simple Storage Service, also known as "S3". As of 2016 AWS has more than 70 services, spanning a wide range, including compute, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools and tools for the Internet of things. Amazon markets AWS as a service to provide large computing capacity quicker and cheaper than a client company building an actual physical server farm.\\
 \subsection{Jenkins}
@@ -781,7 +767,7 @@ The CI process is now a daily practice of software developers worldwide, and an 
 \chapter{CONCLUSION}
 \par 
 Software development is a demanding area of business with its
-fast-changing customer requirements, pressures of an ever shorter timeto- market, and unpredictability
+fast-changing customer requirements, pressures of an ever shorter time to-market, and unpredictability
 of market. With the shift towards modern continuous deployment pipelines, releasing
 new software versions early and often has become a concrete option also for an ever
 growing number of practitioners. \par Continuous delivery is a software development practice where new features are made
@@ -795,7 +781,7 @@ The objective of the project is to put in place a Continues Integration framewor
 product development activities of Tech11 Software. This would enable the Tech11 team to
 rapidly bring a product change or feature to production gaining market advantage. This activities
 of this project will involve accessing different CI integration approaches and solutions
-available,identify the feasibility of those solution by doing POCs and demos, fine tune the final
+available,identify the feasibility of those solution by doing POCs and demos.
 
 \renewcommand{\bibname}{\uppercase{REFERENCES}}
 \begin{thebibliography}{999}

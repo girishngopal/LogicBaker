@@ -1,67 +1,67 @@
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
 \contentsline {section}{\numberline {1.1}PURPOSE}{1}
-\contentsline {section}{\numberline {1.2}PRODUCT SCOPE}{2}
-\contentsline {chapter}{\numberline {2}OVERALL DESCRIPTION}{3}
-\contentsline {section}{\numberline {2.1}PRODUCT PERSPECTIVE}{3}
-\contentsline {subsection}{\numberline {2.1.1}Proposed System}{3}
-\contentsline {section}{\numberline {2.2}SOLUTION FUNCTION}{4}
-\contentsline {section}{\numberline {2.3}OPERATING ENVIRONMENT}{6}
-\contentsline {section}{\numberline {2.4}GANTT CHART}{7}
-\contentsline {section}{\numberline {2.5}COST ESTIMATION}{9}
-\contentsline {section}{\numberline {2.6}EXTERNAL INTERFACE REQUIREMENTS}{10}
-\contentsline {subsection}{\numberline {2.6.1}User Interface}{10}
-\contentsline {subsection}{\numberline {2.6.2}Network Requirements}{10}
-\contentsline {subsection}{\numberline {2.6.3}Software Requirements}{10}
-\contentsline {chapter}{\numberline {3}SYSTEM DESIGN}{11}
-\contentsline {section}{\numberline {3.1}MODULES}{11}
-\contentsline {subsection}{\numberline {3.1.1}Version Control}{11}
-\contentsline {subsection}{\numberline {3.1.2}Artifact Manager}{11}
-\contentsline {subsection}{\numberline {3.1.3}Continuous Integration Handler}{12}
-\contentsline {subsection}{\numberline {3.1.4}Test Automator}{13}
-\contentsline {subsection}{\numberline {3.1.5}Continouos Deployment}{13}
-\contentsline {section}{\numberline {3.2}DATA FLOW DIAGRAMS}{14}
-\contentsline {subsection}{\numberline {3.2.1}Purpose}{14}
-\contentsline {subsection}{\numberline {3.2.2}Description}{14}
-\contentsline {subsection}{\numberline {3.2.3}Level 0 DFD}{15}
-\contentsline {subsection}{\numberline {3.2.4}Level 1 DFD}{15}
-\contentsline {subsection}{\numberline {3.2.5}Level 2 DFD}{16}
-\contentsline {section}{\numberline {3.3}FLOW DIAGRAM}{17}
-\contentsline {section}{\numberline {3.4}C.I PIPELINE DIAGRAM}{18}
-\contentsline {section}{\numberline {3.5}SEQUENCE DIAGRAM}{19}
-\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{21}
-\contentsline {section}{\numberline {4.1}LANGUAGES AND PLATFORM USED}{21}
-\contentsline {subsection}{\numberline {4.1.1}GitHub}{21}
-\contentsline {subsection}{\numberline {4.1.2}Amazon Web Services (AWS)}{22}
-\contentsline {subsection}{\numberline {4.1.3}Jenkins}{22}
-\contentsline {subsection}{\numberline {4.1.4}Apache Maven}{23}
-\contentsline {subsection}{\numberline {4.1.5}FindBugs}{23}
-\contentsline {subsection}{\numberline {4.1.6}Jacoco}{24}
-\contentsline {subsection}{\numberline {4.1.7}Apache Tomcat}{24}
-\contentsline {subsection}{\numberline {4.1.8}Heroku}{24}
-\contentsline {subsection}{\numberline {4.1.9}New Relic APM}{24}
-\contentsline {subsection}{\numberline {4.1.10}Node.js}{25}
-\contentsline {subsection}{\numberline {4.1.11}AngularJS}{25}
-\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{26}
-\contentsline {subsection}{\numberline {4.2.1}GitHub}{26}
-\contentsline {subsection}{\numberline {4.2.2}Amazon Web Services (AWS)}{28}
-\contentsline {subsection}{\numberline {4.2.3}Jenkins}{29}
-\contentsline {subsection}{\numberline {4.2.4}Calculator app in Jenkins}{30}
-\contentsline {subsection}{\numberline {4.2.5}Heroku}{31}
-\contentsline {subsection}{\numberline {4.2.6}Calculator app in Heroku}{32}
-\contentsline {subsection}{\numberline {4.2.7}New Relic Monitoring}{33}
-\contentsline {chapter}{\numberline {5}TESTING}{34}
-\contentsline {section}{\numberline {5.1}CODE TESTING}{35}
-\contentsline {section}{\numberline {5.2}UNIT TESTING}{35}
-\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{35}
-\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{36}
-\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{36}
-\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{37}
-\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{37}
-\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{38}
-\contentsline {section}{\numberline {5.9}PASS CRITERIA}{38}
-\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{38}
-\contentsline {section}{\numberline {5.11}TEST REPORTS}{38}
-\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{40}
-\contentsline {chapter}{\numberline {7}CONCLUSION}{41}
-\contentsline {chapter}{\hspace {0.5cm} REFERENCES}{42}
-\contentsline {chapter}{\hspace {0.5cm} INDEX}{45}
+\contentsline {section}{\numberline {1.2}PRODUCT SCOPE}{1}
+\contentsline {chapter}{\numberline {2}OVERALL DESCRIPTION}{2}
+\contentsline {section}{\numberline {2.1}PRODUCT PERSPECTIVE}{2}
+\contentsline {subsection}{\numberline {2.1.1}Proposed System}{2}
+\contentsline {section}{\numberline {2.2}SOLUTION FUNCTION}{3}
+\contentsline {section}{\numberline {2.3}OPERATING ENVIRONMENT}{5}
+\contentsline {section}{\numberline {2.4}GANTT CHART}{5}
+\contentsline {section}{\numberline {2.5}COST ESTIMATION}{8}
+\contentsline {section}{\numberline {2.6}EXTERNAL INTERFACE REQUIREMENTS}{9}
+\contentsline {subsection}{\numberline {2.6.1}User Interface}{9}
+\contentsline {subsection}{\numberline {2.6.2}Network Requirements}{9}
+\contentsline {subsection}{\numberline {2.6.3}Software Requirements}{9}
+\contentsline {chapter}{\numberline {3}SYSTEM DESIGN}{10}
+\contentsline {section}{\numberline {3.1}MODULES}{10}
+\contentsline {subsection}{\numberline {3.1.1}Version Control}{10}
+\contentsline {subsection}{\numberline {3.1.2}Artifact Manager}{10}
+\contentsline {subsection}{\numberline {3.1.3}Continuous Integration Handler}{11}
+\contentsline {subsection}{\numberline {3.1.4}Test Automator}{11}
+\contentsline {subsection}{\numberline {3.1.5}Continouos Deployment}{12}
+\contentsline {section}{\numberline {3.2}DATA FLOW DIAGRAMS}{13}
+\contentsline {subsection}{\numberline {3.2.1}Purpose}{13}
+\contentsline {subsection}{\numberline {3.2.2}Description}{13}
+\contentsline {subsection}{\numberline {3.2.3}Level 0 DFD}{14}
+\contentsline {subsection}{\numberline {3.2.4}Level 1 DFD}{14}
+\contentsline {subsection}{\numberline {3.2.5}Level 2 DFD}{15}
+\contentsline {section}{\numberline {3.3}FLOW DIAGRAM}{16}
+\contentsline {section}{\numberline {3.4}C.I PIPELINE DIAGRAM}{17}
+\contentsline {section}{\numberline {3.5}SEQUENCE DIAGRAM}{18}
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{20}
+\contentsline {section}{\numberline {4.1}LANGUAGES AND PLATFORM USED}{20}
+\contentsline {subsection}{\numberline {4.1.1}GitHub}{20}
+\contentsline {subsection}{\numberline {4.1.2}Amazon Web Services (AWS)}{21}
+\contentsline {subsection}{\numberline {4.1.3}Jenkins}{21}
+\contentsline {subsection}{\numberline {4.1.4}Apache Maven}{22}
+\contentsline {subsection}{\numberline {4.1.5}FindBugs}{22}
+\contentsline {subsection}{\numberline {4.1.6}Jacoco}{23}
+\contentsline {subsection}{\numberline {4.1.7}Apache Tomcat}{23}
+\contentsline {subsection}{\numberline {4.1.8}Heroku}{23}
+\contentsline {subsection}{\numberline {4.1.9}New Relic APM}{23}
+\contentsline {subsection}{\numberline {4.1.10}Node.js}{24}
+\contentsline {subsection}{\numberline {4.1.11}AngularJS}{24}
+\contentsline {section}{\numberline {4.2}SCREEN SHOTS}{25}
+\contentsline {subsection}{\numberline {4.2.1}GitHub}{25}
+\contentsline {subsection}{\numberline {4.2.2}Amazon Web Services (AWS)}{27}
+\contentsline {subsection}{\numberline {4.2.3}Jenkins}{28}
+\contentsline {subsection}{\numberline {4.2.4}Calculator app in Jenkins}{29}
+\contentsline {subsection}{\numberline {4.2.5}Heroku}{30}
+\contentsline {subsection}{\numberline {4.2.6}Calculator app in Heroku}{31}
+\contentsline {subsection}{\numberline {4.2.7}New Relic Monitoring}{32}
+\contentsline {chapter}{\numberline {5}TESTING}{33}
+\contentsline {section}{\numberline {5.1}CODE TESTING}{34}
+\contentsline {section}{\numberline {5.2}UNIT TESTING}{34}
+\contentsline {section}{\numberline {5.3}INTEGRATION TESTING}{34}
+\contentsline {section}{\numberline {5.4}VALIDATION TESTING}{35}
+\contentsline {section}{\numberline {5.5}SYSTEM TESTING}{35}
+\contentsline {section}{\numberline {5.6}OUTPUT TESTING}{36}
+\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{36}
+\contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{37}
+\contentsline {section}{\numberline {5.9}PASS CRITERIA}{37}
+\contentsline {section}{\numberline {5.10}FAIL CRITERIA}{37}
+\contentsline {section}{\numberline {5.11}TEST REPORTS}{37}
+\contentsline {chapter}{\numberline {6}FUTURE SCOPE}{39}
+\contentsline {chapter}{\numberline {7}CONCLUSION}{40}
+\contentsline {chapter}{\hspace {0.5cm} REFERENCES}{41}
+\contentsline {chapter}{\hspace {0.5cm} INDEX}{44}
