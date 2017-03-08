@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.5)  7 MAR 2017 20:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.5)  8 MAR 2017 07:25
 entering extended mode
 **presentation_1.tex
 ("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.tex"
@@ -692,6 +692,30 @@ Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
 medefault.sty"
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerthemeWar
+saw.sty"
+Package: beamerthemeWarsaw 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\inner\beamerinnerthe
+merounded.sty"
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerouterthe
+meshadow.sty"
+Package: beamerouterthemeshadow 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerouterthe
+mesplit.sty"
+Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
+meorchid.sty"
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
+mewhale.sty"
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamercolorthe
 mealbatross.sty"
 Package: beamercolorthemealbatross 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -1165,7 +1189,10 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 99.
 
 ("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.nav")
-<background.jpg, id=33, 1027.84pt x 546.04pt>
+Overfull \vbox (26.04417pt too high) detected at line 103
+ []
+
+<background.jpg, id=43, 1027.84pt x 546.04pt>
 File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 103.
@@ -1175,10 +1202,9 @@ Package pdftex.def Info: background.jpg used on input line 103.
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 103.
 
-[1
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/VB/Documents/Git
-Hub/LogicBaker/MainProject ppt/background.jpg>]
+ <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/background.jpg>]
 ("C:\Users\VB\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.toc")
 File: background.jpg Graphic file (type jpg)
 
@@ -1188,19 +1214,8 @@ Package pdftex.def Info: background.jpg used on input line 108.
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 178.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 178.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 File: background.jpg Graphic file (type jpg)
-
-<use background.jpg>
+ <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 178.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [3
@@ -1244,7 +1259,7 @@ Package pdftex.def Info: background.jpg used on input line 227.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [7
 
-] <hudson1.jpg, id=87, 132.495pt x 70.3428pt>
+] <hudson1.jpg, id=149, 132.495pt x 70.3428pt>
 File: hudson1.jpg Graphic file (type jpg)
 
 <use hudson1.jpg>
@@ -1253,6 +1268,10 @@ Package pdftex.def Info: hudson1.jpg used on input line 237.
 
 Overfull \hbox (23.94678pt too wide) in paragraph at lines 237--237
  [] 
+ []
+
+
+Overfull \vbox (18.88065pt too high) detected at line 237
  []
 
 File: background.jpg Graphic file (type jpg)
@@ -1269,23 +1288,36 @@ Package pdftex.def Info: background.jpg used on input line 258.
  [9
 
 ]
+Overfull \vbox (15.40863pt too high) detected at line 288
+ []
+
 File: background.jpg Graphic file (type jpg)
- <use background.jpg>
+<use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 288.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [10
 
 ]
 File: background.jpg Graphic file (type jpg)
-
-<use background.jpg>
+ <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 300.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [11
 
 ]
+LaTeX Font Info:    Try loading font information for U+msa on input line 311.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 311.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 File: background.jpg Graphic file (type jpg)
- <use background.jpg>
+
+<use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 311.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [12
@@ -1298,10 +1330,10 @@ File: background.jpg Graphic file (type jpg)
  <use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 321.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
+ [13
 
-[13
-
-] <github.png, id=119, 256.96pt x 256.96pt>
+]
+<github.png, id=217, 256.96pt x 256.96pt>
 File: github.png Graphic file (type png)
  <use github.png>
 Package pdftex.def Info: github.png used on input line 331.
@@ -1387,14 +1419,14 @@ Package pdftex.def Info: background.jpg used on input line 451.
  [24
 
 ]
-<LogicBakerGantt.pdf, id=178, 845.04686pt x 1195.01572pt>
+<LogicBakerGantt.pdf, id=342, 845.04686pt x 1195.01572pt>
 File: LogicBakerGantt.pdf Graphic file (type pdf)
 
 <use LogicBakerGantt.pdf>
 Package pdftex.def Info: LogicBakerGantt.pdf used on input line 461.
 (pdftex.def)             Requested size: 236.61151pt x 334.60213pt.
 
-Overfull \vbox (130.87346pt too high) detected at line 461
+Overfull \vbox (179.97066pt too high) detected at line 461
  []
 
 File: background.jpg Graphic file (type jpg)
@@ -1404,7 +1436,7 @@ Package pdftex.def Info: background.jpg used on input line 461.
  [25
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/LogicBakerGantt.pdf>]
- <dfd1.png, id=213, 603.75563pt x 176.15813pt>
+ <dfd1.png, id=383, 603.75563pt x 176.15813pt>
 File: dfd1.png Graphic file (type png)
 
 <use dfd1.png>
@@ -1417,7 +1449,7 @@ Package pdftex.def Info: background.jpg used on input line 474.
  [26
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd1.png>] <dfd2.png,
- id=220, 656.4525pt x 204.765pt>
+ id=396, 656.4525pt x 204.765pt>
 File: dfd2.png Graphic file (type png)
 
 <use dfd2.png>
@@ -1430,23 +1462,26 @@ Package pdftex.def Info: background.jpg used on input line 487.
  [27
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd2.png>] <dfd3.png,
- id=227, 939.51pt x 614.295pt>
+ id=409, 939.51pt x 614.295pt>
 File: dfd3.png Graphic file (type png)
 
 <use dfd3.png>
 Package pdftex.def Info: dfd3.png used on input line 500.
 (pdftex.def)             Requested size: 263.061pt x 172.00142pt.
+
+Overfull \vbox (35.96996pt too high) detected at line 500
+ []
+
 File: background.jpg Graphic file (type jpg)
- <use background.jpg>
+<use background.jpg>
 Package pdftex.def Info: background.jpg used on input line 500.
 (pdftex.def)             Requested size: 364.20352pt x 273.1443pt.
  [28
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/dfd3.png>] <flow1.png
-, id=234, 1195.46625pt x 845.40843pt>
+, id=422, 1195.46625pt x 845.40843pt>
 File: flow1.png Graphic file (type png)
-
-<use flow1.png>
+ <use flow1.png>
 Package pdftex.def Info: flow1.png used on input line 511.
 (pdftex.def)             Requested size: 334.72827pt x 236.71274pt.
 
@@ -1455,7 +1490,7 @@ Overfull \hbox (27.4384pt too wide) in paragraph at lines 511--511
  []
 
 
-Overfull \vbox (46.58408pt too high) detected at line 511
+Overfull \vbox (95.68127pt too high) detected at line 511
  []
 
 File: background.jpg Graphic file (type jpg)
@@ -1465,14 +1500,14 @@ Package pdftex.def Info: background.jpg used on input line 511.
  [29
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/flow1.png>] <pipeline
-.png, id=241, 1195.46625pt x 845.40843pt>
+.png, id=435, 1195.46625pt x 845.40843pt>
 File: pipeline.png Graphic file (type png)
 
 <use pipeline.png>
 Package pdftex.def Info: pipeline.png used on input line 522.
 (pdftex.def)             Requested size: 298.86583pt x 211.35158pt.
 
-Overfull \vbox (7.62291pt too high) detected at line 522
+Overfull \vbox (56.72011pt too high) detected at line 522
  []
 
 File: background.jpg Graphic file (type jpg)
@@ -1482,7 +1517,7 @@ Package pdftex.def Info: background.jpg used on input line 522.
  [30
 
  <C:/Users/VB/Documents/GitHub/LogicBaker/MainProject ppt/pipeline.png>] <seque
-nce.png, id=248, 352.31625pt x 252.34274pt>
+nce.png, id=448, 352.31625pt x 252.34274pt>
 File: sequence.png Graphic file (type png)
 
 <use sequence.png>
@@ -1591,25 +1626,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 693.
  ) 
 Here is how much of TeX's memory you used:
- 23073 strings out of 493921
- 445438 string characters out of 3147292
- 493293 words of memory out of 3000000
- 25788 multiletter control sequences out of 15000+200000
- 12872 words of font info for 47 fonts, out of 3000000 for 9000
+ 23271 strings out of 493921
+ 452407 string characters out of 3147292
+ 498516 words of memory out of 3000000
+ 25970 multiletter control sequences out of 15000+200000
+ 11876 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,11n,71p,458b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,19n,74p,458b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/symbols/msam7.pfb>
-Output written on presentation_1.pdf (41 pages, 522027 bytes).
+ic/amsfonts/cm/cmssi9.pfb>
+Output written on presentation_1.pdf (41 pages, 574382 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
+ 617 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
