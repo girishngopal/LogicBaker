@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.4)  8 MAR 2017 10:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.4)  8 MAR 2017 11:07
 entering extended mode
 **presentation_1.tex
 ("C:\Users\nitin\Documents\GitHub\LogicBaker\MainProject ppt\presentation_1.tex
@@ -1462,14 +1462,9 @@ File: flow1.png Graphic file (type png)
 
 <use flow1.png>
 Package pdftex.def Info: flow1.png used on input line 502.
-(pdftex.def)             Requested size: 334.72827pt x 236.71274pt.
+(pdftex.def)             Requested size: 298.86583pt x 211.35158pt.
 
-Overfull \hbox (27.4384pt too wide) in paragraph at lines 502--502
- [] 
- []
-
-
-Overfull \vbox (95.68127pt too high) detected at line 502
+Overfull \vbox (56.72011pt too high) detected at line 502
  []
 
 File: background.jpg Graphic file (type jpg)
@@ -1606,26 +1601,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 684.
  ) 
 Here is how much of TeX's memory you used:
- 23265 strings out of 493921
- 452331 string characters out of 3147282
+ 23262 strings out of 493921
+ 452301 string characters out of 3147282
  498613 words of memory out of 3000000
- 25966 multiletter control sequences out of 15000+200000
+ 25964 multiletter control sequences out of 15000+200000
  11876 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,19n,74p,458b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation41} has been referenced but does not ex
-ist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmssi9.pfb>
-Output written on presentation_1.pdf (40 pages, 538529 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssi9.pfb>
+Output written on presentation_1.pdf (40 pages, 501990 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
