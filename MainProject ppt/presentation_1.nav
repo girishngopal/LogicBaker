@@ -68,11 +68,11 @@
 \headcommand {\beamer@framepages {29}{29}}
 \headcommand {\slideentry {3}{0}{30}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {3}{0}{31}{31/31}{}{0}}
+\headcommand {\sectionentry {4}{IMPLEMENTATION}{31}{IMPLEMENTATION}{0}}
+\headcommand {\beamer@sectionpages {11}{30}}
+\headcommand {\beamer@subsectionpages {11}{30}}
+\headcommand {\slideentry {4}{0}{31}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {4}{IMPLEMENTATION}{32}{IMPLEMENTATION}{0}}
-\headcommand {\beamer@sectionpages {11}{31}}
-\headcommand {\beamer@subsectionpages {11}{31}}
 \headcommand {\slideentry {4}{0}{32}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {4}{0}{33}{33/33}{}{0}}
@@ -89,15 +89,13 @@
 \headcommand {\beamer@framepages {38}{38}}
 \headcommand {\slideentry {4}{0}{39}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {4}{0}{40}{40/40}{}{0}}
+\headcommand {\sectionentry {5}{CONCLUSION}{40}{CONCLUSION}{0}}
+\headcommand {\beamer@sectionpages {31}{39}}
+\headcommand {\beamer@subsectionpages {31}{39}}
+\headcommand {\slideentry {5}{0}{40}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\sectionentry {5}{CONCLUSION}{41}{CONCLUSION}{0}}
-\headcommand {\beamer@sectionpages {32}{40}}
-\headcommand {\beamer@subsectionpages {32}{40}}
-\headcommand {\slideentry {5}{0}{41}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@sectionpages {41}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\def \inserttotalframenumber {41}}
+\headcommand {\beamer@partpages {1}{40}}
+\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\beamer@sectionpages {40}{40}}
+\headcommand {\beamer@documentpages {40}}
+\headcommand {\def \inserttotalframenumber {40}}

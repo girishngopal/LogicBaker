@@ -2,5 +2,5 @@
 \beamer@sectionintoc {1}{INTRODUCTION}{3}{0}{1}
 \beamer@sectionintoc {2}{PROPOSED SYSTEM}{6}{0}{2}
 \beamer@sectionintoc {3}{MODULES}{11}{0}{3}
-\beamer@sectionintoc {4}{IMPLEMENTATION}{32}{0}{4}
-\beamer@sectionintoc {5}{CONCLUSION}{41}{0}{5}
+\beamer@sectionintoc {4}{IMPLEMENTATION}{31}{0}{4}
+\beamer@sectionintoc {5}{CONCLUSION}{40}{0}{5}
