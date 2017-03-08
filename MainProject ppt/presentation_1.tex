@@ -280,9 +280,9 @@
 \item \textbf{Can deploy automatically.}
 \vspace{0.5cm}
 \begin{itemize}
-\item Deploy a web project to a stagging server.
+\item Deploy a web project to a staging server.
 \vspace{0.5cm}
-\item Deploy latest stable build of a desktop application to our website for download.
+\item Deploy latest stable build of a desktop application.
 \end{itemize}
 \end{itemize}
 \end{frame} 
@@ -364,7 +364,6 @@ be buildable from a fresh checkout and not require additional dependencies.
 	\vspace{0.5 cm}
 \item Critical for reducing errors and ensuring the right pieces make it with each build/deployment/release, especially in large-scale business applications.
 \vspace{0.5 cm}
-\item video
 \end{itemize}
 \end{frame}
 
@@ -540,8 +539,8 @@ independent. The most important requirement is the internet connection.
 \begin{frame}{Implementation}
 
 \begin{itemize}
-	\item For demonstration to the Tech 11 Software Team, We decided to implement a Calculator application (using Java, javaScript, NodeJs, Angular...)
-	\item We divide the work
+	\item For demonstration to the Tech 11 Software Team, We decided to implement a Calculator application (using Java, javaScript, NodeJs, Angularjs)
+	\item We divided the work
 	\\
 	\begin{itemize}
 		\item Addition Module - Vishnu Bose
@@ -559,7 +558,7 @@ independent. The most important requirement is the internet connection.
 	\textbf{For Version Control}
 	\begin{itemize}
 		\item Created a Repository named LogicBaker in Git-Hub and cloned to individual systems.
-		\item Create module given to each members in java
+		\item Created modules given to each member in java
 		\item After Coding the individual modules the team members commit to Git-Hub, irrespective on the platform which each one has build.
 		
 		 
@@ -588,8 +587,8 @@ independent. The most important requirement is the internet connection.
 \begin{frame}{Implementation}
 	\textbf{Artifact Repository}
 	\begin{itemize}
-		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcomed by 
-	    Mavenising the Individual modules.
+		\item The Difficulty in integrating the individual modules due to the syntax mis-matching is overcome by 
+	    Mavenising the individual modules.
 		
 		
 	\end{itemize}	
@@ -618,9 +617,9 @@ independent. The most important requirement is the internet connection.
 	\textbf{Artifact Repository}
 	\begin{itemize}
 		
-		\item The Same Calculator Test application code is mavenised by each team members and again pushed to the local repository.
+		\item The Same Calculator Test application code is mavenised by each team member and again pushed to the local repository.
 		\vspace{0.05cm}
-		\item The whole can integrated and build in each team members local system mush \underline{easier}. 
+		\item The whole application can be integrated and build in each team members local system much \underline{easier}. 
 		\vspace{0.05cm}
 		\item With listed dependencies docs.
 	\end{itemize}	
@@ -632,7 +631,7 @@ independent. The most important requirement is the internet connection.
 		
 		\item To review intermediately the generated code, Understanding what or How it looks like when Deployed?
 		\vspace{0.05cm}
-		\item Thats the idea behind Continuous Integration, We provide a Automation platform when all team members and the project manager can VIEW the application and discuss.
+		\item Thats the idea behind Continuous Integration, We provide a Automation platform where all team members and the project manager can VIEW the application and discuss.
 		  
 		
 	\end{itemize}	
@@ -640,13 +639,13 @@ independent. The most important requirement is the internet connection.
 
 
 \begin{frame}{Implementation}
-	\textbf{Continous Integration Handler}
+	\textbf{Continuous Integration Handler}
 	\begin{itemize}
 		
 		\item For Automation we use Jenkins.
 		\vspace{0.05cm}
 		
-		\item Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. ... It is a server-based system running in a servlet container such as Apache Tomcat.
+		\item Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. It is a server-based system running in a servlet container such as Apache Tomcat.
 		
 		
 	\end{itemize}	
@@ -657,14 +656,14 @@ independent. The most important requirement is the internet connection.
 	\textbf{Test Automator}
 	\begin{itemize}
 		
-		\item The test Automation plugging is added to Jenkins depending upon the Nature of the developemnet process dealing with.
+		\item The test Automation plugin is added to Jenkins depending upon the nature of the development process dealing with.
 		\vspace{0.05cm}
 		
-		\item which involve programming framework, language etc.
+		\item Which involve programming framework, language etc.
 		\vspace{0.05cm}
 		\item Since we use Java , we use find-bugs and Check style in Jenkins..
 		\vspace{0.05cm}
-		\item also added Jacoco , For Cost Estimation.
+		\item Also added Jacoco , For code coverage.
 		
 		
 	\end{itemize}	
@@ -688,9 +687,8 @@ independent. The most important requirement is the internet connection.
 	\textbf{Heroku}
 	\begin{itemize}
 		
-		\item The same mavanised java application is pushed to heruku Git hub.
-		\item Also code the same application in Nodejs for efficient viweing.. 
-		\item And deployed
+		\item The same mavenised java application is pushed to heroku Git hub.
+		\item Also code the same application in Node.js for efficient viweing, and deployed
 		
 	\end{itemize}	
 \end{frame}
@@ -704,7 +702,7 @@ independent. The most important requirement is the internet connection.
 	\textbf{Heroku}
 	\begin{itemize}
 		
-		\item New Relic plugin is added to the Calc Application(Node Js).
+		\item New Relic plugin is added to the Calc Application(Node.Js).
 		
 		\item Its an application performance manager.
 	
