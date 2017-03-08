@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.4)  8 MAR 2017 10:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  8 MAR 2017 10:44
 entering extended mode
 **ci_report.tex
-("C:\Users\nitin\Documents\GitHub\LogicBaker\final report\ci_report.tex"
+("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -420,7 +420,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthfirst=\dimen140
 )
 No file ci_report.nls.
-("C:\Users\nitin\Documents\GitHub\LogicBaker\final report\ci_report.aux"
+("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.aux"
 
 LaTeX Warning: Label `r1' multiply defined.
 
@@ -503,8 +503,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/nitin/Documents/
-GitHub/LogicBaker/final report/logo.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Jeffin Jacob/Doc
+uments/GitHub/LogicBaker/final report/logo.jpg>]
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 114.
@@ -523,10 +523,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--188
 
  []
 
-[4] [1] ("C:\Users\nitin\Documents\GitHub\LogicBaker\final report\ci_report.toc
-"
+[4] [1]
+("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.toc"
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 2.
@@ -544,7 +544,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3])
 \tf@toc=\write6
- [1] ("C:\Users\nitin\Documents\GitHub\LogicBaker\final report\ci_report.lof")
+ [1]
+("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.lof"
+)
 \tf@lof=\write7
  [2
 
@@ -575,7 +577,7 @@ File: gnt.png Graphic file (type png)
  <use gnt.png>
 Package pdftex.def Info: gnt.png used on input line 330.
 (pdftex.def)             Requested size: 445.66391pt x 407.27055pt.
- [7 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/gnt.png>]
+ [7 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/gnt.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
@@ -612,7 +614,8 @@ File: cocomo.PNG Graphic file (type png)
  <use cocomo.PNG>
 Package pdftex.def Info: cocomo.PNG used on input line 356.
 (pdftex.def)             Requested size: 220.42519pt x 76.33577pt.
- [8 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/cocomo.PNG>]
+ [8 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/cocomo.PNG>
+]
 Underfull \hbox (badness 10000) in paragraph at lines 367--369
 
  []
@@ -645,8 +648,8 @@ File: dfd1.png Graphic file (type png)
  <use dfd1.png>
 Package pdftex.def Info: dfd1.png used on input line 444.
 (pdftex.def)             Requested size: 289.07999pt x 84.34526pt.
- [14 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/dfd.png> <C:/User
-s/nitin/Documents/GitHub/LogicBaker/final report/dfd1.png>]
+ [14 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd.png> <
+C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd1.png>]
 <dfd2.png, id=88, 656.4525pt x 204.765pt>
 File: dfd2.png Graphic file (type png)
  <use dfd2.png>
@@ -658,27 +661,30 @@ File: dfd3.png Graphic file (type png)
  <use dfd3.png>
 Package pdftex.def Info: dfd3.png used on input line 474.
 (pdftex.def)             Requested size: 433.62pt x 283.51646pt.
- [15 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/dfd2.png> <C:/Use
-rs/nitin/Documents/GitHub/LogicBaker/final report/dfd3.png>]
+ [15 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd2.png> 
+<C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/dfd3.png>]
 <flow1.png, id=95, 1195.46625pt x 845.40843pt>
 File: flow1.png Graphic file (type png)
  <use flow1.png>
 Package pdftex.def Info: flow1.png used on input line 489.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
- [16 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/flow1.png>]
+ [16 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/flow1.png>
+]
 <pipeline.png, id=101, 1195.46625pt x 845.40843pt>
 File: pipeline.png Graphic file (type png)
  <use pipeline.png>
 Package pdftex.def Info: pipeline.png used on input line 500.
 (pdftex.def)             Requested size: 433.62pt x 306.64297pt.
- [17 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/pipeline.png>]
+ [17 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/pipeline.p
+ng>]
 <sequence.png, id=106, 352.31625pt x 252.34274pt>
 File: sequence.png Graphic file (type png)
  <use sequence.png>
 Package pdftex.def Info: sequence.png used on input line 516.
 (pdftex.def)             Requested size: 433.62pt x 310.5761pt.
- [18 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/sequence.png>] [1
-9]
+ [18 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/sequence.p
+ng>]
+[19]
 Chapter 4.
 [20
 
@@ -712,9 +718,9 @@ Overfull \hbox (23.63025pt too wide) in paragraph at lines 598--599
  [] 
  []
 
-[25 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/git.png>] [26 <C:/
-Users/nitin/Documents/GitHub/LogicBaker/final report/remote.png>]
-<aws.png, id=140, 1028.34187pt x 554.07pt>
+[25 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/git.png>]
+[26 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/remote.png>
+] <aws.png, id=140, 1028.34187pt x 554.07pt>
 File: aws.png Graphic file (type png)
  <use aws.png>
 Package pdftex.def Info: aws.png used on input line 612.
@@ -724,7 +730,7 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 612--613
  [] 
  []
 
-[27 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/aws.png>]
+[27 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/aws.png>]
 <jnks.png, id=144, 1026.83624pt x 526.21594pt>
 File: jnks.png Graphic file (type png)
  <use jnks.png>
@@ -735,7 +741,7 @@ Overfull \hbox (29.64522pt too wide) in paragraph at lines 626--627
  [] 
  []
 
-[28 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/jnks.png>]
+[28 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/jnks.png>]
 <app.png, id=150, 1027.58907pt x 526.96875pt>
 File: app.png Graphic file (type png)
  <use app.png>
@@ -746,7 +752,7 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 637--638
  [] 
  []
 
-[29 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/app.png>]
+[29 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/app.png>]
 <hrk.png, id=155, 1027.58907pt x 527.72156pt>
 File: hrk.png Graphic file (type png)
  <use hrk.png>
@@ -757,7 +763,7 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 649--650
  [] 
  []
 
-[30 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/hrk.png>]
+[30 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/hrk.png>]
 <app1.png, id=160, 1027.58907pt x 527.72156pt>
 File: app1.png Graphic file (type png)
  <use app1.png>
@@ -768,7 +774,7 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 661--662
  [] 
  []
 
-[31 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/app1.png>]
+[31 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/app1.png>]
 <newrelic.png, id=165, 1028.34187pt x 555.57562pt>
 File: newrelic.png Graphic file (type png)
  <use newrelic.png>
@@ -779,7 +785,8 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 673--674
  [] 
  []
 
-[32 <C:/Users/nitin/Documents/GitHub/LogicBaker/final report/newrelic.png>]
+[32 <C:/Users/Jeffin Jacob/Documents/GitHub/LogicBaker/final report/newrelic.pn
+g>]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 681--682
@@ -825,7 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 710--711
  []
 
 [35] [36]
-Overfull \hbox (79.69589pt too wide) in paragraph at lines 740--758
+Overfull \hbox (79.69589pt too wide) in paragraph at lines 739--757
  [][] 
  []
 
@@ -844,7 +851,7 @@ Chapter 7.
 [40
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 801.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 800.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -862,7 +869,8 @@ Missing character: There is no “ in font ptmr7t!
 ] [45
 
 ]
-("C:\Users\nitin\Documents\GitHub\LogicBaker\final report\ci_report.aux")
+("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.aux"
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -873,7 +881,7 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  7069 strings out of 493921
- 101253 string characters out of 3147282
+ 101330 string characters out of 3147262
  171504 words of memory out of 3000000
  10194 multiletter control sequences out of 15000+200000
  32360 words of font info for 64 fonts, out of 3000000 for 9000
@@ -884,7 +892,7 @@ Here is how much of TeX's memory you used:
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ci_report.pdf (54 pages, 1136421 bytes).
+Output written on ci_report.pdf (54 pages, 1136369 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
