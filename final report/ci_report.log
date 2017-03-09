@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  9 MAR 2017 08:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  9 MAR 2017 08:25
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -634,11 +634,11 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no ï in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
- <dfd.png, id=78, 232.61906pt x 247.67531pt>
+ <dfd.png, id=78, 352.12404pt x 339.05394pt>
 File: dfd.png Graphic file (type png)
  <use dfd.png>
 Package pdftex.def Info: dfd.png used on input line 428.
-(pdftex.def)             Requested size: 232.61848pt x 247.6747pt.
+(pdftex.def)             Requested size: 264.09238pt x 254.28983pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -893,7 +893,7 @@ Here is how much of TeX's memory you used:
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ci_report.pdf (54 pages, 1101679 bytes).
+Output written on ci_report.pdf (54 pages, 1135198 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
