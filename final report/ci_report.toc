@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{37}
 \contentsline {section}{\numberline {5.9}PASS CRITERIA}{37}
 \contentsline {section}{\numberline {5.10}FAIL CRITERIA}{37}
-\contentsline {section}{\numberline {5.11}TEST REPORTS}{37}
+\contentsline {section}{\numberline {5.11}TEST REPORTS}{38}
 \contentsline {chapter}{\numberline {6}FUTURE SCOPE}{39}
 \contentsline {chapter}{\numberline {7}CONCLUSION}{40}
 \contentsline {chapter}{\hspace {0.5cm} REFERENCES}{41}
