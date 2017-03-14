@@ -7,6 +7,7 @@
 \usepackage{anysize}
 \marginsize{1.25in}{.75in}{1in}{1in}
 \usepackage{graphics}
+\usepackage[toc,page]{appendix}
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{epsfig}
@@ -85,10 +86,9 @@
 \begin{center}
 
 \large{\textbf{MAJOR PROJECT REPORT ON}}\\
+\Large{\textbf{Continuous Integration Pipeline Implementation for Tech11Software}}\\
 
-\LARGE{\textbf{Continuous Integration Pipeline Implementation for Tech11Software}}\\
-
-\Large{\textit{Submitted By }}\\
+\large{\textit{Submitted By }}\\
 \begin{singlespace}
 %\begin{singlespace}
 \Large{\textit{\textbf{ASWIN G SUGUNAN }\textbf{(Reg.No . 12143605)}}} \\
@@ -97,16 +97,16 @@
 \Large{\textit{\textbf{VISHNU BOSE }\textbf{(Reg.No . 12143626)}}} \\
 
 \end{singlespace}
-\Large{\textit{\textit{under the guidance of}}}\\
+\large{\textit{\textit{under the guidance of}}}\\
 \Large{\textit{\textbf{Mrs. GREESHMA N GOPAL}}}\\
 \begin{singlespace}
-\small{\textit{In partial fulfilment of the requirements for the award of the degree}\\
-\small{ \textit{of}}\\
-\small{\textit{Bachelor of Technology} }\\
-\small{\textit{in}}\\
-\small{\textit{Computer Science and Engineering}}\\
-\small{\textit{of}}\\
-\small{\textit{Cochin University Of Science And Technology}}}\\
+\large{\textit{In partial fulfilment of the requirements for the award of the degree}\\
+\large{ \textit{of}}\\
+\large{\textit{Bachelor of Technology} }\\
+\large{\textit{in}}\\
+\large{\textit{Computer Science and Engineering}}\\
+\large{\textit{of}}\\
+\large{\textit{Cochin University Of Science And Technology}}}\\
 \end{singlespace}
 \begin{singlespace}
 \begin{figure}[h]
@@ -116,9 +116,8 @@
 \end{figure}
 \end{singlespace}
 \begin{singlespace}
-
-\Large{{\textbf{MARCH 2017\\Department of Computer Science and Engineering\\College of Engineering, Cherthala}\\
-Pallippuram P O, Alappuzha-688541 \\Phone: 0478 2553416, Fax: 0478 2552714}}
+\large{{\textbf{MARCH 2017\\Department of Computer Science and Engineering\\College of Engineering, Cherthala}\\
+Pallippuram P O, Alappuzha-688541 \\Phone: 0478 2553416, Fax: 0478 2552714\\http://www.cectl.ac.in}}
 \end{singlespace}
 \end{center}
 \end{titlepage}
@@ -181,7 +180,7 @@ valuable support and advice. We would also like to thank our Head Of Computer Sc
 Department, \textbf{Dr. Preetha Teresa Joy} (Professor, Computer Science and Engineering Department) for her support. We express our heartfelt gratitude to
 our project coordinator, \textbf{Mr. Muhammed Ilyas H} (Assistant Professor, Computer Science and Engineering Department) for his valuable help and support. We would also like to thank our project Guide,
 \textbf{Mrs. Greeshma N Gopal} (Assistant Professor, Department of Computer Science) for her support and
-guidance.
+guidance. Special thanks to \textbf{Mr. Gireesh N Gopal} (Technical Advisor at Tech11 Software) for introducing us to Continuous Integration and his guidance.
 We are indebted to all teaching and non-teaching staff of the Department of Computer
 Science and Engineering, friends and family for their co-operation and support, with out which
 we could never have completed the project this well. \\
@@ -290,7 +289,7 @@ While many developers have adopted Maven as a build tool, most have yet to under
 \end{itemize}
 
 
-\item \textbf{Continouos Deployment}
+\item \textbf{Continuous Deployment}
 \par Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. Continuous deployment should be the goal of most companies that are not constrained by regulatory or other requirements.
 
 \end{itemize}
@@ -327,38 +326,14 @@ lead to mis-communications on the true schedule performance status.
 \newpage
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=1]{gnt.png}
+\includegraphics[scale=1.1]{gnt.png}
 \caption{Gantt chart}
 \label{Gantt chart}
 \end{center}
 \end{figure}
 \newpage
 
-\section{COST ESTIMATION}
-\par Basic COCOMO computes software development effort (and cost) as a function of program
-size. Program size is expressed in estimated thousands of lines of code (KLOC).
-\par COCOMO applies to three classes of software projects:
-\begin{itemize}
-\item  Organic projects - “small” teams with “good” experience working with “less than rigid”
-requirements.
-\item Semi-detached - “medium” teams with mixed experience working with a mix of rigid
-and less than rigid requirements
-\item Embedded projects - developed within a set of “tight” constraints (hardware, software,
-operational ...)
-\end{itemize}
-\par The basic COCOMO equations take the form:
-\par Effort Applied = a(KLOC)\textasciicircum b [ person-months ]
-\par Development Time = c(Effort Applied)\textasciicircum d [ months ]
-\par People required = Effort Applied / Development Time [ count ]
-\par The coefficients a, b, c and d are given in the following table.
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=.6]{cocomo.PNG}
-\caption{COCOMO Model Coefficients}
-\label{COCOMO Model Coefficients}
-\end{center}
-\end{figure}
-\pagebreak
+
 \par
 \section{EXTERNAL INTERFACE REQUIREMENTS}
 This system based software can be used in any operating system such as Microsoft Windows, Linux or any kind of user application interface, since it is platform independent.
@@ -386,8 +361,7 @@ Interface hardware shall be encapsulated in a set of classes that isolate hardwa
 \par This practice advocates the use of a revision control system for the project's source code. All artefacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies.  Extreme Programming  mentions that where branching is supported by tools, its use should be minimised. Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. 
 \subsection{Artifact Manager}
 \par 
-While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.
-\subsection{Continuous Integration Handler}
+While many developers have adopted Maven as a build tool, most have yet to understand the importance of maintaining a repository manager both to proxy remote repositories and to manage and distribute software artifacts. A repository stores two types of artifacts: releases and snapshots. Release repositories are for stable, static release artifacts and snapshot repositories are frequently updated repositories that store binary software artifacts from projects under constant development. While it is possible to create a repository which serves both release and snapshot artifacts, repositories are usually segmented into release or snapshot repositories serving different consumers and maintaining different standards and procedures for deploying artifacts. Much like the difference between a production network and a staging network, a release repository is considered a production network and a snapshot repository is more like a development or a testing network. While there is a higher level of procedure and ceremony associated with deploying to a release repository, snapshot artifacts can be deployed and changed frequently without regard for stability and repeatability concerns.\subsection{Continuous Integration Handler}
 \par While there are many tools, I will focus on one of the most popular, Jenkins CI. This is one of the more popular (open source) tools available. Jenkins CI (the continuation of a product formerly called Hudson) allows continuous integration builds in the following ways:
 \begin{itemize}
 \item It integrates with popular build tools (ant, maven, make) so that it can run the appropriate build scripts to compile, test and package within an environment that closely matches what will be the production environment
@@ -406,14 +380,14 @@ While many developers have adopted Maven as a build tool, most have yet to under
 \end{itemize}
 
 
-\subsection{Continouos Deployment}
+\subsection{Continuous Deployment}
 \par Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. Continuous deployment should be the goal of most companies that are not constrained by regulatory or other requirements.
 
 
 \newpage
 \section{DATA FLOW DIAGRAMS}
 \subsection {Purpose} 
-\par The data ﬂow diagram(DFD)is used for classifying system requirements to major transformation that will be come programs in system design. This is starting point of the design phase that functionally decomposes the required specifications down to the lower level of details. It consists of a series of bubbles joint together by lines. Bubbles: Represent the data transformations. Lines: Represent the logic ﬂow of data. Data can trigger events and can be processed to useful information. Systems analysis recognizes the central goal of data in organizations. This data flow analysis tells a great deal about how organization objectives are accomplished.
+\par The Data Flow Diagram (DFD) is used for classifying system requirements to major transformation that will be come programs in system design. This is starting point of the design phase that functionally decomposes the required specifications down to the lower level of details. It consists of a series of bubbles joint together by lines. Bubbles: Represent the data transformations. Lines: Represent the logic Flow of data. Data can trigger events and can be processed to useful information. Systems analysis recognizes the central goal of data in organizations. This data flow analysis tells a great deal about how organization objectives are accomplished.
 
 
 \subsection{Description}
@@ -436,7 +410,7 @@ While many developers have adopted Maven as a build tool, most have yet to under
 
 \newpage
 \subsection{Level 0 DFD}
-Level 0 DFD gives a simple information about the overall structure. 
+Level 0 DFD gives a simple information about the overall structure. Here user can commit the changes in the code to the CI server the CI server then feedback the response to the developer
 \begin{figure}[h!]
 \begin{center}
 
@@ -445,10 +419,9 @@ Level 0 DFD gives a simple information about the overall structure.
 \caption{Level 0 DFD}
 \end{center}
 \end{figure}
-
-\subsection{Level 1 DFD}
-The level 1 DFD gives a basic structure of the project indicating the five modules needed to execute the project.
 \newpage
+\subsection{Level 1 DFD}
+The level 1 DFD gives a basic structure of the project indicating the five modules needed to execute the project. The changes of the code is first pushed into the local repository then the changes will be periodically pulled or automatically triggered for each push to the CI server. The response will be feedback to the developer.
 \begin{figure}[h]
 \begin{center}
 \hspace{1 in}
@@ -466,7 +439,8 @@ The level 1 DFD gives a basic structure of the project indicating the five modul
 %\end{figure}
 \vspace{100pt}
 \subsection{Level 2 DFD}
-The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product.
+The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product. Developer pushes to a local version control system. then the build request will be sen to the CI handler. the CI handler uses the artifact manager to manage all dependencies and uses a staging server for the deployment.the staging server can use the test runners for testing and production box for product release.
+\newpage
 \begin{figure}[h]
 \begin{center}
 \vspace{0.5 in}
@@ -476,8 +450,7 @@ The level 2 DFD gives a much more advanced idea about the execution. Each of the
 \end{center}
 
 \end{figure}
-\pagebreak
-
+\newpage
 \section{FLOW DIAGRAM}
 Flow diagram is a collective term for a diagram representing a flow or set of dynamic relationships in a system. The term flow diagram is also used as a synonym for flowchart, and sometimes as a counterpart of the flowchart.
 
@@ -493,6 +466,7 @@ Flow diagrams are used to structure and order a complex system, or to reveal the
 \end{figure}
 \pagebreak
 \section{C.I PIPELINE DIAGRAM}
+A Pipeline diagram shows the series of instruction that take place during the execution of the system. The developer push to the git then a build request will be send to the jenkins, it uses nexus SCM for managing the jars also uses the tomcat for staging deploy. tomcat uses selenium test runner.
 \begin{figure}[h]
 \begin{center}
 
@@ -514,7 +488,7 @@ to carry out the functionality of the scenario.
 
 \hspace{.0 in}
 \epsfig{width=6in, file=sequence.png}
-\caption{sequence}
+\caption{Sequence}
 \end{center}
 
 \end{figure}
@@ -581,6 +555,25 @@ Node.js is an open-source, cross-platform JavaScript runtime environment for dev
 
 Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications.
 \pagebreak
+\section{HOW IT IS IMPLEMENTED}
+\par For demonstration, a Calculator application was developed in traditional and in C.I manner. The sample calculator is developed in Java, NodeJs, AngularJs.
+Initially the modules of the sample calculator app has been developed in java individually and integrated them manually, It was really time consuming and ambiguous. Then apply the concept of version control.
+\par
+   For version control, Created a Repository named LogicBaker in Git-Hub and cloned to individual systems. Created modules given to each member in java After Coding the individual modules the team members commit to Git-Hub, irrespective on the platform which each one has build.
+   
+   \par
+   The integration is much helpful via version controlling.  But to modify the existing code pushed by other individual member, it was time consuming. Because there was no standardization in the module codes. To standardize the project we mavenized the project thus the project had a standard and the reusing libraries  occur only a single copy in the entire project provided an active Internet connection is required for at the time of cloning and first build. \par
+   The main advantages of the using a Continuous Integration is deploying the currently developed modules in the private online space. Thus every member of the project can view the project and suggests the changes via notifying the developer thus it is helpful to the developers. \par
+   We use jenkins as C.I handler, Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. It is a server-based system running in a servlet container such as Apache Tomcat. Jenkins provide a automation platform which each module can be integrated and build and error can be notified to entire personal participating in project development.
+   \par For unit testing while developing the Test automation is added i jenkins. The test Automation plugin is added to Jenkins depending upon the nature of the development process dealing with. Which involve programming framework, language etc. Since we use Java , we use ﬁnd-bugs and Check style in Jenkins.. Also added Jacoco , For code coverage
+ \par
+  For much more flexibility the entire CI process can be handled by Heroku. Heroku is a cloud Platform-as-a-Service (PaaS) supporting several programming languages that is used as a web application deployment model. Heroku, one of the ﬁrst cloud platforms. \par
+  The same mavenised java application is pushed to Heroku Git hub. Also code the same application in Node.js for efficient viewing, and deployed in Heroku server. \par
+  New Relic plugin is added to the Calc Application(Node.Js). Its an application performance manager. It tracks real time response time and throughput.
+   \par
+   Compared the various CI development process using the testing calculator application and founded its much better than the traditional development process. The finding are noted and submitted to the Tech11 company and found much decrease in their development time and cost.
+    \newpage
+
 \section{SCREEN SHOTS}
 \subsection{GitHub}
 \begin{itemize}
@@ -676,6 +669,8 @@ Here Jenkins is Working on Ubuntu installed in aws
 \end{center}
 \end{figure}
 \end{itemize}
+\newpage
+
 \newpage
 \chapter{TESTING}
 \par When a system is developed, it is hoped that it performs properly. In practice, however some errors always occur. The main purpose of testing an information system is to find the error and correct them. A successful test is one that finds an error. System testing is a critical aspect of Software Quality Assurance and represents the ultimate review of specification, design and coding. Testing is the process of executing a program with the intent of finding an as yet undiscovered error. Nothing is complete without testing. Testing is vital to the success of the system.\\
@@ -801,6 +796,10 @@ ary/d-adoption-paths/}.
 \bibitem{r1}Continuous Integration, \url{http://www.ccpace.com/asset_files/Continuous_Intergration}.
 \end{thebibliography}
 \chapter*{GLOSSARY}
+\addcontentsline{toc}{chapter}{\hspace{0.5cm} GLOSSARY}
+\rhead{\empty}
+%\begin{center}
+
 \textbf{DFD}  : Data Flow Diagram
 \par \textbf{CI} : Continuous Integration
  \par \textbf{AWS} : Amazon Web Services
@@ -809,7 +808,162 @@ ary/d-adoption-paths/}.
 \par \textbf{IaaS} : Infrastructure as a Service
 \par \textbf{PaaS} : Platform as a Service
 \par \textbf{JVM} : Java Virtual Machine
-%\end{document}
+\newpage
+\chapter*{APPENDIX I}
+\renewcommand{\bibname}{\uppercase{APPENDIX I}}
+%\begin{thebibliography}{999}
+\addcontentsline{toc}{chapter}{\hspace{0.5cm} APPENDIX I}
+%\chapter{APPENDIX 1}
+\large{\textbf{\text{SAMPLE TESTING CODE}}}
+\appendix
+
+\textbf{Adder.java}
+\begin{lstlisting}
+package com.logicbaker.mathutil.adder;
+
+public class Adder {
+	
+	public int add(int number1,int number2){
+		return number1+number2;
+	}
+
+}
+
+
+
+\end{lstlisting}
+
+%\underline{Calculator modules (without mavenization)}
+
+\textbf{Subtract.java}
+\begin{lstlisting}
+package com.logicbaker.mathutil.adder;
+
+public class Subtract {
+	
+	public static int subtratc(int number1,int number2){
+		return number1-number2;
+	}
+
+}
+
+
+
+\end{lstlisting}
+
+
+\textbf{Multiply.java}
+\begin{lstlisting}
+package com.logicbaker.mathutil;
+
+public class Multiply {
+	
+	public static int multiply(int number1,int number2){
+		return number1*number2;
+	}
+
+}
+
+
+
+
+\end{lstlisting}
+
+
+\textbf{Divider.java}
+\begin{lstlisting}
+package com.logicbaker.mathutil;
+
+public class Divider {
+	
+	public static int divider(int number1,int number2){
+		return number1/number2;
+	}
+	
+
+}
+
+
+
+
+\end{lstlisting}
+
+
+\textbf{Calculator.java}
+\begin{lstlisting}
+package com.logicbaker.mathutil.calculator;
+
+import org.apache.commons.math3.analysis.function.Abs;
+
+import com.logicbaker.mathutil.Adder;
+
+
+public class Calculator {
+	
+  public static void main(String args[]){
+	  Abs abs = new Abs();
+	  System.out.println(abs.value(1.00));
+	  
+	  Adder adder = new Adder();
+	  System.out.println(adder.add(1, 2));
+	  
+  }
+  
+  
+
+}
+
+
+
+
+
+\end{lstlisting}
+
+
+\textbf{pom.XML}
+\begin{lstlisting}
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<project xsi:schemaLocation="http://maven.apache
+.org/POM/4.0.0 http://maven.apache.org/xsd
+/maven-4.0.0.xsd">-
+
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>com.logicbaker.mathutil</groupId>
+
+<artifactId>com.logicbaker.mathutil</artifactId>
+
+<version>0.0.1-SNAPSHOT</version>
+
+<packaging>pom</packaging>
+
+
+-<modules>
+
+<module>com.logicbaker.mathutil.adder</module>
+
+<module>com.logicbaker.mathutil.Calc</module>
+
+<module>com.logicbaker.mathutil.substract</module>
+
+<module>com.logicbaker.mathutil.multiply</module>
+
+<module>com.logicbaker.mathutil.divide</module>
+
+<module>com.logicbaker.mathutil.web</module>
+
+</modules>
+
+</project>
+
+
+
+
+\end{lstlisting}
+
+\newpage
+%\chapter{APPENDIX 1}
 
 \begin{theindex}
 
