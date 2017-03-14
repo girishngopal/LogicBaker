@@ -585,6 +585,11 @@ Initially the modules of the sample calculator app has been developed in java in
 \label{GitHub GUI in windows}
 \end{center}
 \end{figure}
+
+\par Every repository on GitHub comes with a wiki. After you’ve created a repository, you can set up the included wiki through the sidebar navigation. Starting your wiki is simply a matter of clicking the wiki button and creating your first page.
+\par Wiki content is designed to be easily editable. You can add or change content on any wiki page by clicking the Edit button located in the upper right corner of each page. This opens up the wiki editor.
+
+
 \pagebreak
 \begin{figure}[h]
 \begin{center}
@@ -594,6 +599,8 @@ Initially the modules of the sample calculator app has been developed in java in
 \end{center}
 \end{figure}
 \end{itemize}
+\par GitHub keeps track of changes made to each page in your wiki. Below a page title, you can see who made the most recent edits, in addition to the number of commits made to the page. Clicking on this information will take you to the full page history where you can compare revisions or see a detailed list of edits over time.
+
 \pagebreak
 \newpage
 \subsection{Amazon Web Services (AWS)}
@@ -608,6 +615,7 @@ Here Jenkins is Working on Ubuntu installed in aws
 \end{center}
 \end{figure}
 \end{itemize}
+ \par AWS act as an storage of CI server
 \pagebreak
 \newpage
 \subsection{Jenkins}
@@ -621,7 +629,7 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Jenkins dashboard building calculator app}
 \end{center}
 \end{figure}
-\item \par We can configure the deployment with FindBugs or Jacoco as per the requirement
+\par Jenkins act as an automation server of CI. It builds the currently working modules and combines and build and deploy to specify server like tomcat and notify the errors and changes with respect to each developers.  We can configure the deployment with FindBugs or Jacoco as per the requirement
 \newpage
 \subsection{Calculator app in Jenkins}
 \item \par Calculator application deployed automatically by Jenkins
@@ -633,10 +641,10 @@ Here Jenkins is Working on Ubuntu installed in aws
 \end{center}
 \end{figure}
 \end{itemize}
+\par This is the Testing application of calculator which is developed in java and AngularJs deployes in tomcat server and it shows how the each individual modules are combined and performed functions correctly. 
 \newpage
 \subsection{Heroku}
-\begin{itemize}
-\item \par The same application is deployed using another pipeline Heroku. Heroku is a PaaS (Platform as a Service) here platforms for each language is available,complexity of an IaaS is reduced in Heroku
+
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{hrk.png}
@@ -644,7 +652,8 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Heroku Dashboard}
 \end{center}
 \end{figure}
-\end{itemize}
+
+ \par The same application is deployed using another pipeline Heroku. Heroku is a PaaS (Platform as a Service) here platforms for each language is available,complexity of an IaaS is reduced in Heroku
 \newpage
 \subsection{Calculator app in Heroku}
 \begin{itemize}
@@ -657,6 +666,7 @@ Here Jenkins is Working on Ubuntu installed in aws
 \end{center}
 \end{figure}
 \end{itemize}
+\par This is the Testing application of calculator which is developed in java and AngularJs deployes in tomcat server and it shows how the each individual modules are combined and performed functions correctly.
 \newpage
 \subsection{New Relic Monitoring}
 \begin{itemize}
@@ -669,6 +679,12 @@ Here Jenkins is Working on Ubuntu installed in aws
 \end{center}
 \end{figure}
 \end{itemize}
+\par New Relic APM is an add-on that provides on-demand application performance management. New Relic offers seamless integration with the Heroku platform, enabling immediate and automatic access to New Relic APM’s comprehensive capabilities for monitoring, troubleshooting, and tuning web apps.
+Adding the New Relic add-on to your Heroku app provides insight into:
+Health and availability of your entire application, via application monitoring
+Customer satisfaction, via real-time end user experience monitoring
+Web server resource data for Windows and Linux, via server monitoring
+
 \newpage
 
 \newpage
