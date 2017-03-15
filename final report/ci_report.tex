@@ -178,7 +178,7 @@ valuable support and advice. We would also like to thank our Head Of Computer Sc
 Department, \textbf{Dr. Preetha Teresa Joy} (Professor, Computer Science and Engineering Department) for her support. We express our heartfelt gratitude to
 our project coordinator, \textbf{Mr. Muhammed Ilyas H} (Assistant Professor, Computer Science and Engineering Department) for his valuable help and support. We would also like to thank our project Guide,
 \textbf{Mrs. Greeshma N Gopal} (Assistant Professor, Department of Computer Science) for her support and
-guidance. Special thanks to \textbf{Mr. Gireesh N Gopal} (Technical Advisor at Tech11 Software) for introducing us to Continuous Integration and his guidance.
+guidance. Special thanks to \textbf{Mr. Girish N Gopal} (Technical Advisor at Tech11 Software) for introducing us to the concept of Continuous Integration and for his guidance throughout the completion of the project.
 We are indebted to all teaching and non-teaching staff of the Department of Computer
 Science and Engineering, friends and family for their co-operation and support, with out which
 we could never have completed the project this well. \\
@@ -437,7 +437,7 @@ The level 1 DFD gives a basic structure of the project indicating the five modul
 %\end{figure}
 \vspace{100pt}
 \subsection{Level 2 DFD}
-The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product. Developer pushes to a local version control system. then the build request will be send to the CI handler. the CI handler uses the artifact manager to manage all dependencies and uses a staging server for the deployment.the staging server can use the test runners for testing and production box for product release.
+The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product. Developer pushes to a local version control system. Then the build request will be send to the CI handler. The CI handler uses the artifact manager to manage all dependencies and uses a staging server for the deployment .The staging server can use the test runners for testing and production box for product release.
 \newpage
 \begin{figure}[h]
 \begin{center}
@@ -464,7 +464,7 @@ Flow diagrams are used to structure and order a complex system, or to reveal the
 \end{figure}
 \pagebreak
 \section{C.I PIPELINE DIAGRAM}
-A Pipeline diagram shows the series of instruction that take place during the execution of the system. The developer push to the git then a build request will be send to the jenkins, it uses nexus SCM for managing the jars also uses the tomcat for staging deploy. tomcat uses selenium test runner.
+A Pipeline diagram shows the series of instruction that take place during the execution of the system. The developer push to the git then a build request will be send to the jenkins, it uses nexus SCM for managing the jars also uses the tomcat for staging deploy. Tomcat uses selenium test runner.
 \begin{figure}[h]
 \begin{center}
 
@@ -557,19 +557,19 @@ Node.js has an event-driven architecture capable of asynchronous I/O. These desi
 \par For demonstration, a Calculator application was developed in traditional and in C.I manner. The sample calculator is developed in Java, NodeJs, AngularJs.
 Initially the modules of the sample calculator app has been developed in java individually and integrated them manually, It was really time consuming and ambiguous. Then apply the concept of version control.
 \par
-   For version control, Created a Repository named LogicBaker in Git-Hub and cloned to individual systems. Created modules given to each member in java After Coding the individual modules the team members commit to Git-Hub, irrespective on the platform which each one has build.
+   For version control, Created a Repository named LogicBaker in Git-Hub and cloned to individual systems. Created modules given to each member in java After Coding the individual modules the team members commit to Git-Hub, irrespective of the platform which each one has build.
    
    \par
-   The integration is much helpful via version controlling.  But to modify the existing code pushed by other individual member, it was time consuming. Because there was no standardization in the module codes. To standardize the project we mavenized the project thus the project had a standard and the reusing libraries  occur only a single copy in the entire project provided an active Internet connection is required for at the time of cloning and first build. \par
-   The main advantages of the using a Continuous Integration is deploying the currently developed modules in the private online space. Thus every member of the project can view the project and suggests the changes via notifying the developer thus it is helpful to the developers. \par
-   We use jenkins as C.I handler, Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. It is a server-based system running in a servlet container such as Apache Tomcat. Jenkins provide a automation platform which each module can be integrated and build and error can be notified to entire personal participating in project development.
-   \par For unit testing while developing the Test automation is added i jenkins. The test Automation plugin is added to Jenkins depending upon the nature of the development process dealing with. Which involve programming framework, language etc. Since we use Java , we use ﬁnd-bugs and Check style in Jenkins.. Also added Jacoco , For code coverage
+   The integration is much helpful via version controlling.  But to modify the existing code pushed by other individual member, it was time consuming. Because there was no standardization in the module codes. To standardize the project we mavenized the project, thus the project had a standard and the reusing libraries  occur only a single copy in the entire project provided an active Internet connection is required at the time of cloning and first build. \par
+   The main advantages of using a Continuous Integration is deploying the currently developed modules in the private online space. Thus every member of the project can view the project and suggest the changes by notifying the developer, thus it is helpful to the developers. \par
+   We use jenkins as the C.I handler, Jenkins is an open source automation server written in Java. It is a server-based system running in a servlet container such as Apache Tomcat. Jenkins provides a automation platform which each module can be integrated and build and error can be notified to entire personnel participating in the project development.
+   \par For unit testing while developing, the Test automation is added in jenkins. The test Automation plugin is added to Jenkins depending upon the nature of the development process dealt with. Which involves programming framework, language etc. Since we use Java , we use ﬁnd-bugs and Check style in Jenkins. Also added Jacoco , For code coverage
  \par
-  For much more flexibility the entire CI process can be handled by Heroku. Heroku is a cloud Platform-as-a-Service (PaaS) supporting several programming languages that is used as a web application deployment model. Heroku, one of the ﬁrst cloud platforms. \par
+  For much more flexibility the entire CI process can be handled by Heroku. Heroku is a cloud Platform-as-a-Service (PaaS) supporting several programming languages that is used as a web application deployment model. \par
   The same mavenised java application is pushed to Heroku Git hub. Also code the same application in Node.js for efficient viewing, and deployed in Heroku server. \par
   New Relic plugin is added to the Calc Application(Node.Js). Its an application performance manager. It tracks real time response time and throughput.
    \par
-   Compared the various CI development process using the testing calculator application and founded its much better than the traditional development process. The finding are noted and submitted to the Tech11 company and found much decrease in their development time and cost.
+   Compared the various CI development process using the testing calculator application and found it is much better than the traditional development process. The findings are noted and submitted to  Tech11 softwares and found much decrease in their development time and cost.
     \newpage
 
 \section{SCREEN SHOTS}
@@ -609,11 +609,11 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Amazon Web Services Dashboard}
 \end{center}
 \end{figure}
- \par AWS act as a remote infrastructure. The Jenkins can be accessed using the public ip address of the instance.
+ \par AWS act as a remote infrastructure. Jenkins can be accessed using the public ip address of the instance.
 \pagebreak
 \newpage
 \subsection{Jenkins}
-\par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie, Jenkins.It is then builded and ready to deploy
+\par Whenever a change has occurred in the GitHub the change will be automatically pushed into the ci server ie, Jenkins.It is then build and is ready to deploy
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{jnks.png}
@@ -682,16 +682,16 @@ Web server resource data for Windows and Linux, via server monitoring
 \item To verify that the controls incorporated in the system function as intended.
 \end{itemize}
 \par If the testing conducted successfully, it will uncover errors in the software. As a secondary benefit, testing demonstrates that the software functions appear to be working according to specification and that performance requirements appear to have been satisfied.\\
-\par The system “Save Me” is tested in such a way that almost all errors that may occur are found and corrected. The test process carried out in this system includes the following:\\
+\par The system “Continuous integration pipeline implementation for tech11 software” is tested in such a way that almost all errors that may occur are found and corrected. The test process carried out in this system includes the following:\\
 \section{CODE TESTING}
 \par In code testing the logic of the developed system is tested. For this every module of the program is executed to find any error. To perform specification test, the examination of the specifications stating what the program should do and how it should perform under various conditions. This testing was done side by side with coding. This examines the logic of the program. In Java special test cases are used for testing the code. Every part of the program was tested in this phase.
 
 \section{UNIT TESTING}
 \par Unit testing is undertaken after a module has been coded and reviewed. Before carrying this testing, the unit test cases have to be designed and the test environment for the unit under test has to be developed. The various test cases are driver and stub modules. The main objective is to determine the correct working of the individual modules. During the testing each module is isolated from other modules and individually unit tested. It involves a precise definition of the test cases, testing criteria, and management of test cases. The modules that are tested include \\
-Android module, Server module and Sensing module.
+version control, artifact manager, continuous integration handler, test automator and continuous deployment.
 
 \section{INTEGRATION TESTING}
-\par System testing does not test the software as a whole, but rather than integration of each module in the system. The primary concern is the compatibility of individual modules. One has to find areas where modules have been designed with different specifications of data lengths, type and data element name. Testing and validation are the most important steps after the implementation of the developed system. The system testing is performed to ensure that there are no errors in the implemented system. The software must be executed several times in order to find out the errors in the different modules of the system. Each of the modules were integrated together and subjected to testing. \\
+\par System testing does not test the software as a whole, but rather than integration of each module in the system. The primary concern is the compatibility of individual modules. One has to find areas where modules have been designed with different specifications of data lengths, type and data element name. Testing and validation are the most important steps after the implementation of the developed system. The system testing is performed to ensure that there are no errors in the implemented system. The system must be executed several times in order to find out the errors in the different modules of the system. Each of the modules were integrated together and subjected to testing. \\
 \section{VALIDATION TESTING}
 \par Validation refers to the process of using the new software for the developed system in a live environment i.e., new software inside the organization, in order to find out the errors. The validation phase reveals the failures and the bugs in the developed system. It will come to know about the practical difficulties the system faces when operated in the true environment. Validation test was performed in the Login section. By testing the code of the implemented software, the logic of the program can be examined. A specification test is performed to check whether the specifications stating the program are performing under various conditions. Apart from these tests, there are some special tests conducted which are given below:
 \begin{itemize}
@@ -743,7 +743,7 @@ Date                                                                            
 Role                                                                                & Developer can operate the system.                                          \\ \hline
 Prerequisite                                                                        & The Developer is logged into the system by the repository administrator                                   \\ \hline
 Developer/Actor                                                                          & System Response                                                      \\ \hline
-Run Applications                                                                    & Developer can continuously integrate and there always a ready-to deploy build. \\ \hline
+Run Applications                                                                    & Developer can continuously integrate and  ready-to deploy. \\ \hline
 Handle developer Data                                                                    &The server can handle various developer data                                                                      \\ \hline
                                                                                     
 \begin{tabular}
@@ -752,7 +752,7 @@ Handle developer Data                                                           
 &                                                                      \\ \hline
 \end{tabular}
 \end{table}
-\par Test case preparation helps the user and the developer to find and fix the errors easily and in advance. Save Me is well tested with the proper test cases and thus passed a better unit test. Elaborated test cases also prepared subjected the system for thorough testing. The test cases prepared are in the above format.
+\par Test case preparation helps the user and the developer to find and fix the errors easily and in advance. Continuous integration pipeline implementation for tech11 software is well tested with the proper test cases and thus passed a better unit test. Elaborated test cases also prepared subjected the system for thorough testing. The test cases prepared are in the above format.
 
 \chapter{FUTURE SCOPE}
 \par CI was created with the goal of eliminating the old “big bang integration” practices in which software modules are developed in isolation and integration is postponed until the end of the project - and quite frequently the timing and project cost of the final integration work is deeply underestimated. In order to eradicate this hindrance, many agile development experts have now converted integration into a continuous process. When integrations are performed on a daily basis, the final, uncontrolled big-bang integration will vanish from the modern development process.
@@ -796,20 +796,6 @@ ary/d-adoption-paths/}.
 \bibitem{r2}DevOps for Dummies – by Sanjeev Sharma, \url{https://www14.software.ibm.com/webapp/ iwm/web/signup.do?source=swg-rtl-sdwp&S_PKG=ov18162}.
 \bibitem{r1}Continuous Integration, \url{http://www.ccpace.com/asset_files/Continuous_Intergration}.
 \end{thebibliography}
-\chapter*{GLOSSARY}
-\addcontentsline{toc}{chapter}{\hspace{0.5cm} GLOSSARY}
-\rhead{\empty}
-%\begin{center}
-
-\textbf{DFD}  : Data Flow Diagram
-\par \textbf{CI} : Continuous Integration
- \par \textbf{AWS} : Amazon Web Services
-\par \textbf{APM} : Application Performance Monitoring
-\par  \textbf{SCM} : Software configuration Management
-\par \textbf{IaaS} : Infrastructure as a Service
-\par \textbf{PaaS} : Platform as a Service
-\par \textbf{JVM} : Java Virtual Machine
-\newpage
 \chapter*{APPENDIX I}
 \renewcommand{\bibname}{\uppercase{APPENDIX I}}
 %\begin{thebibliography}{999}
@@ -965,6 +951,20 @@ public class Calculator {
 
 \newpage
 %\chapter{APPENDIX 1}
+\chapter*{GLOSSARY}
+\addcontentsline{toc}{chapter}{\hspace{0.5cm} GLOSSARY}
+\rhead{\empty}
+%\begin{center}
+
+\textbf{DFD}  : Data Flow Diagram
+\par \textbf{CI} : Continuous Integration
+ \par \textbf{AWS} : Amazon Web Services
+\par \textbf{APM} : Application Performance Monitoring
+\par  \textbf{SCM} : Software configuration Management
+\par \textbf{IaaS} : Infrastructure as a Service
+\par \textbf{PaaS} : Platform as a Service
+\par \textbf{JVM} : Java Virtual Machine
+\newpage
 
 \begin{theindex}
 

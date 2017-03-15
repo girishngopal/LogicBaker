@@ -56,7 +56,7 @@
 \contentsline {section}{\numberline {5.4}VALIDATION TESTING}{37}
 \contentsline {section}{\numberline {5.5}SYSTEM TESTING}{37}
 \contentsline {section}{\numberline {5.6}OUTPUT TESTING}{38}
-\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{38}
+\contentsline {section}{\numberline {5.7}GOAL OF TESTING}{39}
 \contentsline {section}{\numberline {5.8}PASS/FAIL CRITERIA}{39}
 \contentsline {section}{\numberline {5.9}PASS CRITERIA}{39}
 \contentsline {section}{\numberline {5.10}FAIL CRITERIA}{39}
@@ -64,6 +64,6 @@
 \contentsline {chapter}{\numberline {6}FUTURE SCOPE}{41}
 \contentsline {chapter}{\numberline {7}CONCLUSION}{42}
 \contentsline {chapter}{\hspace {0.5cm} REFERENCES}{43}
-\contentsline {chapter}{\hspace {0.5cm} GLOSSARY}{45}
-\contentsline {chapter}{\hspace {0.5cm} APPENDIX I}{46}
+\contentsline {chapter}{\hspace {0.5cm} APPENDIX I}{45}
+\contentsline {chapter}{\hspace {0.5cm} GLOSSARY}{50}
 \contentsline {chapter}{\hspace {0.5cm} INDEX}{51}
