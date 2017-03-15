@@ -437,7 +437,7 @@ The level 1 DFD gives a basic structure of the project indicating the five modul
 %\end{figure}
 \vspace{100pt}
 \subsection{Level 2 DFD}
-The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product. Developer pushes to a local version control system. then the build request will be sen to the CI handler. the CI handler uses the artifact manager to manage all dependencies and uses a staging server for the deployment.the staging server can use the test runners for testing and production box for product release.
+The level 2 DFD gives a much more advanced idea about the execution. Each of these sections perform unique functions and these are combined together to yield the final product. Developer pushes to a local version control system. then the build request will be send to the CI handler. the CI handler uses the artifact manager to manage all dependencies and uses a staging server for the deployment.the staging server can use the test runners for testing and production box for product release.
 \newpage
 \begin{figure}[h]
 \begin{center}
@@ -470,7 +470,7 @@ A Pipeline diagram shows the series of instruction that take place during the ex
 
 \hspace{.0 in}
 \epsfig{width=6in, file=pipeline.png}
-\caption{C.I Pipeline}
+\caption{C.I Pipeline diagram}
 \end{center}
 
 \end{figure}
@@ -486,7 +486,7 @@ to carry out the functionality of the scenario.
 
 \hspace{.0 in}
 \epsfig{width=6in, file=sequence.png}
-\caption{Sequence}
+\caption{Sequence diagram}
 \end{center}
 
 \end{figure}
@@ -574,8 +574,7 @@ Initially the modules of the sample calculator app has been developed in java in
 
 \section{SCREEN SHOTS}
 \subsection{GitHub}
-\begin{itemize}
-\item \par A developer can change the program files locally and commit the changes to the remote GitHub repository using this GitHub desktop application. The changes will be automatically send to the CI server.
+\par A developer can change the program files locally and commit the changes to the remote GitHub repository using this GitHub desktop application. The changes will be automatically send to the CI server.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{git.png}
@@ -596,14 +595,12 @@ Initially the modules of the sample calculator app has been developed in java in
 \label{GitHub remote repository}
 \end{center}
 \end{figure}
-\end{itemize}
 \par GitHub keeps track of changes made to each page in your wiki. Below a page title, you can see who made the most recent edits, in addition to the number of commits made to the page. Clicking on this information will take you to the full page history where you can compare revisions or see a detailed list of edits over time.
 
 \pagebreak
 \newpage
 \subsection{Amazon Web Services (AWS)}
-\begin{itemize}
-\item \par AWS is a IaaS (Infrastructure as a Service).
+ \par AWS is a IaaS (Infrastructure as a Service).
 Here Jenkins is Working on Ubuntu installed in aws 
 \begin{figure}[h]
 \begin{center}
@@ -612,14 +609,11 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Amazon Web Services Dashboard}
 \end{center}
 \end{figure}
-\end{itemize}
- \par AWS act as an storage of CI server
+ \par AWS act as a remote infrastructure. The Jenkins can be accessed using the public ip address of the instance.
 \pagebreak
 \newpage
 \subsection{Jenkins}
-\begin{itemize}
-
-\item \par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie, Jenkins.It is then builded and ready to deploy
+\par Whenever a change occurred in the GitHub the change will be automatically push into the ci server ie, Jenkins.It is then builded and ready to deploy
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{jnks.png}
@@ -630,7 +624,6 @@ Here Jenkins is Working on Ubuntu installed in aws
 \par Jenkins act as an automation server of CI. It builds the currently working modules and combines and build and deploy to specify server like tomcat and notify the errors and changes with respect to each developers.  We can configure the deployment with FindBugs or Jacoco as per the requirement
 \newpage
 \subsection{Calculator app in Jenkins}
-\item \par Calculator application deployed automatically by Jenkins
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{app.png}
@@ -638,7 +631,6 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Calculator app in Jenkins }
 \end{center}
 \end{figure}
-\end{itemize}
 \par This is the Testing application of calculator which is developed in java and AngularJs deployes in tomcat server and it shows how the each individual modules are combined and performed functions correctly. 
 \newpage
 \subsection{Heroku}
@@ -654,8 +646,6 @@ Here Jenkins is Working on Ubuntu installed in aws
  \par The same application is deployed using another pipeline Heroku. Heroku is a PaaS (Platform as a Service) here platforms for each language is available,complexity of an IaaS is reduced in Heroku
 \newpage
 \subsection{Calculator app in Heroku}
-\begin{itemize}
-\item \par Calculator application deployed automatically by Heroku
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{app1.png}
@@ -663,12 +653,10 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{Calculator app in Heroku}
 \end{center}
 \end{figure}
-\end{itemize}
 \par This is the Testing application of calculator which is developed in java and AngularJs deployes in tomcat server and it shows how the each individual modules are combined and performed functions correctly.
 \newpage
 \subsection{New Relic Monitoring}
-\begin{itemize}
-\item \par The deployed app can be monitored using the new Relic APM.
+\par The deployed app can be monitored using the new Relic APM.
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.47]{newrelic.png}
@@ -676,7 +664,6 @@ Here Jenkins is Working on Ubuntu installed in aws
 \label{New Relic APM monitoring}
 \end{center}
 \end{figure}
-\end{itemize}
 \par New Relic APM is an add-on that provides on-demand application performance management. New Relic offers seamless integration with the Heroku platform, enabling immediate and automatic access to New Relic APM’s comprehensive capabilities for monitoring, troubleshooting, and tuning web apps.
 Adding the New Relic add-on to your Heroku app provides insight into:
 Health and availability of your entire application, via application monitoring
@@ -697,7 +684,7 @@ Web server resource data for Windows and Linux, via server monitoring
 \par If the testing conducted successfully, it will uncover errors in the software. As a secondary benefit, testing demonstrates that the software functions appear to be working according to specification and that performance requirements appear to have been satisfied.\\
 \par The system “Save Me” is tested in such a way that almost all errors that may occur are found and corrected. The test process carried out in this system includes the following:\\
 \section{CODE TESTING}
-\par In code testing the logic of the developed system is tested. For this every module of the program is executed to find any error. To perform specification test, the examination of the specifications stating what the program should do and how it should perform under various conditions.This testing was done side by side with coding. This examines the logic of the program. In Java special test cases are used for testing the code. Every part of the program was tested in this phase.
+\par In code testing the logic of the developed system is tested. For this every module of the program is executed to find any error. To perform specification test, the examination of the specifications stating what the program should do and how it should perform under various conditions. This testing was done side by side with coding. This examines the logic of the program. In Java special test cases are used for testing the code. Every part of the program was tested in this phase.
 
 \section{UNIT TESTING}
 \par Unit testing is undertaken after a module has been coded and reviewed. Before carrying this testing, the unit test cases have to be designed and the test environment for the unit under test has to be developed. The various test cases are driver and stub modules. The main objective is to determine the correct working of the individual modules. During the testing each module is isolated from other modules and individually unit tested. It involves a precise definition of the test cases, testing criteria, and management of test cases. The modules that are tested include \\

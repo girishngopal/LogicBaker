@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  14 MAR 2017 20:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.3)  15 MAR 2017 08:04
 entering extended mode
 **ci_report.tex
 ("C:\Users\Jeffin Jacob\Documents\GitHub\LogicBaker\final report\ci_report.tex"
@@ -677,10 +677,10 @@ Missing character: There is no Å in font ptmr7t!
 File: git.png Graphic file (type png)
 
 <use git.png>
-Package pdftex.def Info: git.png used on input line 581.
+Package pdftex.def Info: git.png used on input line 580.
 (pdftex.def)             Requested size: 483.32076pt x 257.58235pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 581--582
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 580--581
  [] 
  []
 
@@ -691,10 +691,10 @@ Missing character: There is no ô in font ptmr7t!
 <remote.png, id=138, 1014.03844pt x 521.69907pt>
 File: remote.png Graphic file (type png)
  <use remote.png>
-Package pdftex.def Info: remote.png used on input line 594.
+Package pdftex.def Info: remote.png used on input line 593.
 (pdftex.def)             Requested size: 476.59813pt x 245.1986pt.
 
-Overfull \hbox (23.63025pt too wide) in paragraph at lines 594--595
+Overfull \hbox (23.63025pt too wide) in paragraph at lines 593--594
  [] 
  []
 
@@ -702,10 +702,10 @@ Overfull \hbox (23.63025pt too wide) in paragraph at lines 594--595
 ] <aws.png, id=144, 1028.34187pt x 554.07pt>
 File: aws.png Graphic file (type png)
  <use aws.png>
-Package pdftex.def Info: aws.png used on input line 610.
+Package pdftex.def Info: aws.png used on input line 607.
 (pdftex.def)             Requested size: 483.32076pt x 260.41293pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 610--611
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 607--608
  [] 
  []
 
@@ -713,10 +713,10 @@ Overfull \hbox (30.35287pt too wide) in paragraph at lines 610--611
 <jnks.png, id=148, 1026.83624pt x 526.21594pt>
 File: jnks.png Graphic file (type png)
  <use jnks.png>
-Package pdftex.def Info: jnks.png used on input line 625.
+Package pdftex.def Info: jnks.png used on input line 619.
 (pdftex.def)             Requested size: 482.6131pt x 247.32152pt.
 
-Overfull \hbox (29.64522pt too wide) in paragraph at lines 625--626
+Overfull \hbox (29.64522pt too wide) in paragraph at lines 619--620
  [] 
  []
 
@@ -724,10 +724,10 @@ Overfull \hbox (29.64522pt too wide) in paragraph at lines 625--626
 <app.png, id=153, 1027.58907pt x 526.96875pt>
 File: app.png Graphic file (type png)
  <use app.png>
-Package pdftex.def Info: app.png used on input line 636.
+Package pdftex.def Info: app.png used on input line 629.
 (pdftex.def)             Requested size: 482.96693pt x 247.67534pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 636--637
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 629--630
  [] 
  []
 
@@ -735,10 +735,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 636--637
 <hrk.png, id=158, 1027.58907pt x 527.72156pt>
 File: hrk.png Graphic file (type png)
  <use hrk.png>
-Package pdftex.def Info: hrk.png used on input line 648.
+Package pdftex.def Info: hrk.png used on input line 640.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 648--649
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 640--641
  [] 
  []
 
@@ -746,10 +746,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 648--649
 <app1.png, id=163, 1027.58907pt x 527.72156pt>
 File: app1.png Graphic file (type png)
  <use app1.png>
-Package pdftex.def Info: app1.png used on input line 661.
+Package pdftex.def Info: app1.png used on input line 651.
 (pdftex.def)             Requested size: 482.96693pt x 248.02916pt.
 
-Overfull \hbox (29.99905pt too wide) in paragraph at lines 661--662
+Overfull \hbox (29.99905pt too wide) in paragraph at lines 651--652
  [] 
  []
 
@@ -757,10 +757,10 @@ Overfull \hbox (29.99905pt too wide) in paragraph at lines 661--662
 <newrelic.png, id=168, 1028.34187pt x 555.57562pt>
 File: newrelic.png Graphic file (type png)
  <use newrelic.png>
-Package pdftex.def Info: newrelic.png used on input line 674.
+Package pdftex.def Info: newrelic.png used on input line 662.
 (pdftex.def)             Requested size: 483.32076pt x 261.12057pt.
 
-Overfull \hbox (30.35287pt too wide) in paragraph at lines 674--675
+Overfull \hbox (30.35287pt too wide) in paragraph at lines 662--663
  [] 
  []
 
@@ -771,17 +771,17 @@ Missing character: There is no ô in font ptmr7t!
 g>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--691
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 691--692
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--698
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
@@ -792,29 +792,29 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--699
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 
  []
 
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 717--718
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 [37] [38] [39]
-Overfull \hbox (62.03209pt too wide) in paragraph at lines 749--767
+Overfull \hbox (62.03209pt too wide) in paragraph at lines 736--754
  [][] 
  []
 
@@ -833,7 +833,7 @@ Chapter 7.
 [42
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 798.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 785.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -847,43 +847,43 @@ Missing character: There is no ì in font ptmr7t!
 [45
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 838.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 825.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 838.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 825.
 
-Overfull \hbox (65.43666pt too wide) in paragraph at lines 858--859
+Overfull \hbox (65.43666pt too wide) in paragraph at lines 845--846
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 [46
 
 ]
-Overfull \hbox (65.43666pt too wide) in paragraph at lines 875--876
+Overfull \hbox (65.43666pt too wide) in paragraph at lines 862--863
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (56.79659pt too wide) in paragraph at lines 893--894
+Overfull \hbox (56.79659pt too wide) in paragraph at lines 880--881
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 [47]
-Overfull \hbox (13.5962pt too wide) in paragraph at lines 910--912
+Overfull \hbox (13.5962pt too wide) in paragraph at lines 897--899
 [][][][][][][][][][][][][][][][][][] 
  []
 
 [48]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 939.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 926.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 939.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 926.
  [49] [50]
 [51
 
@@ -907,7 +907,7 @@ Here is how much of TeX's memory you used:
  10323 multiletter control sequences out of 15000+200000
  35273 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,14n,43p,1270b,1736s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,14n,43p,1270b,1738s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
@@ -915,7 +915,7 @@ MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ci_report.pdf (61 pages, 1147929 bytes).
+Output written on ci_report.pdf (61 pages, 1147846 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
